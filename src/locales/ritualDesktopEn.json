@@ -1,0 +1,62 @@
+{
+  "title": "NinaWitch Ritual",
+  "subtitle": "Ritual designed exclusively for you",
+  "buttonMain": "Booking Now",
+  "priceNote": "Price: Contact for details. Pricing varies depending on your wishes and personal story.",
+  "note": "Note: <br/>All accepted cases will go through a review process to ensure your story aligns with the benevolent purpose that NiNa upholds. <br/>Requests that may negatively impact the blessings or spiritual integrity of either side will not be accepted.",
+  "section1": {
+    "title": "Section 1",
+    "lines": [
+      "There are desires that cannot be spoken with words.",
+      "There are knots that cannot be untied by reason.",
+      "There are paths that only rituals can reveal.",
+      "\"If you feel the calling — I will be the one to open the gate for you.\""
+    ],
+    "desc": "This ritual is a unique energy ceremony, handcrafted by NiNawitch — based on the energy, intentions, and timing of each individual receiving it.",
+    "button": "I am ready to step into the ritual."
+  },
+  "section2": {
+    "title": "Section 2",
+    "header": "What is the NiNawitch Ritual?",
+    "points": [
+      "• A ritual crafted uniquely for you — never mass-produced.",
+      "• Based on: your personal energy goals (love, healing, attraction, etc.), the optimal timing (aligned with lunar cycles and cosmic energies), and the intuitive guidance of NiNawitch.",
+      "• After the ritual is completed, you will receive:",
+      "• A special spell, potion, oil, or a personalized Sigil Grimoire (depending on the energy focus of each cycle, NiNa will adjust and send you the item that best suits your current needs)."
+    ]
+  },
+  "section3": {
+    "title": "Section 3",
+    "header": "Who Should Step into This Ritual?",
+    "points": [
+      "• You are preparing to transition into a new chapter of your life.",
+      "• You feel \"out of alignment\" and seek to reconnect.",
+      "• You wish to cleanse negative energies that are blocking you.",
+      "• You are in love, in pain, or in fear — and need a ritual of healing.",
+      "• Or... you simply feel, \"I need something — something I cannot yet name.\""
+    ]
+  },
+  "section4": {
+    "title": "Section 4",
+    "copyFrom": "section3"
+  },
+  "section5": {
+    "title": "Section 5",
+    "formTitle": "Ritual Booking Form",
+    "name": "Full Name",
+    "nameNote": "(or nickname)",
+    "dob": "Date of Birth",
+    "dobNote": "(lunar or solar)",
+    "wish": "What do you wish to manifest through this ritual?",
+    "block": "What do you sense is standing in your way?",
+    "button": "Send the ritual into the universe"
+  },
+  "section6": {
+    "title": "Section 6",
+    "header": "Closing – The Final Whisper",
+    "lines": [
+      "A ritual is a meeting between your soul and the higher realms of energy.",
+      "I do not promise miracles — but if your heart is true, the ritual will guide you to where you are meant to be."
+    ]
+  }
+}

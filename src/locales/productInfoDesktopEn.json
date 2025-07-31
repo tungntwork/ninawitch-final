@@ -1,0 +1,19 @@
+{
+  "backToShop": "Back to shop",
+  "recommendTag": "Recommend",
+  "productReview": "Product Review",
+  "sold": "Sold",
+  "leaveComment": "Leave comment",
+  "postComment": "Post comment",
+  "disclaimerTitle": "Disclaimer",
+  "disclaimerList": [
+    "All claims for metaphysical healing from esoteric sources are not tested or proven and should not be used in place of medical advice.",
+    "The weight and size can slightly differ.",
+    "Minor scratches are possible due to handmade, natural extraction of products."
+  ],
+  "youMayAlsoLike": "You may also be interested in",
+  "itemDetails": "Item details",
+  "addToCart": "Add to cart",
+  "contact": "Contact for pricing",
+  "highRecommendItems": "high recommend items"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Mystical Arrival",
+  "descriptionLine1": "✨ Magic appears only when the universe calls! These rare treasures arrive unannounced, lingering only for a fleeting moment.",
+  "descriptionLine2": "Will you be the one to embrace the magic this time? 🔮💫",
+  "items": [
+    {
+      "name": "Magic Keychain",
+      "description": "Like a talisman, it attracts luck, provides protection, and activates positive energy.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Magical Perfume",
+      "description": "The magical perfume bottle is crafted from rare ingredients and uniquely made with ancient spells.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Super Magic Charm Bag",
+      "description": "Like a talisman, it attracts luck, provides protection, and activates positive energy.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Crystal Bracelet (Random)",
+      "description": "Like a talisman, it attracts luck, provides protection, and activates positive energy.",
+      "price": "Check on Nina's FB"
+    }
+  ],
+  "button": {
+    "details": "Item details",
+    "addToCart": "Add to cart"
+  }
+}

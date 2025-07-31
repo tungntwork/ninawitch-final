@@ -1,0 +1,19 @@
+{
+  "backToShop": "Quay lại cửa hàng",
+  "recommendTag": "Đề xuất",
+  "productReview": "Đánh giá sản phẩm",
+  "sold": "Đã bán",
+  "leaveComment": "Để lại bình luận",
+  "postComment": "Gửi bình luận",
+  "disclaimerTitle": "Lưu ý",
+  "disclaimerList": [
+    "Tất cả tuyên bố về chữa lành tâm linh từ các nguồn huyền bí chưa được kiểm chứng hoặc chứng minh và không nên dùng thay cho tư vấn y tế.",
+    "Khối lượng và kích thước có thể hơi khác biệt.",
+    "Có thể có vết xước nhẹ do sản phẩm được làm thủ công hoặc chiết xuất tự nhiên."
+  ],
+  "youMayAlsoLike": "Bạn có thể sẽ quan tâm",
+  "itemDetails": "Chi tiết",
+  "addToCart": "Thêm vào giỏ",
+  "contact": "Liên hệ",
+  "highRecommendItems": "sản phẩm đề xuất"
+}

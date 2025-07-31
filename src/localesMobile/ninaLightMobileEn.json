@@ -1,0 +1,55 @@
+{
+  "title": {
+    "line1": "Nina's magical",
+    "line2": "light"
+  },
+  "intro": "Share your story with NiNa! 💫 NiNa's shop has a wide variety of magical items, and she'd love to help you find the perfect one for your journey. Feel free to reach out <strong>HERE</strong> for a free consultation and discover what resonates best with your energy!",
+  "products": [
+    {
+      "name": "Lilith Candle",
+      "desc": "A rare, powerful candle embodying Goddess Lilith symbol of perfection, intelligence, strength, and allure.",
+      "price": "2.222.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Hekate Candle",
+      "desc": "This candle is lit on special occasions in the annual \"witch's calendar.\"",
+      "price": "2.000.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Medusa Candle",
+      "desc": "The most powerful magical candle from Ninawitch, invoking mighty gods and goddesses.",
+      "price": "Contact for Pricing",
+      "label": "Recommended"
+    },
+    {
+      "name": "Phoenix Candle",
+      "desc": "This ritual frees you from the old, making space for growth, creativity, and strength.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Gaia Candle",
+      "desc": "Connect with Goddess Gaia's powerful energy days to write and speak your wishes.",
+      "price": "1.600.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Lighting Angel Candle",
+      "desc": "Angel Wish Candle doubles the power of a Potion, serving as a direct prayer to your Higher Self and guardian angels.",
+      "price": "1.300.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Pandora Candle",
+      "desc": "Twice as powerful as the Medusa Candle for beauty, wisdom, attraction, and inner strength.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Bastet Candle",
+      "desc": "Bastet Candle radiates powerful protection and luck, twice as strong as Medusa Candle.",
+      "price": "Contact for Pricing"
+    }
+  ],
+  "detail": "Item detail"
+}

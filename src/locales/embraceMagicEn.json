@@ -1,0 +1,126 @@
+{
+  "title": "Embrace Your Magic",
+  "categories": {
+    "title": "Category",
+    "list": [
+      "Candles",
+      "Potion",
+      "Spell",
+      "Crystals and Gemstones",
+      "Amulets and Talismans"
+    ]
+  },
+  "needs": {
+    "title": "Need",
+    "list": [
+      "Loves",
+      "Wealth",
+      "Career",
+      "Studies",
+      "Health",
+      "Feng Shui",
+      "Healing",
+      "Future",
+      "Hidden Secrets",
+      "Beauty",
+      "Attracting Positive Energy",
+      "Fate & Fortune",
+      "Banish Negative Energy",
+      "Manifest a New Thing",
+      "Unlock Luck",
+      "Business"
+    ]
+  },
+  "price": {
+    "title": "Price",
+    "steps": ["500.000", "1.000.000", "2.000.000", "3.000.000", "4.000.000", "5.000.000"]
+  },
+  "items": {
+    "enchantedOils": {
+      "title": "Enchanted Oils",
+      "list": [
+        {
+          "name": "Ritual oils",
+          "desc": "A highly potent blend of essential oils and herbs, handcrafted to embody the powerful element of water.",
+          "price": "Contact for Pricing",
+          "link": "/shop/684953d856e40f56a3d112b5"
+        },
+        {
+          "name": "Patchouli Oil",
+          "desc": "Patchouli Oil has a warm, deep aroma that balances energy, attracts luck, love, and prosperity.",
+          "price": "Contact for Pricing",
+          "link": "/shop/684954f256e40f56a3d112b9"
+        },
+        {
+          "name": "Dragon Blood Oil",
+          "desc": "A potent resin oil for protection, strength, and magic rituals.",
+          "price": "Contact for Pricing",
+          "link": "/shop/684957ef56e40f56a3d112c1"
+        },
+        {
+          "name": "Aphrodite Oil",
+          "desc": "Extracted from the eternal mysteries of the universe, it carries the mystical power of the goddess of love.",
+          "price": "Contact for Pricing",
+          "link": "/shop/6849588256e40f56a3d112c3"
+        }
+      ]
+    },
+    "calling": {
+      "title": "Calling from the Universe",
+      "list": [
+        {
+          "name": "potion",
+          "desc": "Magic Potions are bottled spells, working 2-3 times stronger to create desired effects anytime.",
+          "price": "1.300.000",
+          "link": "/shop/684955b856e40f56a3d112bd"
+        },
+        {
+          "name": "Lucky Wallpaper",
+          "desc": "The Lucky Wallpaper attracts positive energy, boosts fortune, and empowers your desires beyond Angel Candles.",
+          "price": "1.500.000",
+          "link": "/shop/684955b856e40f56a3d112bd"
+        },
+        {
+          "name": "Sigil Beauty",
+          "desc": "Created with the purpose of enhancing beauty, attractiveness, or confidence.",
+          "price": "2.500.000",
+          "link": "/shop/684955b856e40f56a3d112bd"
+        },
+        {
+          "name": "Sigil Grimoire",
+          "desc": "\"Beauty of Goddess\" This sigil channels powerful energy to enhance beauty, making you more alluring and desirable.",
+          "price": "3.000.000",
+          "link": "/shop/6849588256e40f56a3d112c3"
+        },
+        {
+          "name": "Fortune Clover",
+          "desc": "Absorbs a powerful amount of energy to bring you prosperity and financial security.",
+          "price": "666.000 - 999.000",
+          "link": "/shop/684959be56e40f56a3d112c9"
+        },
+        {
+          "name": "NiNa's Charms Spells",
+          "desc": "Handcrafted charms spells to attract positive energy, provide protection, and support your desires.",
+          "price": "Contact for Pricing",
+          "link": "/shop/68495a3856e40f56a3d112cb"
+        },
+        {
+          "name": "Crystal Magic Spell",
+          "desc": "Enhanced crystal charm, 4 times stronger than spell stones, amplifying desires and providing maximum protection.",
+          "price": "Contact for Pricing",
+          "link": "/shop/68495a9156e40f56a3d112cd"
+        },
+        {
+          "name": "Magic Lipstick",
+          "desc": "Magic Lipstick boosts confidence, charm, and luck, activating positive energy with every swipe",
+          "price": "Contact for Pricing",
+          "link": "/shop/68495afe56e40f56a3d112cf"
+        }
+      ]
+    }
+  },
+  "buttons": {
+    "addToCart": "Add to cart",
+    "details": "Item details"
+  }
+}

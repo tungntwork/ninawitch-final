@@ -1,0 +1,48 @@
+{
+  "title": "Trải Nghiệm Huyền Bí",
+  "intro": "Một hành trình mở ra cánh cổng đến cõi tâm linh, nơi bạn kết nối với những nguồn năng lượng huyền bí, khám phá thông điệp sâu sắc và chạm vào những điều kỳ diệu của vũ trụ. ✨🔮",
+  "items": [
+    {
+      "name": "Candle Reading",
+      "desc": "NiNawitch sẽ kết nối trực tiếp với Hướng Dẫn Tâm Linh và Bản Ngã Cao Của Bạn, đóng vai trò là người truyền tin giữa chiều không gian 3D và 6D.",
+      "price": "600.000 vnd"
+    },
+    {
+      "name": "Flower Reading",
+      "desc": "NiNa sẽ dẫn truyền năng lượng của thiên nhiên, Thần Hoa và các nàng tiên để gửi đến bạn thông điệp từ thiên giới.",
+      "price": "700.000 vnd"
+    },
+    {
+      "name": "Crystal Ball Reading",
+      "desc": "Tiên đoán bằng quả cầu pha lê ma thuật của NiNa, từ bộ sưu tập 1001 viên đá phù thủy của cô ấy.",
+      "price": "888.000 vnd"
+    },
+    {
+      "name": "Connection to Akashic",
+      "desc": "Tâm trí của NiNa sẽ nhanh chóng tiếp nhận những linh cảm rõ ràng và cụ thể về bạn và câu chuyện sắp tới của bạn.",
+      "price": "999.000 vnd"
+    },
+    {
+      "name": "Medium Reading",
+      "desc": "Mở ra cánh cổng kết nối với thế giới bên kia để giao tiếp với những người thân yêu đã qua đời của bạn.",
+      "price": "3.000.000 vnd"
+    },
+    {
+      "name": "Aura Reading & Cleanse",
+      "desc": "Quá trình phân tích và thanh lọc hào quang để khôi phục sự cân bằng và nâng cao sức khỏe tinh thần.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Aura Reading",
+      "desc": "Phương pháp tâm linh để quan sát, phân tích và giải mã trường năng lượng (hào quang) bao quanh một người.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Full Aura Cleanse Ritual",
+      "desc": "Thanh tẩy sâu để giải phóng sự trì trệ, năng lượng tiêu cực và những vết tích quá khứ đang kìm hãm bạn.",
+      "price": "Liên hệ"
+    }
+  ],
+  "details": "Chi tiết",
+  "add": "Thêm vào giỏ"
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Enchanted Spells & Potion",
+  "description": "✨ Discover spells and mystical rituals to attract positive energy, protect yourself, and manifest your desires. Let magic guide your path! 🔮✨",
+  "items": [
+    {
+      "name": "Spell",
+      "description": "A Spell is a small portable bottle that holds energy and a mystical fragrance.",
+      "price": "830.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Travel Candle",
+      "description": "Brings opportunities for journeys to learn, connect, travel, heal, and experience truly meaningful trips.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Spell Gaia",
+      "description": "Spell Gaia channels Earth's primal energy, nurturing balance and connection.",
+      "price": "1.111.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Special Spell",
+      "description": "Special Spell with ultimate power, manifesting desires swiftly and effectively.",
+      "price": "1.600.000 - 1.800.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Potion",
+      "description": "Magic Potions are bottled spells, working 2-3 times stronger to create desired effects anytime.",
+      "price": "1.300.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Potion Gaia",
+      "description": "The magical power is x2 as strong as a regular potion.",
+      "price": "1.600.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Special Potion",
+      "description": "It is the most powerful potion\n(Appears during times of strong energy).",
+      "price": "3.000.000",
+      "unit": "vnd"
+    }
+  ],
+  "button": {
+    "details": "Item details",
+    "addToCart": "Add to cart"
+  }
+}

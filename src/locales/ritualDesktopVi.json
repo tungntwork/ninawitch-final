@@ -1,0 +1,62 @@
+{
+  "title": "Nghi lễ NinaWitch",
+  "subtitle": "Nghi lễ được tạo riêng cho bạn",
+  "buttonMain": "Đặt lịch ngay",
+  "priceNote": "Giá cả: Vui lòng liên hệ. Chi phí thay đổi tùy theo nguyện vọng và câu chuyện cá nhân của bạn.",
+  "note": "Lưu ý:<br/>Tất cả các trường hợp được chấp nhận sẽ trải qua một quá trình đánh giá để đảm bảo câu chuyện của bạn phù hợp với mục đích tốt đẹp mà NiNa gìn giữ.<br/>Những yêu cầu có khả năng gây ảnh hưởng tiêu cực đến phúc lành hay sự trong sạch tinh thần của bất kỳ bên nào sẽ không được chấp thuận.",
+  "section1": {
+    "title": "Phần 1",
+    "lines": [
+      "Có những khao khát không thể diễn đạt bằng lời.",
+      "Có những nút thắt không thể gỡ bằng lý trí.",
+      "Có những con đường chỉ có thể hé mở bởi nghi lễ.",
+      "\"Nếu bạn cảm nhận được lời gọi – tôi sẽ là người mở cánh cổng ấy cho bạn.\""
+    ],
+    "desc": "Nghi lễ là một nghi thức năng lượng độc bản, được chính NiNaWitch tạo tác dựa trên nguồn năng lượng, ý định và thời điểm của từng người.",
+    "button": "Tôi sẵn sàng bước vào nghi lễ."
+  },
+  "section2": {
+    "title": "Phần 2",
+    "header": "Nghi lễ của NiNaWitch là gì?",
+    "points": [
+      "• Một nghi lễ được thiết kế cá nhân hóa — không bao giờ sản xuất hàng loạt.",
+      "• Dựa trên: Mục tiêu năng lượng của bạn (yêu thương, chữa lành, thu hút…). Thời điểm tối ưu (đồng bộ với chu kỳ Mặt Trăng, năng lượng vũ trụ). Linh cảm dẫn lối từ NiNaWitch.",
+      "• Sau khi nghi lễ hoàn tất, bạn sẽ nhận được:",
+      "• Một phép thuật đặc biệt, thuốc tiên, tinh dầu, hoặc bùa ấn cá nhân hoá (tùy theo chu kỳ năng lượng, NiNa sẽ gửi món phù hợp nhất với hiện trạng của bạn)."
+    ]
+  },
+  "section3": {
+    "title": "Phần 3",
+    "header": "Ai nên bước vào nghi lễ này?",
+    "points": [
+      "• Bạn đang chuẩn bị bước sang một chương mới trong cuộc đời.",
+      "• Bạn cảm thấy “lạc nhịp” và muốn kết nối lại với bản thân.",
+      "• Bạn mong muốn thanh tẩy năng lượng tiêu cực đang cản trở bạn.",
+      "• Bạn đang yêu, đang đau, hoặc đang sợ hãi – và cần một nghi lễ chữa lành.",
+      "• Hoặc… bạn chỉ đơn giản cảm thấy: “Tôi cần điều gì đó… mà mình chưa thể gọi tên.”"
+    ]
+  },
+  "section4": {
+    "title": "Phần 4",
+    "copyFrom": "section3"
+  },
+  "section5": {
+    "title": "Phần 5",
+    "formTitle": "Biểu mẫu đặt nghi lễ",
+    "name": "Họ tên",
+    "nameNote": "(hoặc biệt danh)",
+    "dob": "Ngày tháng năm sinh",
+    "dobNote": "(Âm hoặc Dương lịch)",
+    "wish": "Bạn mong muốn điều gì sẽ thành hiện thực thông qua nghi lễ này?",
+    "block": "Bạn cảm nhận điều gì đang cản trở bạn?",
+    "button": "Gửi nghi lễ này tới vũ trụ"
+  },
+  "section6": {
+    "title": "Phần 6",
+    "header": "Lời thì thầm cuối cùng",
+    "lines": [
+      "Một nghi lễ là cuộc gặp gỡ giữa linh hồn bạn và các cõi năng lượng cao hơn.",
+      "Tôi không hứa phép màu – nhưng nếu trái tim bạn đủ thuần khiết, nghi lễ sẽ dẫn lối bạn đến nơi bạn cần thuộc về."
+    ]
+  }
+}

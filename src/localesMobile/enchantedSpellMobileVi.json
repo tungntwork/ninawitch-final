@@ -1,0 +1,49 @@
+{
+  "title": "Phép Thuật &<br/>Linh Dược Huyền Bí",
+  "description": "✨ Khám phá các phép thuật và nghi lễ huyền bí để thu hút năng lượng tích cực, bảo vệ bản thân và hiện thực hóa mong muốn của bạn. Hãy để phép thuật dẫn lối hành trình của bạn! 🔮✨",
+  "products": [
+    {
+      "name": "Spell",
+      "desc": "Spell là một lọ nhỏ dễ mang theo, chứa đựng năng lượng và hương thơm huyền bí.",
+      "price": "830.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Spell Gaia",
+      "desc": "Spell Gaia dẫn truyền năng lượng nguyên sơ của Mẹ Đất, nuôi dưỡng sự cân bằng và kết nối.",
+      "price": "1.111.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Special Spell",
+      "desc": "Special Spell với sức mạnh tối thượng, giúp hiện thực hóa mong muốn một cách nhanh chóng và hiệu quả.",
+      "price": "1.600.000 - 1.800.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Travel Spell",
+      "desc": "Mang đến cơ hội cho những chuyến đi học hỏi, kết nối, trị lành và khám phá đầy ý nghĩa.",
+      "price": "Liên hệ",
+      "note": ""
+    },
+    {
+      "name": "Potion",
+      "desc": "Potion là phép thuật dạng nước đóng chai, có sức mạnh gấp 2–3 lần để tạo hiệu ứng mong muốn bất cứ lúc nào.",
+      "price": "1.300.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Potion Gaia",
+      "desc": "Sức mạnh của Potion Gaia mạnh gấp đôi so với linh dược thông thường.",
+      "price": "1.600.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Pandora Candle",
+      "desc": "Đây là linh dược mạnh nhất<br/>(chỉ xuất hiện vào thời điểm năng lượng cao).",
+      "price": "3.000.000",
+      "note": "vnd"
+    }
+  ],
+  "itemDetail": "Chi tiết"
+}

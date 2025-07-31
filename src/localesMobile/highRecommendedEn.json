@@ -1,0 +1,15 @@
+{
+  "title": "Highly recommended for today",
+  "description": "Since NiNa's products are highly diverse, please contact NiNa directly via Facebook for free<br/>consultation and to choose the most suitable product for your story or energy.",
+  "button": "NiNa Gathering",
+  "products": [
+    { "name": "Lucky Wallpaper", "cta": "Shop now" },
+    { "name": "Lilith Candle", "cta": "Shop now" },
+    { "name": "Medusa Candle", "cta": "Shop now" },
+    { "name": "Hetake Candle", "cta": "Shop now" },
+    { "name": "Spell", "cta": "Shop now" },
+    { "name": "Potion", "cta": "Shop now" },
+    { "name": "Phoenix Candle", "cta": "Shop now" },
+    { "name": "NinaWitch Ritual", "cta": "Shop now" }
+  ]
+}

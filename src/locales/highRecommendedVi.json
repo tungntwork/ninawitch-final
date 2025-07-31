@@ -1,0 +1,49 @@
+{
+  "title": "sản phẩm được khuyến nghị",
+  "description": "Các vật phẩm ma thuật được lựa chọn kỹ lưỡng, chứa đựng năng lượng mạnh mẽ hỗ trợ cho nghi lễ, thiền định và hành trình tâm linh của bạn. Khám phá những báu vật linh thiêng giúp bạn kết nối sâu sắc hơn với vũ trụ! ✨🔮",
+  "items": [
+    {
+      "name": "Medusa Candle",
+      "tag": "Đề xuất",
+      "desc": "Cây nến ma thuật mạnh mẽ nhất từ Ninawitch, triệu hồi các vị thần và nữ thần quyền năng.",
+      "price": "Liên hệ",
+      "details": "Chi tiết",
+      "addToCart": "Thêm vào giỏ"
+    },
+    {
+      "name": "Lilith Candle",
+      "desc": "Một cây nến hiếm và mạnh mẽ đại diện cho nữ thần Lilith – biểu tượng của sự hoàn hảo, trí tuệ, sức mạnh và quyến rũ.",
+      "price": "2.222.000 vnd",
+      "details": "Chi tiết",
+      "addToCart": "Thêm vào giỏ"
+    },
+    {
+      "name": "Hekate Candle",
+      "desc": "Một cây nến ma thuật liên kết với Hekate – nữ thần của bóng tối, ma thuật và sự chuyển giao.",
+      "price": "Liên hệ",
+      "details": "Chi tiết",
+      "addToCart": "Thêm vào giỏ"
+    },
+    {
+      "name": "Lucky Wallpaper",
+      "desc": "Lucky Wallpaper thu hút năng lượng tích cực, tăng cường vận may cho mong muốn của bạn vượt trội hơn cả Angel Candles.",
+      "price": "1.500.000 vnd",
+      "details": "Chi tiết",
+      "addToCart": "Thêm vào giỏ"
+    },
+    {
+      "name": "Special Potion",
+      "desc": "Đây là loại phép dược mạnh nhất (xuất hiện vào những thời điểm năng lượng đặc biệt mạnh).",
+      "price": "3.000.000 vnd",
+      "details": "Chi tiết",
+      "addToCart": "Thêm vào giỏ"
+    },
+    {
+      "name": "Success Ritual",
+      "desc": "Mang lại sự ổn định, thúc đẩy sự phát triển, sự tự tin và may mắn.",
+      "price": "Liên hệ",
+      "details": "Chi tiết",
+      "addToCart": "Thêm vào giỏ"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Phép màu hiện diện",
+  "descriptionLine1": "✨ Phép màu chỉ xuất hiện khi vũ trụ lên tiếng! Những báu vật hiếm này đến mà không báo trước và chỉ tồn tại trong khoảnh khắc ngắn ngủi.",
+  "descriptionLine2": "Liệu lần này bạn có phải là người đón nhận phép màu? 🔮💫",
+  "items": [
+    {
+      "name": "Móc khóa ma thuật",
+      "description": "Như một bùa hộ mệnh, nó thu hút may mắn, mang lại sự bảo vệ và kích hoạt năng lượng tích cực.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Nước hoa ma thuật",
+      "description": "Nước hoa ma thuật hấp dẫn những ánh nhìn với thành phần quý hiếm và các thần chú cổ xưa.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Túi bùa siêu ma thuật",
+      "description": "Bùa hộ mệnh, thu hút may mắn, mang lại sự bảo vệ và kích hoạt năng lượng tích cực.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Vòng tay pha lê (Ngẫu nhiên)",
+      "description": "Bùa hộ mệnh, nó thu hút may mắn, mang lại sự bảo vệ và kích hoạt năng lượng tích cực.",
+      "price": "Chi tiết ở Nina's FB."
+    }
+  ],
+  "button": {
+    "details": "Chi tiết",
+    "addToCart": "Thêm vào giỏ"
+  }
+}

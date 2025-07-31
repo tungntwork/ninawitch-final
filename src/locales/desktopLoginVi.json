@@ -1,0 +1,13 @@
+{
+  "title": "Chào mừng trở lại, Người Tìm Bí Mật!",
+  "description": "Hãy bước trở lại vùng đất nơi những lời thì thầm dẫn lối linh hồn bạn. Đăng nhập để khám phá những điều huyền bí mới, xem lại những trải bài trước đó, và tiếp tục hành trình ma thuật cùng Nina.",
+  "usernameLabel": "Tên đăng nhập / Email",
+  "usernamePlaceholder": "Tên người dùng của bạn",
+  "passwordLabel": "Mật khẩu",
+  "passwordPlaceholder": "Mật khẩu của bạn",
+  "forgot": "Quên mật khẩu",
+  "forgotNote": "(Những câu thần chú bị lãng quên có thể được tìm lại.)",
+  "loginButton": "Đăng nhập",
+  "newPrompt": "Mới đến? Hãy tham gia vào vòng tròn của những lời thì thầm.",
+  "signupNow": "Đăng ký ngay"
+}

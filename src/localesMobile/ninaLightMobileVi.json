@@ -1,0 +1,55 @@
+{
+  "title": {
+    "line1": "Ánh sáng của",
+    "line2": "Nina"
+  },
+  "intro": "Chia sẻ câu chuyện của bạn với NiNa! 💫 Cửa hàng của NiNa có rất nhiều vật phẩm huyền thuật, và cô ấy rất sẵn lòng giúp bạn tìm ra món phù hợp nhất cho hành trình của mình. Đừng ngại liên hệ NGAY TẠI ĐÂY để được tư vấn miễn phí và khám phá thứ cộng hưởng mạnh nhất với năng lượng của bạn!",
+  "products": [
+    {
+      "name": "Lilith Candle",
+      "desc": "Cây nến quý hiếm mang năng lượng mạnh mẽ của Nữ thần Lilith – biểu tượng của sự hoàn mỹ, trí tuệ, sức mạnh và sự cuốn hút.",
+      "price": "2.222.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Hekate Candle",
+      "desc": "Cây nến đặc biệt được thắp lên vào những dịp quan trọng trong \"lịch phù thủy\" hằng năm.",
+      "price": "2.000.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Medusa Candle",
+      "desc": "Cây nến mạnh mẽ nhất từ Ninawitch, dùng để triệu hồi các vị thần và nữ thần quyền năng.",
+      "price": "Liên hệ",
+      "label": "Đề xuất"
+    },
+    {
+      "name": "Phoenix Candle",
+      "desc": "Nghi lễ này giúp bạn giải phóng khỏi những điều cũ, mở đường cho sự phát triển, sáng tạo và nội lực.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Gaia Candle",
+      "desc": "Kết nối với nguồn năng lượng của Nữ thần Gaia vào những ngày đặc biệt để viết và nói ra điều ước của bạn.",
+      "price": "1.600.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Lighting Angel Candle",
+      "desc": "Tăng gấp đôi sức mạnh của linh dược, như một lời cầu nguyện trực tiếp tới Bản Thể Cao và các thiên thần hộ mệnh.",
+      "price": "1.300.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Pandora Candle",
+      "desc": "Mạnh gấp đôi Medusa Candle về vẻ đẹp, trí tuệ, sức hút và sức mạnh nội tâm.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Bastet Candle",
+      "desc": "Mang năng lượng bảo vệ và may mắn mạnh mẽ, vượt trội gấp đôi Medusa Candle.",
+      "price": "Liên hệ"
+    }
+  ],
+  "detail": "Chi tiết"
+}

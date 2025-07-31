@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: inherit;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  scrollbar-width: none;
+  background-color: #0D0D0D;
+}
+
+html, body {
+  -ms-overflow-style: none;
+}
+
+#app {
+  min-height: 100vh;
+}

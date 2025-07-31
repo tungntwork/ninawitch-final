@@ -1,0 +1,28 @@
+{
+  "title": "Sự Xuất Hiện Huyền Bí",
+  "description_1": "Phép thuật chỉ xuất hiện khi vũ trụ cất tiếng gọi!<br/>Những món báu vật hiếm hoi này đến bất ngờ,<br/>và chỉ tồn tại trong khoảnh khắc ngắn ngủi.",
+  "description_2": "Liệu lần này bạn có là người nắm bắt phép màu?",
+  "products": [
+    {
+      "name": "Magic Keychain",
+      "desc": "Như một bùa hộ mệnh, nó thu hút may mắn, bảo vệ bạn và kích hoạt năng lượng tích cực.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Magical Perfume",
+      "desc": "Chai nước hoa ma thuật được làm từ nguyên liệu quý hiếm và kết hợp với những câu thần chú cổ xưa.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Super Magic'<br/><span class='text-[3.85vw]'>Charm Bag</span>",
+      "desc": "Spell là một lọ nhỏ dễ mang theo, chứa năng lượng và hương thơm huyền bí.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Crystal Bracelet<br/><span class=''>Random</span>",
+      "desc": "Vòng đá tinh thể này xuất hiện ngẫu nhiên tùy theo năng lượng của Nina.",
+      "price": "Xem trên Nina's facebook"
+    }
+  ],
+  "itemDetail": "Chi tiết"
+}

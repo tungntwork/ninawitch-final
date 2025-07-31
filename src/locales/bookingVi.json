@@ -1,0 +1,63 @@
+{
+  "heading": {
+    "title": "Chào mừng bạn đến với<br/>Đặt lịch hẹn",
+    "fullyBookedNotice": "Tất cả các khung giờ xem Tarot chính đã được đặt kín đến ngày 05/07/2025",
+    "availableNotice": "Vẫn còn 3 khung giờ trống linh động trong 4 ngày tới!"
+  },
+  "philosophy": {
+    "line1": "Tôi không làm video chỉ để câu view, mà luôn hướng đến việc chia sẻ giá trị thực tế, giúp bạn hiểu sâu hơn về thế giới quan 5D",
+    "line2": " và các trạng thái nhận thức cao hơn. Chúng ta đều là những linh hồn đang trải nghiệm cuộc sống con người."
+  },
+  "follow": {
+    "text": "Theo dõi NiNa trên TikTok, YouTube & Facebook để nhận tử vi hàng ngày và những thông điệp đầy ý nghĩa.",
+    "title": "Liên Kết Huyền Bí"
+  },
+  "button": "Đặt lịch ngay",
+  "pricingTitle": "Bảng Giá Akita Tarot & Healer",
+  "topicTitle": "Chủ Đề Nổi Bật",
+  "academicTitle": "Chủ đề học tập",
+  "academic": {
+    "line1": "Tình hình học tập trong 6 tháng tới (điểm mạnh & điểm yếu), cần lưu ý gì?",
+    "line2": "Điều gì đang cản trở sự phát triển học thuật của bạn?",
+    "line3": "Chọn môn học/kỳ thi/ngành học/thành phố phù hợp",
+    "line4": "(NiNa sẽ giải thích các hướng đi nếu bạn theo đuổi ngành cụ thể & đưa ra lời khuyên).",
+    "line5": "*Cần cải thiện điều gì để đạt kết quả tốt hơn? NiNa không đưa ra dự đoán ngắn hạn cho từng trường hợp."
+  },
+  "services": {
+    "oneIssue": {
+      "title": "Một Vấn Đề Tarot",
+      "options": [
+        "Thời lượng: 20–30 phút – 300.000 VND (4 câu hỏi có hướng dẫn)",
+        "Kèm đọc trực giác: 400.000 VND"
+      ]
+    },
+    "singleQuestion": ["Một Câu Hỏi Tarot:"," 70,000 VND"],
+    "spiritualReading": ["Xem Thế Giới Linh Hồn:"," 500,000 VND"],
+    "pastLife": ["Xem Tiền Kiếp:"," 500,000 VND"],
+    "fortuneTea": ["Xem Vận 3 Tháng Tới + Đọc Trà:"," 450,000 VND"],
+    "monthlyTea": ["Xem Tarot + Đọc Trà Tổng Quan Tháng:"," 300,000 VND"],
+    "futureSpouse": ["Xem Về Người Chồng/Vợ Tương Lai:"," 500,000 VND"],
+    "unspokenFeelings": ["Tình Cảm Sâu Kín Của Họ Dành Cho Bạn:"," 300,000 VND"],
+    "careerDestiny": ["Nghề Nghiệp Phù Hợp Với Định Mệnh Của Bạn:"," 350,000 VND"],
+    "monthlyHighlight": ["Điểm Nhấn Tháng Tới Của Bạn:"," 300,000 VND"],
+    "healing30": ["Buổi Trò Chuyện Chữa Lành (30 phút):"," 500,000 VND"],
+    "healing60": ["Trò Chuyện Chữa Lành + Tarot (60 phút):"," 1,000,000 VND"]
+  },
+  "topics": [
+    "Người bạn đời tương lai của bạn sẽ như thế nào?",
+    "Những suy nghĩ sâu thẳm họ không bao giờ nói với bạn.",
+    "Thông điệp từ họ sau lần gặp cuối cùng.",
+    "Câu chuyện của bạn và họ sẽ kết thúc ra sao?",
+    "Bản thể tương lai của bạn muốn nhắn nhủ điều gì?",
+    "Người lạ nghĩ gì khi nhìn thấy bạn?",
+    "Cảm xúc thật của họ dành cho bạn?",
+    "Những thay đổi nào sẽ đến trong năm tới? (kèm thông điệp)",
+    "Họ thật sự muốn gì từ bạn?",
+    "Bạn mang lại điều gì cho cuộc sống người khác?",
+    "Nếu bạn và họ quay lại hoặc chính thức bên nhau, điều gì sẽ xảy ra?",
+    "Người yêu cũ có còn nhớ bạn? Họ có thông điệp gì gửi đến bạn?",
+    "Điều bạn đang dự tính liệu có thành công?",
+    "Tại sao họ đang né tránh và không liên lạc với bạn?",
+    "Họ cảm thấy thế nào về bạn và người thứ ba?"
+  ]
+}

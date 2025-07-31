@@ -1,0 +1,36 @@
+{
+  "menu": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "createAccount": "Create account",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginHere": "Log in here.",
+    "loginNow": "Login",
+    "newHere": "New here? Join the circle of whispers.",
+    "signupNow": "Sign Up Now",
+    "welcomeTitle": "Welcome to the<br/>Circle of Whispers!",
+    "welcomeDesc": "Begin your mystical journey with Nina. Create an account to unlock personalized tarot readings, magical insights, and exclusive secrets waiting just for you",
+    "backTitle": "Welcome Back,<br/>Seeker of Secrets",
+    "backDesc": "Step back into the realm where whispers guide your soul. Log in to uncover new mysteries, revisit your past readings, and continue your magical journey with Nina.",
+    "forgotPassword": "Forgot your password",
+    "forgotNote": "(Forgotten spells can be found again.)",
+    "dailyWhispers": "Would you like to hear the universe's whispers in your gmail every day?",
+    "usernameEmail": "Username / Email",
+    "magicalPathNote": "(Your magical path awaits.)",
+    "menuItems": {
+      "home": "NinaWitch",
+      "booking": "Booking",
+      "shop": "Shop",
+      "vip": "VIP",
+      "present": "Present"
+    },
+    "footer": {
+      "connect": "Mystic Connections",
+      "copyright": "© 2025 NinaWitch. All rights reserved."
+    }
+  }
+}

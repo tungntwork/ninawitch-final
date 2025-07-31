@@ -1,0 +1,49 @@
+{
+  "title": "high recommend items",
+  "description": "Carefully selected magical items infused with powerful energy to support your rituals, meditation, and spiritual journey. Discover sacred treasures that help you connect more deeply with the universe! ✨🔮",
+  "items": [
+    {
+      "name": "Medusa Candle",
+      "tag": "Recommended",
+      "desc": "The most powerful magical candle from Ninawitch, invoking mighty gods and goddesses.",
+      "price": "Contact for pricing",
+      "details": "Item details",
+      "addToCart": "Add to cart"
+    },
+    {
+      "name": "Lilith Candle",
+      "desc": "A rare, powerful candle embodying Goddess Lilith symbol of perfection, intelligence, strength, and allure.",
+      "price": "2.222.000 vnd",
+      "details": "Item details",
+      "addToCart": "Add to cart"
+    },
+    {
+      "name": "Hekate Candle",
+      "desc": "A magical candle linked to Hekate, the goddess of darkness, magic, and transitions.",
+      "price": "Contact for pricing",
+      "details": "Item details",
+      "addToCart": "Add to cart"
+    },
+    {
+      "name": "Lucky Wallpaper",
+      "desc": "The Lucky Wallpaper attracts positive energy, boosts fortune, and empowers your desires beyond Angel Candles.",
+      "price": "1.500.000 vnd",
+      "details": "Item details",
+      "addToCart": "Add to cart"
+    },
+    {
+      "name": "Special Potion",
+      "desc": "It is the most powerful potion (Appears during times of strong energy).",
+      "price": "3.000.000 vnd",
+      "details": "Item details",
+      "addToCart": "Add to cart"
+    },
+    {
+      "name": "Success Ritual",
+      "desc": "Brings stability, promotes growth, confidence, and luck.",
+      "price": "Contact for Pricing",
+      "details": "Item details",
+      "addToCart": "Add to cart"
+    }
+  ]
+}

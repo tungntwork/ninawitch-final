@@ -1,0 +1,55 @@
+{
+  "title": "Mystical Experience",
+  "description": "A journey that opens the gateway to the spiritual<br/>realm, where you connect with mystical energies,<br/>uncover profound messages, and touch the<br/>mysteries of the universe. ✨🔮",
+  "products": [
+    {
+      "name": "Candle Reading",
+      "desc": "NiNawitch will connect directly with your<br/>Guides & Higher Self as a messenger<br/>between the 3D & 6D realms.",
+      "price": "600.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Flower Reading",
+      "desc": "NiNa will channel nature’s energy,<br/>the Flower God, and fairies to bring<br/>you angelic guidance.",
+      "price": "700.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Crystal Ball<br/>Reading",
+      "desc": "Prediction on NiNa's magical crystal ball,<br/>from her collection of 1001 witch stones.",
+      "price": "888.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Connection to<br/>Akashic",
+      "desc": "NiNa's mind will rapidly receive clear<br/>and specific insights about you and<br/>your upcoming story.",
+      "price": "999.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Medium Reading",
+      "desc": "Open a gateway and connect with<br/>the otherworld to communicate with<br/>your departed loved ones.",
+      "price": "3.000.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Aura Reading<br/>& Cleanes",
+      "desc": "A process of analyzing and cleansing<br/>the aura to restore balance and<br/>enhance well-being.",
+      "price": "Contact for Pricing",
+      "note": ""
+    },
+    {
+      "name": "Aura Reading",
+      "desc": "A spiritual method used to observe,<br/>analyze, and interpret the energy<br/>field (aura) surrounding a person.",
+      "price": "Contact for Pricing",
+      "note": ""
+    },
+    {
+      "name": "Full Aura<br/>Cleanse Ritual",
+      "desc": "A deep purification to release<br/>stagnation, negativity, and past<br/>energies holding you back.",
+      "price": "Contact for Pricing",
+      "note": ""
+    }
+  ],
+  "itemDetail": "Item details"
+}

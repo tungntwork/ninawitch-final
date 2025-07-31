@@ -1,0 +1,46 @@
+{
+  "title": "sản phẩm được<br/>đề xuất đặc biệt",
+  "description": "Những vật phẩm huyền bí được chọn lọc kỹ lưỡng, mang năng lượng mạnh mẽ để hỗ trợ nghi lễ, thiền định và hành trình tâm linh của bạn. Khám phá các báu vật linh thiêng giúp bạn kết nối sâu sắc hơn với vũ trụ! ✨🔮",
+  "products": [
+    {
+      "name": "Medusa Candle",
+      "tag": "Đề xuất",
+      "desc": "Cây nến quyền năng nhất từ Ninawitch, triệu hồi các vị thần và nữ thần vĩ đại.",
+      "price": "Liên hệ",
+      "detail": "Chi tiết"
+    },
+    {
+      "name": "Lilith Candle",
+      "desc": "Một cây nến quý hiếm, mạnh mẽ đại diện cho Nữ thần Lilith – biểu tượng của sự hoàn mỹ, trí tuệ, sức mạnh và quyến rũ.",
+      "price": "2.222.000",
+      "unit": "vnd",
+      "detail": "Chi tiết"
+    },
+    {
+      "name": "Hekate Candle",
+      "desc": "Cây nến ma thuật kết nối với Hekate – nữ thần của bóng tối, phép thuật và sự chuyển giao.",
+      "price": "Liên hệ",
+      "detail": "Chi tiết"
+    },
+    {
+      "name": "Lucky<br/>Wallpaper",
+      "desc": "thu hút năng lượng tích cực, tăng cường may mắn và kích hoạt ước nguyện mạnh mẽ hơn cả Angel Candle.",
+      "price": "1.500.000",
+      "unit": "vnd",
+      "detail": "Chi tiết"
+    },
+    {
+      "name": "Special Potion",
+      "desc": "Loại linh dược mạnh mẽ nhất (xuất hiện vào thời điểm năng lượng cao).",
+      "price": "3.000.000",
+      "unit": "vnd",
+      "detail": "Chi tiết"
+    },
+    {
+      "name": "Success Ritual",
+      "desc": "Mang lại sự ổn định, thúc đẩy phát triển, tự tin và may mắn.",
+      "price": "Liên hệ",
+      "detail": "Chi tiết"
+    }
+  ]
+}

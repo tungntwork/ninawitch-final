@@ -1,0 +1,101 @@
+{
+  "title": "Đón nhận<br/>phép màu",
+  "categoryTitle": "Phân loại",
+  "needTitle": "Need",
+  "priceTitle": "Mức giá",
+  "categories": [
+    "Nến",
+    "Thuốc phép",
+    "Bùa chú",
+    "Pha lê và Đá quý",
+    "Bùa hộ mệnh và Linh vật"
+  ],
+  "needs": [
+    "Tình yêu",
+    "Tài lộc",
+    "Sự nghiệp",
+    "Học tập",
+    "Sức khỏe",
+    "Phong thủy",
+    "Chữa lành",
+    "Tương lai",
+    "Bí mật ẩn giấu",
+    "Vẻ đẹp",
+    "Thu hút năng lượng tích cực",
+    "Người yêu cũ",
+    "Số mệnh & May mắn",
+    "Xua đuổi năng lượng xấu",
+    "Biến điều ước thành hiện thực",
+    "Mở khóa may mắn",
+    "Công việc kinh doanh"
+  ],
+  "sections": {
+    "section1": "Tinh Dầu Phép Thuật:",
+    "section2": "Lời gọi từ Vũ trụ:"
+  },
+  "products": [
+    {
+      "name": "Ritual Oils",
+      "desc": "Hỗn hợp tinh dầu mạnh mẽ được chế tác thủ công, tượng trưng cho yếu tố nước.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Patchouli Oil",
+      "desc": "Mùi thơm sâu ấm, giúp cân bằng năng lượng, thu hút may mắn, tình yêu và thịnh vượng.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Dragon Blood Oil",
+      "desc": "Dầu nhựa thơm mạnh mẽ, dùng trong bảo vệ, sức mạnh và nghi lễ ma thuật.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Aphrodite Oil",
+      "desc": "Chiết xuất từ năng lượng huyền bí của nữ thần tình yêu.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Potion",
+      "desc": "Loại bùa trong chai, tác dụng mạnh gấp 2-3 lần.",
+      "price": "1.300.000"
+    },
+    {
+      "name": "Lucky Wallpaper",
+      "desc": "Thu hút năng lượng tích cực, tăng vận may và hỗ trợ ước nguyện.",
+      "price": "1.500.000"
+    },
+    {
+      "name": "Sigil Beauty",
+      "desc": "Tăng vẻ đẹp, sự hấp dẫn và sự tự tin.",
+      "price": "2.500.000"
+    },
+    {
+      "name": "Sigil Grimoire",
+      "desc": "Năng lượng thu hút vẻ đẹp, giúp bạn trở nên quyến rũ hơn.",
+      "price": "3.000.000"
+    },
+    {
+      "name": "Fortune Clover",
+      "desc": "Hấp thụ năng lượng mạnh mẽ, mang lại tài lộc và ổn định tài chính.",
+      "price": "666.000 - 999.000"
+    },
+    {
+      "name": "NiNa's Charms Spells",
+      "desc": "Bùa được làm thủ công để thu hút năng lượng tích cực và bảo vệ bạn.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Crystal Magic Spell",
+      "desc": "Mạnh hơn đá bùa gấp 4 lần, khuếch đại mong muốn và bảo vệ mạnh mẽ.",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Magic Lipstick",
+      "desc": "Tăng sự tự tin, quyến rũ và vận may với mỗi lần tô.",
+      "price": "Liên hệ"
+    }
+  ],
+  "button": {
+    "detail": "Chi tiết"
+  }
+}

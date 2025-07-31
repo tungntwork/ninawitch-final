@@ -1,0 +1,15 @@
+{
+  "title": "Đề xuất đặc biệt cho hôm nay",
+  "description": "Vì các sản phẩm của NiNa rất đa dạng, bạn hãy liên hệ trực tiếp qua Facebook để được tư vấn miễn phí<br/>và chọn sản phẩm phù hợp nhất với câu chuyện hoặc năng lượng của bạn.",
+  "button": "Gặp gỡ NiNa",
+  "products": [
+    { "name": "Lucky Wallpaper", "cta": "Mua ngay" },
+    { "name": "Lilith Candle", "cta": "Mua ngay" },
+    { "name": "Medusa Candle", "cta": "Mua ngay" },
+    { "name": "Hetake Candle", "cta": "Mua ngay" },
+    { "name": "Spell", "cta": "Mua ngay" },
+    { "name": "Potion", "cta": "Mua ngay" },
+    { "name": "Phoenix Candle", "cta": "Mua ngay" },
+    { "name": "NinaWitch Ritual", "cta": "Mua ngay" }
+  ]
+}

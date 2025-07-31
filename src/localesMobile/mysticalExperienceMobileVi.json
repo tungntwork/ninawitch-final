@@ -1,0 +1,55 @@
+{
+  "title": "Trải Nghiệm Huyền Bí",
+  "description": "Một hành trình mở ra cánh cổng đến thế giới tâm linh, nơi bạn kết nối với những năng lượng huyền bí,<br/>khám phá thông điệp sâu sắc và chạm vào những điều kỳ diệu của vũ trụ. ✨🔮",
+  "products": [
+    {
+      "name": "Candle Reading",
+      "desc": "NiNawitch sẽ kết nối trực tiếp với<br/>Tâm Linh và Bản Ngã Cao Hơn của bạn<br/>như một sứ giả giữa thế giới 3D và 6D.",
+      "price": "600.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Flower Reading",
+      "desc": "NiNa sẽ dẫn truyền năng lượng của thiên nhiên,<br/>Thần Hoa và các nàng tiên để mang đến thiên giới.",
+      "price": "700.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Crystal Ball<br/>Reading",
+      "desc": "Tiên đoán bằng quả cầu pha lê ma thuật<br/>từ bộ sưu tập 1001 viên đá phù thủy của NiNa.",
+      "price": "888.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Connection to<br/>Akashic",
+      "desc": "Tâm trí NiNa sẽ nhanh chóng nhận được<br/>những thông điệp rõ ràng và cụ thể<br/>về bạn và câu chuyện sắp tới của bạn.",
+      "price": "999.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Medium Reading",
+      "desc": "Mở cánh cổng kết nối với thế giới bên kia<br/>để trò chuyện với những người thân yêu đã khuất.",
+      "price": "3.000.000",
+      "note": "vnd"
+    },
+    {
+      "name": "Aura Reading<br/>& Cleanes",
+      "desc": "Quy trình phân tích và thanh lọc hào quang<br/>để khôi phục sự cân bằng và nâng cao cảm xúc – tinh thần.",
+      "price": "Liên hệ",
+      "note": ""
+    },
+    {
+      "name": "Aura Reading",
+      "desc": "Phương pháp tâm linh dùng để quan sát,<br/>phân tích và giải mã trường năng lượng (hào quang) bao quanh một người.",
+      "price": "Liên hệ",
+      "note": ""
+    },
+    {
+      "name": "Full Aura<br/>Cleanse Ritual",
+      "desc": "Nghi lễ thanh tẩy sâu sắc giúp giải phóng<br/>sự trì trệ, năng lượng tiêu cực<br/>và những thứ níu giữ bạn từ quá khứ.",
+      "price": "Liên hệ",
+      "note": ""
+    }
+  ],
+  "itemDetail": "Chi tiết"
+}

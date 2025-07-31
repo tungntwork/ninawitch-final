@@ -1,0 +1,126 @@
+{
+  "title": "Đánh Thức Phép Màu Trong Bạn",
+  "categories": {
+    "title": "Danh mục",
+    "list": [
+      "Nến",
+      "Thuốc phép",
+      "Bùa chú",
+      "Pha lê và đá quý",
+      "Bùa hộ mệnh và linh vật"
+    ]
+  },
+  "needs": {
+    "title": "Nhu cầu",
+    "list": [
+      "Tình yêu",
+      "Tài lộc",
+      "Sự nghiệp",
+      "Học hành",
+      "Sức khỏe",
+      "Phong thủy",
+      "Chữa lành",
+      "Tương lai",
+      "Bí mật ẩn giấu",
+      "Sắc đẹp",
+      "Thu hút năng lượng tích cực",
+      "Định mệnh & Vận may",
+      "Xua đuổi năng lượng tiêu cực",
+      "Thu hút điều mới",
+      "Kích hoạt may mắn",
+      "Kinh doanh"
+    ]
+  },
+  "price": {
+    "title": "Giá",
+    "steps": ["500.000", "1.000.000", "2.000.000", "3.000.000", "4.000.000", "5.000.000"]
+  },
+  "items": {
+    "enchantedOils": {
+      "title": "Dầu Phép Thuật",
+      "list": [
+        {
+          "name": "Dầu nghi lễ",
+          "desc": "Hỗn hợp tinh dầu và thảo mộc mạnh mẽ, được chế tác thủ công để đại diện cho nguyên tố nước quyền năng.",
+          "price": "Liên hệ",
+          "link": "/shop/684953d856e40f56a3d112b5"
+        },
+        {
+          "name": "Dầu Patchouli",
+          "desc": "Patchouli mang hương thơm ấm và sâu, giúp cân bằng năng lượng, thu hút may mắn, tình yêu và tài lộc.",
+          "price": "Liên hệ",
+          "link": "/shop/684954f256e40f56a3d112b9"
+        },
+        {
+          "name": "Dầu Huyết Rồng",
+          "desc": "Loại dầu nhựa mạnh mẽ dùng trong các nghi lễ bảo vệ, tăng sức mạnh và thực hành phép thuật.",
+          "price": "Liên hệ",
+          "link": "/shop/684957ef56e40f56a3d112c1"
+        },
+        {
+          "name": "Dầu Aphrodite",
+          "desc": "Chiết xuất từ huyền bí vũ trụ, mang năng lượng thần bí của nữ thần tình yêu.",
+          "price": "Liên hệ",
+          "link": "/shop/6849588256e40f56a3d112c3"
+        }
+      ]
+    },
+    "calling": {
+      "title": "Tiếng Gọi Từ Vũ Trụ",
+      "list": [
+        {
+          "name": "Thuốc phép",
+          "desc": "Thuốc phép là bùa chú dạng chai, hiệu quả gấp 2-3 lần và có thể sử dụng bất cứ lúc nào.",
+          "price": "1.300.000",
+          "link": "/shop/684955b856e40f56a3d112bd"
+        },
+        {
+          "name": "Hình nền may mắn",
+          "desc": "Hình nền này thu hút năng lượng tích cực, tăng may mắn và hỗ trợ mong cầu của bạn hơn cả nến thiên thần.",
+          "price": "1.500.000",
+          "link": "/shop/684955b856e40f56a3d112bd"
+        },
+        {
+          "name": "Bùa Sắc Đẹp",
+          "desc": "Tạo ra để tăng cường vẻ ngoài, sức hút hoặc sự tự tin.",
+          "price": "2.500.000",
+          "link": "/shop/684955b856e40f56a3d112bd"
+        },
+        {
+          "name": "Bùa Grimoire",
+          "desc": "\"Vẻ đẹp của nữ thần\" – bùa thu hút năng lượng mạnh mẽ giúp tăng sắc đẹp và sự hấp dẫn.",
+          "price": "3.000.000",
+          "link": "/shop/6849588256e40f56a3d112c3"
+        },
+        {
+          "name": "Cỏ ba lá may mắn",
+          "desc": "Hấp thụ nguồn năng lượng lớn để mang đến tài lộc và sự sung túc.",
+          "price": "666.000 - 999.000",
+          "link": "/shop/684959be56e40f56a3d112c9"
+        },
+        {
+          "name": "Bùa chú NiNa",
+          "desc": "Bùa được tạo thủ công giúp thu hút năng lượng tích cực, bảo vệ và hỗ trợ mong muốn của bạn.",
+          "price": "Liên hệ",
+          "link": "/shop/68495a3856e40f56a3d112cb"
+        },
+        {
+          "name": "Bùa Pha lê phép",
+          "desc": "Bùa pha lê tăng cường, mạnh gấp 4 lần so với đá phép, khuếch đại mong muốn và bảo vệ tối đa.",
+          "price": "Liên hệ",
+          "link": "/shop/68495a9156e40f56a3d112cd"
+        },
+        {
+          "name": "Son phép thuật",
+          "desc": "Son phép tăng sự tự tin, thu hút và may mắn – kích hoạt năng lượng tích cực mỗi lần sử dụng.",
+          "price": "Liên hệ",
+          "link": "/shop/68495afe56e40f56a3d112cf"
+        }
+      ]
+    }
+  },
+  "buttons": {
+    "addToCart": "Thêm vào giỏ",
+    "details": "Chi tiết"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Phép thuật và pháp lược",
+  "description": "✨ Khám phá các phép thuật và nghi lễ huyền bí để thu hút năng lượng tích cực, bảo vệ bản thân và hiện thực hóa điều bạn mong muốn.\nHãy để ma thuật dẫn lối cho bạn! 🔮✨",
+  "items": [
+    {
+      "name": "Spell",
+      "description": "Spell là một chai nhỏ có thể mang theo, chứa đựng năng lượng và hương thơm huyền bí.",
+      "price": "830.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Travel Candle",
+      "description": "Mang đến cơ hội cho những chuyến hành trình học hỏi, kết nối, du lịch, chữa lành và trải nghiệm thật sự ý nghĩa",
+      "price": "Liên hệ"
+    },
+    {
+      "name": "Spell Gaia",
+      "description": "Spell Gaia khai mở năng lượng nguyên sơ của Đất Mẹ, nuôi dưỡng sự cân bằng và kết nối.",
+      "price": "1.111.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Special Spell",
+      "description": "Bùa chú đặc biệt với sức mạnh tối thượng, giúp hiện thực hóa mong muốn một cách nhanh chóng",
+      "price": "1.600.000 - 1.800.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Potion",
+      "description": "Phép dược là dạng bùa chú được đóng chai, có hiệu quả mạnh hơn gấp 2–3 lần thông thường",
+      "price": "1.300.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Potion Gaia",
+      "description": "Sức mạnh ma thuật mạnh gấp đôi phép dược thông thường.",
+      "price": "1.600.000",
+      "unit": "vnd"
+    },
+    {
+      "name": "Special Potion",
+      "description": "Đây là loại phép dược mạnh nhất (xuất hiện vào những thời điểm năng lượng đặc biệt mạnh).",
+      "price": "3.000.000",
+      "unit": "vnd"
+    }
+  ],
+  "button": {
+    "details": "Chi tiết",
+    "addToCart": "Thêm vào giỏ"
+  }
+}

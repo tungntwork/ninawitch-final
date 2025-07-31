@@ -1,0 +1,101 @@
+{
+  "title": "Embrace<br/>Your Magic",
+  "categoryTitle": "Category",
+  "needTitle": "Need",
+  "priceTitle": "Price",
+  "categories": [
+    "Candles",
+    "Potion",
+    "Spell",
+    "Crystals and Gemstones",
+    "Amulets and Talismans"
+  ],
+  "needs": [
+    "Loves",
+    "Wealth",
+    "Career",
+    "Studies",
+    "Heatlth",
+    "Feng Shui",
+    "Healing",
+    "Future",
+    "Hidden Secrets",
+    "Beauty",
+    "Attracting Positive Energy",
+    "Ex-Lover",
+    "Fate & Fortune",
+    "Banish Negative Energy",
+    "Manifest a New Thing",
+    "Unlock Luck",
+    "Business"
+  ],
+  "sections": {
+    "section1": "Enchanted Oils:",
+    "section2": "Calling from the Universe:"
+  },
+  "products": [
+    {
+      "name": "Ritual Oils",
+      "desc": "A highly potent blend of essential oils and herbs, handcrafted to embody the powerful element of water.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Patchouli Oil",
+      "desc": "Patchouli Oil has a warm, deep aroma that balances energy, attracts luck, love, and prosperity.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Dragon Blood Oil",
+      "desc": "A potent resin oil for protection, strength, and magic rituals.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Aphrodite Oil",
+      "desc": "Extracted from the eternal mysteries of the universe, it carries the mystical power of the goddess of love.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Potion",
+      "desc": "Magic Potions are bottled spells, working 2-3 times stronger to create desired effects anytime.",
+      "price": "1.300.000"
+    },
+    {
+      "name": "Lucky Wallpaper",
+      "desc": "The Lucky Wallpaper attracts positive energy, boosts fortune, and empowers your desires beyond Angel Candles.",
+      "price": "1.500.000"
+    },
+    {
+      "name": "Sigil Beauty",
+      "desc": "Created with the purpose of enhancing beauty, attractiveness, or confidence.",
+      "price": "2.500.000"
+    },
+    {
+      "name": "Sigil Grimoire",
+      "desc": "“Beauty of Goddess” This sigil channels powerful energy to enhance beauty, making you more alluring and desirable.",
+      "price": "3.000.000"
+    },
+    {
+      "name": "Fortune Clover",
+      "desc": "Absorbs a powerful amount of energy to bring you prosperity and financial security.",
+      "price": "666.000 - 999.000"
+    },
+    {
+      "name": "NiNa's Charms Spells",
+      "desc": "Handcrafted charms spells to attract positive energy, provide protection, and support your desires.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Crystal Magic Spell",
+      "desc": "Enhanced crystal charm, 4 times stronger than spell stones, amplifying desires and providing maximum protection.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Magic Lipstick",
+      "desc": "Magic Lipstick boosts confidence, charm, and luck, activating positive energy with every swipe",
+      "price": "Contact for Pricing"
+    }
+  ],
+  "button": {
+    "detail": "Item detail"
+  }
+}

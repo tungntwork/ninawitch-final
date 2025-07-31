@@ -1,0 +1,63 @@
+{
+  "heading": {
+    "title": "Welcome to the<br/>Schedule an Appointment",
+    "fullyBookedNotice": "All main Tarot reading slots are fully booked until 05/07/2025",
+    "availableNotice": "There are 3 squeezed-in slots available within the next 4 days!"
+  },
+  "philosophy": {
+    "line1": "I will not make videos just for views, but always aim to share practical values, helping you gain deeper understanding of the 5D worldview",
+    "line2": " and higher states of consciousness. We are all souls experiencing the life of a human being."
+  },
+  "follow": {
+    "text": "Follow NiNa on TikTok, YouTube & Facebook to get daily horoscopes and meaningful messages.",
+    "title": "Mystic Connections"
+  },
+  "button": "Booking Now",
+  "pricingTitle": "Akita Tarot & Healer Pricing",
+  "topicTitle": "Topic Hot",
+  "academicTitle": "Topic about academic issues.",
+  "academic": {
+    "line1": "Study situation in the next 6 months (strengths & weaknesses), what should be noted?",
+    "line2": "What is hindering your academic growth?",
+    "line3": "Choosing the right subject/exam/field of study/city",
+    "line4": "(NiNa will explain how each path will develop if you follow a specific field & provide advice).",
+    "line5": "*What needs to be improved for better results? NiNa does not make short-term predictions for individual cases."
+  },
+  "services": {
+    "oneIssue": {
+      "title": "One Tarot Issue",
+      "options": [
+        "Duration: 20 to 30 minutes - 300,000 VND (4 questions with guidance)",
+        "With intuitive reading: 400,000 VND"
+      ]
+    },
+    "singleQuestion": ["Single Tarot Question:","70,000 VND"],
+    "spiritualReading": ["Spiritual Realm Reading:","500,000 VND"],
+    "pastLife": ["Past Life Reading:"," 500,000 VND"],
+    "fortuneTea": ["Upcoming 3-Month Fortune + Tea Leaf Reading:"," 450,000 VND"],
+    "monthlyTea": ["Tarot Reading + Monthly General Tea Leaf Reading:"," 300,000 VND"],
+    "futureSpouse": ["Future Husband or Wife Reading: 500,000 VND"],
+    "unspokenFeelings": ["Their Deepest Unspoken Feelings for You:"," 300,000 VND"],
+    "careerDestiny": ["Which Career or Profession Aligns with Your Destiny and Fortune:"," 350,000 VND"],
+    "monthlyHighlight": ["Your Highlight of the Upcoming Month:"," 300,000 VND"],
+    "healing30": ["Healing Conversation (30 Minutes):"," 500,000 VND"],
+    "healing60": ["Healing Conversation & Tarot Reading (60 Minutes):"," 1,000,000 VND"]
+  },
+  "topics": [
+    "What will your future spouse be like?",
+    "The deepest thoughts they never tell you.",
+    "A message from them after your last meeting.",
+    "How will your story with them end?",
+    "What does your future self want to tell you?",
+    "What do strangers think when they see you?",
+    "What are their true feelings for you?",
+    "What changes will happen in the next year? + Message included.",
+    "What do they truly want from you?",
+    "What do you bring into other people's lives?",
+    "If you and they officially start a relationship or reunite, what will happen?",
+    "Does your ex still miss you? What is their message for you?",
+    "Will what you are planning succeed?",
+    "Why are they avoiding you and not contacting you?",
+    "How do they feel about you and the third person?"
+  ]
+}

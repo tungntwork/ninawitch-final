@@ -1,0 +1,16 @@
+{
+    "name": "Name",
+    "price": "Price",
+    "salePrice": "Sale Price",
+    "sold": "Sold",
+    "category": "Category",
+    "action": "Action",
+    "edit": "Edit",
+    "delete": "Delete",
+    "previous": "Previous",
+    "next": "Next",
+    "allCategories": "All Categories",
+    "title": "Product List",
+    "add": "Add Product",
+    "confirmDelete": "Are you sure you want to delete this product?"
+}

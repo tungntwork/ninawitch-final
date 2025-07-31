@@ -1,0 +1,13 @@
+{
+  "title": "Welcome Back, Seeker of Secrets!",
+  "description": "Step back into the realm where whispers guide your soul. Log in to uncover new mysteries, revisit your past readings, and continue your magical journey with Nina.",
+  "usernameLabel": "Username / Email",
+  "usernamePlaceholder": "Your Username",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "Your Password",
+  "forgot": "Forgot your password",
+  "forgotNote": "(Forgotten spells can be found again.)",
+  "loginButton": "Login",
+  "newPrompt": "New here? Join the circle of whispers.",
+  "signupNow": "Sign Up Now"
+}

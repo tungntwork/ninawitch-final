@@ -1,0 +1,36 @@
+{
+  "menu": {
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "username": "Tên người dùng",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "createAccount": "Tạo tài khoản",
+    "alreadyHaveAccount": "Bạn đã có tài khoản?",
+    "loginHere": "Đăng nhập.",
+    "loginNow": "Đăng nhập",
+    "newHere": "Bạn mới tới? Hãy tham gia thế giới huyền bí.",
+    "signupNow": "Đăng ký ngay",
+    "welcomeTitle": "Chào mừng bạn đến<br/>Vòng tròn thì thầm",
+    "welcomeDesc": "Hãy bắt đầu hành trình huyền bí cùng Nina. Tạo tài khoản để mở khóa trải bài riêng, hiểu biết ma thuật, và những bí mật độc quyền dành riêng cho bạn.",
+    "backTitle": "Chào mừng trở lại,<br/>Người tìm bí mật",
+    "backDesc": "Quay lại cõi nơi những lời thì thầm dẫn lối linh hồn bạn. Đăng nhập để khám phá những bí ẩn mới, xem lại trải bài cũ, và tiếp tục hành trình huyền diệu cùng Nina.",
+    "forgotPassword": "Quên mật khẩu",
+    "forgotNote": "(Những câu thần chú đã quên có thể được tìm lại.)",
+    "dailyWhispers": "Bạn có muốn nhận được lời thì thầm của vũ trụ qua email mỗi ngày?",
+    "usernameEmail": "Tên đăng nhập / Email",
+    "magicalPathNote": "(Con đường huyền bí đang chờ bạn.)",
+    "menuItems": {
+      "home": "NinaWitch",
+      "booking": "Đặt lịch",
+      "shop": "Cửa hàng",
+      "vip": "VIP",
+      "present": "Quà tặng"
+    },
+    "footer": {
+      "connect": "Kết nối huyền bí",
+      "copyright": "© 2025 Bản quyền thuộc về Ninawitch"
+    }
+  }
+}

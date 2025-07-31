@@ -1,0 +1,48 @@
+{
+  "title": "Mystical Experience",
+  "intro": "A journey that opens the gateway to the spiritual realm, where you connect with mystical energies, uncover profound messages, and touch the mysteries of the universe. ✨🔮",
+  "items": [
+    {
+      "name": "Candle Reading",
+      "desc": "NiNawitch will connect directly with your Guides & Higher Self as a messenger between the 3D & 6D realms.",
+      "price": "600.000 vnd"
+    },
+    {
+      "name": "Flower Reading",
+      "desc": "NiNa will channel nature’s energy, the Flower God, and fairies to bring you angelic guidance.",
+      "price": "700.000 vnd"
+    },
+    {
+      "name": "Crystal Ball Reading",
+      "desc": "Prediction on NiNa's magical crystal ball, from her collection of 1001 witch stones.",
+      "price": "888.000 vnd"
+    },
+    {
+      "name": "Connection to Akashic",
+      "desc": "NiNa's mind will rapidly receive clear and specific insights about you and your upcoming story.",
+      "price": "999.000 vnd"
+    },
+    {
+      "name": "Medium Reading",
+      "desc": "Open a gateway and connect with the otherworld to communicate with your departed loved ones.",
+      "price": "3.000.000 vnd"
+    },
+    {
+      "name": "Aura Reading & Cleanse",
+      "desc": "A process of analyzing and cleansing the aura to restore balance and enhance well-being.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Aura Reading",
+      "desc": "A spiritual method used to observe, analyze, and interpret the energy field (aura) surrounding a person.",
+      "price": "Contact for Pricing"
+    },
+    {
+      "name": "Full Aura Cleanse Ritual",
+      "desc": "A deep purification to release stagnation, negativity, and past energies holding you back.",
+      "price": "Contact for Pricing"
+    }
+  ],
+  "details": "Item details",
+  "add": "Add to cart"
+}

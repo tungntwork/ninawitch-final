@@ -1,0 +1,18 @@
+{
+  "title": "Welcome to the Circle of Whispers!",
+  "description": "Begin your mystical journey with Nina. Create an account to unlock personalized tarot readings, magical insights, and exclusive secrets waiting just for you",
+  "usernameLabel": "Username",
+  "usernamePlaceholder": "Your Username",
+  "emailLabel": "Email",
+  "emailPlaceholder": "Your Email",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "Your Password",
+  "confirmPasswordLabel": "Confirm Password",
+  "confirmPasswordPlaceholder": "Confirm Your Password",
+  "subscribeLabel": "Would you like to hear the universe's whispers in your gmail every day?",
+  "createAccount": "Create Account",
+  "alreadyHaveAccount": "Already have an account?",
+  "loginHere": "Log in here.",
+  "footerNote": "(Your magical path awaits.)",
+  "errorPasswordNotMatch": "❌ Passwords do not match"
+}

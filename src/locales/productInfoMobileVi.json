@@ -1,0 +1,18 @@
+{
+  "recommendedLabel": "Đề xuất",
+  "ratingLabel": "Đánh giá",
+  "soldLabel": "Đã bán",
+  "contactButton": "Liên hệ",
+  "subscriptionTitle": "Thông tin",
+  "disclaimerTitle": "Lưu ý",
+  "disclaimers": [
+    "• Tất cả tuyên bố liên quan đến chữa lành tâm linh không được kiểm chứng và không nên thay thế tư vấn y tế.",
+    "• Trọng lượng và kích thước có thể chênh lệch nhẹ.",
+    "• Sản phẩm thủ công có thể có vết xước nhỏ do chiết xuất tự nhiên."
+  ],
+  "highRecommendTitle": "sản phẩm<br/>gợi ý",
+  "itemDetail": "Chi tiết",
+  "productReviewTitle": "ĐÁNH GIÁ SẢN PHẨM",
+  "leaveComment": "Để lại bình luận",
+  "postComment": "Gửi bình luận"
+}

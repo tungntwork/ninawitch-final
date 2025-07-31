@@ -1,0 +1,18 @@
+{
+  "title": "Chào mừng đến với Vòng Tròn Thì Thầm!",
+  "description": "Bắt đầu hành trình huyền bí của bạn cùng Nina. Tạo tài khoản để mở khóa những trải bài tarot cá nhân hóa, linh cảm ma thuật, và những bí mật độc quyền chỉ dành riêng cho bạn.",
+  "usernameLabel": "Tên người dùng",
+  "usernamePlaceholder": "Tên đăng nhập",
+  "emailLabel": "Email",
+  "emailPlaceholder": "Email của bạn",
+  "passwordLabel": "Mật khẩu",
+  "passwordPlaceholder": "Mật khẩu của bạn",
+  "confirmPasswordLabel": "Xác nhận mật khẩu",
+  "confirmPasswordPlaceholder": "Xác nhận lại mật khẩu",
+  "subscribeLabel": "Bạn có muốn nghe những lời thì thầm từ vũ trụ qua email mỗi ngày không?",
+  "createAccount": "Tạo tài khoản",
+  "alreadyHaveAccount": "Đã có tài khoản?",
+  "loginHere": "Đăng nhập tại đây.",
+  "footerNote": "(Con đường ma thuật đang chờ bạn.)",
+  "errorPasswordNotMatch": "❌ Mật khẩu không trùng khớp"
+}
