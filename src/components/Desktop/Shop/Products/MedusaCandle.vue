@@ -46,9 +46,9 @@
                             <p class="text-[1.5vw] ml-[1vw] translate-y-[-0.5vw]">|</p>
                             <p class="ml-[0.5vw]">{{ product?.rated }}</p>
                             <p class="font-thin ml-[0.5vw]">{{ t('productInfoDesktop.productReview') }}</p>
-                            <p class="text-[1.5vw] ml-[1vw] translate-y-[-0.5vw]">|</p>
+                            <!-- <p class="text-[1.5vw] ml-[1vw] translate-y-[-0.5vw]">|</p>
                             <p class="ml-[0.5vw]">{{ product?.sold }}</p>
-                            <p class="font-thin ml-[0.5vw]">{{ t('productInfoDesktop.sold') }}</p>
+                            <p class="font-thin ml-[0.5vw]">{{ t('productInfoDesktop.sold') }}</p> -->
                         </div>
                         <div class="mt-[1.2vw] flex items-center z-50 mb-[1.2vw]"
                             @click="openWebLink('https://www.facebook.com/bupbegeisha000')">

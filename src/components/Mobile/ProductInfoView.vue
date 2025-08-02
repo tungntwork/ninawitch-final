@@ -13,20 +13,24 @@
         <div class="absolute top-[118vw] flex flex-col items-center w-[75vw]">
             <p class="text-white text-[8vw] font-lemajor">{{ product?.name?.[locale] || '' }}</p>
             <div
-                class="flex text-[3.25vw] text-white font-josefin-normal flex-row w-[75vw] space-x-[1vw] mt-[2vw] items-center">
-                <p class="pr-[2vw]">4.9</p>
-                <div class="flex flex-row space-x-[0.9vw] pr-[2vw]">
-                    <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
-                    <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
-                    <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
-                    <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
+                class="flex text-[3.25vw] text-white font-josefin-normal flex-row w-[75vw] space-x-[1vw] mt-[2vw] items-center justify-evenly">
+                <div class="flex flex-row">
+                    <p class="pr-[2vw]">4.9</p>
+                    <div class="flex flex-row space-x-[0.9vw] pr-[2vw]">
+                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
+                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
+                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
+                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
+                    </div>
                 </div>
                 <div class="w-[0.1vw] h-[4vw] mx-[4vw] bg-white"></div>
-                <p class="px-[2vw]">5</p>
-                <p class="font-light text-[#7D7D7D]" v-html="t('productInfoMobile.ratingLabel')"></p>
-                <div class="w-[0.1vw] h-[4vw] mx-[4vw] bg-white"></div>
-                <p class="px-[2vw]">8</p>
-                <p class="font-light text-[#7D7D7D]" v-html="t('productInfoMobile.soldLabel')"></p>
+                <div class="flex flex-row">
+                    <p class="px-[2vw]">5</p>
+                    <p class="font-light text-[#7D7D7D]" v-html="t('productInfoMobile.ratingLabel')"></p>
+                </div>
+                <!-- <div class="w-[0.1vw] h-[4vw] mx-[4vw] bg-white"></div> -->
+                <!-- <p class="px-[2vw]">8</p>
+                <p class="font-light text-[#7D7D7D]" v-html="t('productInfoMobile.soldLabel')"></p> -->
             </div>
             <div class="mt-[10.6vw] w-[47.9vw] h-[8.4vw] pt-[1vw] border-white border-[1px] rounded-[1.8vw] flex justify-center items-center text-white text-[4.09vw] font-josefin-normal"
                 @click="openFacebook">
