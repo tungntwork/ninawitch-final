@@ -168,6 +168,108 @@
                     <img :src="zoomImageUrl" class="max-w-[90vw] max-h-[90vh] object-contain rounded-[1vw] shadow-lg" />
                 </div>
 
+                <div class="w-full h-auto mt-[2.0315vw]">
+                    <div class="flex flex-row font-josefin-normal">
+                        <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Ellipse44.webp" alt=""
+                            class="w-[1.25vw] h-[1.25vw]">
+                        <p class="text-[1.05vw] font-medium text-white pl-[0.5vw]">
+                            hoangnguyen...
+                        </p>
+                    </div>
+                    <!-- Rate -->
+                    <div class="flex flex-row font-josefin-normal text-[1.05vw] mt-[0.8vw]">
+                        <p class="text-white font-medium">5</p>
+                        <div class="flex flex-row space-x-[0.2vw] ml-[0.4vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                        </div>
+                        <p class="ml-[0.6vw] text-[#727272] font-light">
+                            Sản phẩm: Medusa Candle
+                        </p>
+                    </div>
+
+                    <!-- content comment -->
+                    <div class="w-full h-auto mt-[1.05vw] font-josefin-normal text-[1.05vw] text-white font-light">
+                        Chiếc hộp thật tuyệt vời, chỉ cần thêm chút keo cho một bên gờ bị lệch nhẹ, không có gì quá
+                        nghiêm trọng. Hoàn thiện rất đẹp, mình cực kỳ thích cách phối màu!
+                    </div>
+                </div>
+
+                <!-- cmt 2 -->
+                <div class="w-full h-auto mt-[3.175vw]">
+                    <div class="flex flex-row font-josefin-normal">
+                        <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Ellipse45.webp" alt=""
+                            class="w-[1.25vw] h-[1.25vw]">
+                        <p class="text-[1.05vw] font-medium text-white pl-[0.5vw]">
+                            minhphuong23...
+                        </p>
+                    </div>
+                    <!-- Rate -->
+                    <div class="flex flex-row font-josefin-normal text-[1.05vw] mt-[0.8vw]">
+                        <p class="text-white font-medium">4</p>
+                        <div class="flex flex-row space-x-[0.2vw] ml-[0.4vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw] opacity-0">
+                        </div>
+                        <p class="ml-[0.6vw] text-[#727272] font-light">
+                            Sản phẩm: Medusa Candle
+                        </p>
+                    </div>
+
+                    <!-- content comment -->
+                    <div class="w-full h-auto mt-[1.05vw] font-josefin-normal text-[1.05vw] text-white font-light">
+                        Mặt dây thật xinh và mang lại cảm giác bình yên lắm. Mình rất trân trọng món quà nhỏ xinh bạn
+                        gửi kèm nữa. Chắc chắn mình sẽ quay lại mua lần sau! 😊
+                    </div>
+                </div>
+
+                <!-- cmt 3 -->
+                <div class="w-full h-auto mt-[3.175vw]">
+                    <div class="flex flex-row font-josefin-normal">
+                        <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Ellipse46.webp" alt=""
+                            class="w-[1.25vw] h-[1.25vw]">
+                        <p class="text-[1.05vw] font-medium text-white pl-[0.5vw]">
+                            bichthuyd...
+                        </p>
+                    </div>
+                    <!-- Rate -->
+                    <div class="flex flex-row font-josefin-normal text-[1.05vw] mt-[0.8vw]">
+                        <p class="text-white font-medium">5</p>
+                        <div class="flex flex-row space-x-[0.2vw] ml-[0.4vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw]">
+                            <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
+                                class="w-[1.25] h-[1.25vw] opacity-1">
+                        </div>
+                        <p class="ml-[0.6vw] text-[#727272] font-light">
+                            Sản phẩm: Medusa Candle
+                        </p>
+                    </div>
+
+                    <!-- content comment -->
+                    <div class="w-full h-auto mt-[1.05vw] font-josefin-normal text-[1.05vw] text-white font-light">
+                        Hoàn hảo luôn ạ 👌 Từ khâu đóng gói đến lúc nhận hàng, em thật sự không biết nói gì hơn. Đây là
+                        lần đầu tiên em nhận được một gói hàng được chuẩn bị chỉn chu và chuyên nghiệp đến vậy. Em từng
+                        đặt của vài shop khác rồi... và... thôi, không nói nữa ạ 😅 Mong anh/chị giữ vững phong độ nhé!
+                    </div>
+                </div>
+
                 <!-- Text area to post comment -->
                 <div class="mt-[3.5vw]">
                     <p class="text-white text-start font-josefin-normal font-medium text-[1.05vw]">{{
@@ -175,7 +277,7 @@
                     <textarea
                         class="w-full h-[5.7vw] bg-[#202020] rounded-[0.45vw] border-[1px] border-[##FFFFFF] p-[0.6vw] outline-none font-josefin-normal text-[0.83vw] text-white resize-none"></textarea>
                     <div class="mt-[1.2vw] justify-end flex items-center z-50 mb-[1.2vw]">
-                        <div
+                        <div @click="showThankYouPopup"
                             class="button-translation-parent overflow-hidden w-[12vw] h-[2.3vw] rounded-[0.6vw] bg-transparent text-white border-[0.5px] border-white flex items-center justify-center text-[1.05vw] transition-all duration-500 font-josefin-normal  hover:cursor-pointer relative">
                             <div
                                 class="absolute right-0 w-[15vw] h-[3vw] bg-[#D9D9D920] rounded-[0.9vw] translate-x-[-15vw] button-translation-child-1">
@@ -253,6 +355,19 @@
                     </div>
                 </div>
             </div>
+            <!-- POPUP -->
+            <div v-if="showPopup"
+                class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-[1000]">
+                <div class="bg-[#171717] text-black px-[2vw] py-[1.5vw] rounded-[0.5vw] text-center w-[25vw]">
+                    <p class="text-[1vw] text-white font-josefin-normal mb-[1vw]">
+                        Nina cảm ơn với góp ý của bạn,<br />chúc bạn một ngày tốt lành!
+                    </p>
+                    <button @click="showPopup = false"
+                        class="mt-[0.5vw] px-[1vw] py-[0.4vw] bg-black text-white rounded-[0.3vw] hover:bg-gray-800">
+                        Đóng
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -272,6 +387,19 @@ export default {
     components:{
         Swiper,
         SwiperSlide
+    },
+    data() {
+        return {
+            showPopup: false
+        };
+    },
+    methods: {
+        showThankYouPopup() {
+            this.showPopup = true;
+            setTimeout(() => {
+                this.showPopup = false;
+            }, 3000);
+        }
     },
     setup() {
         const product = ref(null)

@@ -122,7 +122,19 @@
                         style="text-indent: 2vw"></textarea>
                     <div class="w-full flex items-end justify-end">
                         <div class="w-[36vw] h-[6.3vw] border-white border-[1px] rounded-[1.5vw] mt-[2vw] flex justify-center items-center text-white text-[3.72vw] font-josefin-normal"
-                            v-html="t('productInfoMobile.postComment')">
+                            v-html="t('productInfoMobile.postComment')" @click="handlePostComment">
+                        </div>
+                    </div>
+                    <div v-if="showPopup"
+                        class="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 flex items-center justify-center z-[1000]">
+                        <div class="bg-[#171717] text-black px-[5vw] py-[4vw] rounded-[3vw] text-center w-[80vw]">
+                            <p class="text-[3.5vw] text-white font-josefin-normal mb-[4vw] leading-snug">
+                                Nina cảm ơn với góp ý của bạn,<br />chúc bạn một ngày tốt lành!
+                            </p>
+                            <button @click="showPopup = false"
+                                class="px-[4vw] py-[2vw] bg-black text-white rounded-[2vw] text-[3.5vw] font-josefin-normal">
+                                Đóng
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -153,6 +165,7 @@ const { t, locale } = useI18n()
 const route = useRoute()
 // const productId = route.params.id
 const productId = ref(route.params.id)
+const showPopup = ref(false);
 
 const recommendedProducts = ref([])
 const feedbackImages = ref([])
@@ -169,6 +182,13 @@ const router = useRouter()
 
 const goToProduct = (id) => {
   router.push(`/shop/${id}`)
+}
+
+function handlePostComment() {
+  showPopup.value = true;
+  setTimeout(() => {
+    showPopup.value = false;
+  }, 3000);
 }
 
 const loadProduct = async () => {
