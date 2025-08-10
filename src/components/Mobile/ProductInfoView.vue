@@ -1,4 +1,3 @@
-
 <template>
     <div class="w-full h-[785vw] relative flex flex-col items-center">
         <img src="../../assets/img/Mobile/Detail/star detail shop.webp" alt="" class="w-full h-auto">
@@ -62,7 +61,7 @@
             </div>
         </div>
         <!-- Items -->
-        <div class="absolute top-[332.8vw]">
+        <div class="absolute top-[320.8vw]">
             <p class="text-white text-[8.225vw] font-lemajor text-center"
                 v-html="t('productInfoMobile.highRecommendTitle')"></p>
 
@@ -175,58 +174,58 @@ const recommendedProducts = ref([])
 const feedbackImages = ref([])
 
 const productRows = computed(() => {
-  const rows = []
-  for (let i = 0; i < recommendedProducts.value.length; i += 2) {
-    rows.push(recommendedProducts.value.slice(i, i + 2))
-  }
-  return rows
+    const rows = []
+    for (let i = 0; i < recommendedProducts.value.length; i += 2) {
+        rows.push(recommendedProducts.value.slice(i, i + 2))
+    }
+    return rows
 })
 
 const router = useRouter()
 
 const goToProduct = (id) => {
-  router.push(`/shop/${id}`)
+    router.push(`/shop/${id}`)
 }
 
 function handlePostComment() {
-  showPopup.value = true;
-  setTimeout(() => {
-    showPopup.value = false;
-  }, 3000);
+    showPopup.value = true;
+    setTimeout(() => {
+        showPopup.value = false;
+    }, 3000);
 }
 
 const loadProduct = async () => {
-  try {
-    console.log('Fetching product:', productId.value)
-    const productRes = await axios.get(`/api/products/${productId.value}`)
-    product.value = productRes.data
+    try {
+        console.log('Fetching product:', productId.value)
+        const productRes = await axios.get(`/api/products/${productId.value}`)
+        product.value = productRes.data
 
-    const productIdUsed = product.value._id || product.value.id
-    if (productIdUsed) {
-      const feedbackRes = await axios.get(`/api/feedbacks/product/${productIdUsed}`)
-      feedbackImages.value = feedbackRes.data.feedbacks || []
-    } else {
-      console.warn('Product ID is missing')
+        const productIdUsed = product.value._id || product.value.id
+        if (productIdUsed) {
+            const feedbackRes = await axios.get(`/api/feedbacks/product/${productIdUsed}`)
+            feedbackImages.value = feedbackRes.data.feedbacks || []
+        } else {
+            console.warn('Product ID is missing')
+        }
+
+        const recommendRes = await axios.get(`${process.env.VUE_APP_API_BASE_URL}/api/products/random?count=6`)
+        recommendedProducts.value = recommendRes.data
+    } catch (error) {
+        console.error('Error loading product:', error)
     }
-
-    const recommendRes = await axios.get(`${process.env.VUE_APP_API_BASE_URL}/api/products/random?count=6`)
-    recommendedProducts.value = recommendRes.data
-  } catch (error) {
-    console.error('Error loading product:', error)
-  }
 }
 
 onMounted(() => {
-  loadProduct()
+    loadProduct()
 })
 
 watch(() => route.params.id, (newId) => {
-  productId.value = newId
-  loadProduct()
+    productId.value = newId
+    loadProduct()
 })
 
 const openFacebook = () => {
-  window.open('https://www.facebook.com/bupbegeisha000', '_blank')
+    window.open('https://www.facebook.com/bupbegeisha000', '_blank')
 }
 </script>
 
