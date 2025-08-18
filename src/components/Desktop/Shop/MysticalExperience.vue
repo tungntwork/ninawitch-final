@@ -1,12 +1,13 @@
 <template>
     <div class="w-full h-[78vw] bg-[#0D0D0D] relative flex justify-center">
-        <img src="../../../assets/img/Desktop/Shop/MysticalExpert/back mystical exper.webp" alt="" class="absolute bottom-0 w-full">
+        <img src="../../../assets/img/Desktop/Shop/MysticalExpert/back mystical exper.webp" alt=""
+            class="absolute bottom-0 w-full">
         <div class="absolute top-[4.167vw] flex flex-col justify-center">
             <p class="font-lemajor text-[3.02vw] text-white text-center">{{ $t('mysticalExperience.title') }}</p>
             <p class="font-josefin-normal text-[1.04vw] font-thin flex flex-col justify-center text-white text-center">
                 {{ $t('mysticalExperience.intro') }}
             </p>
-            
+
             <div class="w-[90vw] flex flex-col justify-between items-center">
                 <!-- Row 1 -->
                 <div class="w-[90vw] flex flex-row mt-[4.8vw] justify-between">
@@ -59,7 +60,7 @@
                     </div>
 
                     <!-- Items 2 -->
-                     <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
+                    <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
                         <div class="w-[15vw] h-[23.1vw] thumb-layer-bottom-1 absolute top-0 left-0">
                             <div
                                 class="w-[14.9vw] h-auto absolute top-0 left-0 translate-x-[0.05vw] translate-y-[0.05vw] flex justify-center">
@@ -107,7 +108,7 @@
                     </div>
 
                     <!-- Items 3 -->
-                     <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
+                    <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
                         <div class="w-[15vw] h-[23.1vw] thumb-layer-bottom-1 absolute top-0 left-0">
                             <div
                                 class="w-[14.9vw] h-auto absolute top-0 left-0 translate-x-[0.05vw] translate-y-[0.05vw] flex justify-center">
@@ -153,7 +154,7 @@
                     </div>
 
                     <!-- Items 4 -->
-                     <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
+                    <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
                         <div class="w-[15vw] h-[23.1vw] thumb-layer-bottom-1 absolute top-0 left-0">
                             <div
                                 class="w-[14.9vw] h-auto absolute top-0 left-0 translate-x-[0.05vw] translate-y-[0.05vw] flex justify-center">
@@ -161,7 +162,8 @@
                                 <div class="w-full h-full absolute top-0 left-0 opacity-0 layer-drop"
                                     style="background: radial-gradient(circle at center, transparent, #00000080)"></div>
                                 <div class="absolute top-[10vw] flex flex-col items-center justify-center">
-                                    <p class="text-[1.5vw] font-lemajor text-white text-center">Connection to Akashic</p>
+                                    <p class="text-[1.5vw] font-lemajor text-white text-center">Connection to Akashic
+                                    </p>
                                     <div class="w-[12vw] h-[0.05vw] bg-white"></div>
                                     <p
                                         class="text-[0.75vw] text-white font-josefin-normal font-thin w-[14vw] text-center">
@@ -199,7 +201,7 @@
                     </div>
 
                     <!-- Items 5 -->
-                     <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
+                    <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
                         <div class="w-[15vw] h-[23.1vw] thumb-layer-bottom-1 absolute top-0 left-0">
                             <div
                                 class="w-[14.9vw] h-auto absolute top-0 left-0 translate-x-[0.05vw] translate-y-[0.05vw] flex justify-center">
@@ -218,11 +220,8 @@
                                     <div class="flex flex-row items-start">
                                         <p
                                             class="w-full text-start font-josefin-normal text-[1.39vw] font-normal mt-[0.2vw] text-white">
-                                            3.000.000
+                                            Contact for Pricing
                                         </p>
-                                        <p
-                                            class="w-full text-start font-josefin-normal text-[1vw] font-normal translate-x-[0vw] mt-[0.2vw] text-white">
-                                            vnd</p>
                                     </div>
                                     <div class="w-[13vw] flex flex-row justify-between translate-x-[8.6vw] text-hover">
                                         <div
@@ -257,7 +256,8 @@
                                 <div class="w-full h-full absolute top-0 left-0 opacity-0 layer-drop"
                                     style="background: radial-gradient(circle at center, transparent, #00000080)"></div>
                                 <div class="absolute top-[10vw] flex flex-col items-center justify-center">
-                                    <p class="text-[1.5vw] font-lemajor text-white text-center">Aura Reading<br/>& Cleanes</p>
+                                    <p class="text-[1.5vw] font-lemajor text-white text-center">Aura Reading<br />&
+                                        Cleanes</p>
                                     <div class="w-[12vw] h-[0.05vw] bg-white"></div>
                                     <p
                                         class="text-[0.75vw] text-white font-josefin-normal font-thin w-[12vw] text-center">
@@ -294,7 +294,7 @@
                     </div>
 
                     <!-- Items 2 -->
-                     <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
+                    <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
                         <div class="w-[15vw] h-[23.1vw] thumb-layer-bottom-1 absolute top-0 left-0">
                             <div
                                 class="w-[14.9vw] h-auto absolute top-0 left-0 translate-x-[0.05vw] translate-y-[0.05vw] flex justify-center">
@@ -313,8 +313,11 @@
                                     <div class="flex flex-row items-start">
                                         <p
                                             class="w-full text-start font-josefin-normal text-[1.39vw] font-normal mt-[0.2vw] text-white">
-                                            Contact for Pricing
+                                            1.000.000
                                         </p>
+                                        <p
+                                            class="w-full text-start font-josefin-normal text-[1vw] font-normal mt-[0.2vw] text-white">
+                                            vnd</p>
                                     </div>
                                     <div class="w-[13vw] flex flex-row justify-between translate-x-[8.6vw] text-hover">
                                         <div
@@ -339,7 +342,7 @@
                     </div>
 
                     <!-- Items 3 -->
-                     <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
+                    <div class="w-[15vw] h-[23.1vw] items-2 relative layer-above">
                         <div class="w-[15vw] h-[23.1vw] thumb-layer-bottom-1 absolute top-0 left-0">
                             <div
                                 class="w-[14.9vw] h-auto absolute top-0 left-0 translate-x-[0.05vw] translate-y-[0.05vw] flex justify-center">
@@ -347,7 +350,8 @@
                                 <div class="w-full h-full absolute top-0 left-0 opacity-0 layer-drop"
                                     style="background: radial-gradient(circle at center, transparent, #00000080)"></div>
                                 <div class="absolute top-[10vw] flex flex-col items-center justify-center">
-                                    <p class="text-[1.5vw] font-lemajor text-white text-center">Full Aura<br/>Cleanse Ritual</p>
+                                    <p class="text-[1.5vw] font-lemajor text-white text-center">Full Aura<br />Cleanse
+                                        Ritual</p>
                                     <div class="w-[12vw] h-[0.05vw] bg-white"></div>
                                     <p
                                         class="text-[0.75vw] text-white font-josefin-normal font-thin w-[12vw] text-center">
@@ -387,7 +391,6 @@
 </template>
 
 <style scoped>
-
 .font-lemajor {
     font-family: "TP Le Major", sans-serif;
 }
@@ -413,35 +416,39 @@
     font-family: "JosefinNormal", sans-serif;
 }
 
-.layer-above .layer-drop { 
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+.layer-above .layer-drop {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .layer-above:hover .layer-drop {
-  opacity: 1;
+    opacity: 1;
 }
 
-.text-hover { 
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+.text-hover {
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .layer-above:hover .text-hover {
-  opacity: 1;
-  transform: translateX(0) translateY(0);
-}
-.thumb-layer-bottom-1 {
-    position: relative;
-    border-radius: 0.8vw;
-    overflow: hidden; /* Đảm bảo ::after và ::before không tràn ra ngoài */
-    z-index: 1; 
+    opacity: 1;
+    transform: translateX(0) translateY(0);
 }
 
 .thumb-layer-bottom-1 {
     position: relative;
     border-radius: 0.8vw;
-    overflow: hidden; /* Đảm bảo ::after và ::before không tràn ra ngoài */
-    z-index: 1; /* Đảm bảo nội dung bên trong (z-index:2) nổi lên trên */
+    overflow: hidden;
+    /* Đảm bảo ::after và ::before không tràn ra ngoài */
+    z-index: 1;
+}
+
+.thumb-layer-bottom-1 {
+    position: relative;
+    border-radius: 0.8vw;
+    overflow: hidden;
+    /* Đảm bảo ::after và ::before không tràn ra ngoài */
+    z-index: 1;
+    /* Đảm bảo nội dung bên trong (z-index:2) nổi lên trên */
 }
 
 .thumb-layer-bottom-1::after {
@@ -478,17 +485,21 @@
 
 /* Áp dụng cho cả items-1 và items-2 nếu có */
 .items-1:hover .thumb-layer-bottom-1::after,
-.items-2:hover .thumb-layer-bottom-1::after { /* Thêm .items-2 vào đây */
+.items-2:hover .thumb-layer-bottom-1::after {
+    /* Thêm .items-2 vào đây */
     opacity: 0;
 }
 
 .items-1:hover .thumb-layer-bottom-1::before,
-.items-2:hover .thumb-layer-bottom-1::before { /* Thêm .items-2 vào đây */
+.items-2:hover .thumb-layer-bottom-1::before {
+    /* Thêm .items-2 vào đây */
     opacity: 1;
 }
 
-.thumb-layer-bottom-1 > div { /* Nội dung thực sự bên trong thumb-layer-bottom-1 */
-    position: relative; /* Để đảm bảo nó nổi lên trên pseudo-elements */
+.thumb-layer-bottom-1>div {
+    /* Nội dung thực sự bên trong thumb-layer-bottom-1 */
+    position: relative;
+    /* Để đảm bảo nó nổi lên trên pseudo-elements */
     z-index: 2;
 }
 </style>

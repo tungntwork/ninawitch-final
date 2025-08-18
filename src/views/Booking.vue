@@ -166,6 +166,13 @@
             </div>
             <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 300,000 VND</div>
           </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
+              class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.AuraReading[0]') }}</div>
+            <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 1,000,000 VND</div>
+          </div>
         </div>
         <!-- Light middle -->
         <div class="w-[0.1vw] bg-gradient-to-b from-transparent to-transparent via-white"></div>

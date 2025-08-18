@@ -101,17 +101,6 @@
                 </p>
             </div>
             <!-- Price -->
-            <!-- <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-[55vw] items-center">
-                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
-                    <p class="text-[3.82vw] text-white font-josefin-normal text-center">Single Tarot Question:</p>
-                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
-                </div>
-                <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center">
-                    70,000 VND
-                </p>
-            </div> -->
-            <!-- Price -->
             <div class="flex flex-col items-center pt-[7vw]">
                 <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
@@ -183,6 +172,18 @@
                 </div>
                 <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center">
                     350,000 VND
+                </p>
+            </div>
+            <!-- Price -->
+            <div class="flex flex-col items-center pt-[7vw]">
+                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
+                    <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
+                        v-html="t('bookingMobile.AuraReading')"></p>
+                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
+                </div>
+                <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center">
+                    1,000,000 VND
                 </p>
             </div>
         </div>
