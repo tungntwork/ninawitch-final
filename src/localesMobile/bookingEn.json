@@ -6,62 +6,86 @@
   "mysticConnections": "Mystic Connections",
   "videoMessage": "\"I create videos to share practical values and help you understand the 5D worldview and higher consciousness. We are souls living a human experience.\"",
   "pricingTitle": "Akita Tarot &<br />Healer Pricing",
-
   "oneIssueTitle": "One Tarot Issue",
   "oneIssueDesc": "Duration: 20 to 30 minutes<br />(4 questions with guidance)<br />300,000 VND",
   "oneIssueIntuitive": "With intuitive reading:<br />400,000 VND",
-
   "singleQuestion": "Single Tarot Question:",
   "singlePrice": "70,000 VND",
-
   "spiritualReading": "Spiritual Realm Reading:",
   "spiritualPrice": "500,000 VND",
-
   "pastLife": "Past Life Reading:",
   "pastLifePrice": "500,000 VND",
-
   "threeMonthTea": "Upcoming 3-Month Fortune<br />Tea Leaf Reading:",
   "threeMonthPrice": "450,000 VND",
-
   "monthlyTea": "Tarot Reading<br />Monthly General Tea Leaf Reading:",
   "monthlyTeaPrice": "300,000 VND",
-
   "futureSpouse": "Future Husband or Wife Reading:",
   "futureSpousePrice": "500,000 VND",
-
   "deepFeelings": "Their Deepest Unspoken Feelings for You:",
   "deepFeelingsPrice": "300,000 VND",
-
   "careerAlign": "Which Career or Profession Aligns with<br />Your Destiny and Fortune:",
   "careerAlignPrice": "350,000 VND",
-
   "healing30": "Healing Conversation (30 Minutes):",
   "healing30Price": "500,000 VND",
-
   "healing60": "Healing Conversation &<br />Tarot Reading (60 Minutes):",
   "healing60Price": "1,000,000 VND",
-
   "topicsTitle": "Topic Hot",
-  "topic01": "• What will your future spouse be like?",
-  "topic02": "• The deepest thoughts they never tell you.",
-  "topic03": "• A message from them after your last meeting.",
-  "topic04": "• How will your story with them end?",
-  "topic05": "• What does your future self want to tell you?",
-  "topic06": "• What do strangers think when they see you?",
-  "topic07": "• What are their true feelings for you?",
-  "topic08": "• What changes will happen in the next year?<br />+ Message included.",
-  "topic09": "• What do they truly want from you?",
-  "topic10": "• What do you bring into other people's lives?",
-  "topic11": "• If you and they officially start<br />a relationship or reunite, what will happen?",
-  "topic12": "• Does your ex still miss you?<br />What is their message for you?",
-  "topic13": "• Will what you are planning succeed?",
-  "topic14": "• Why are they avoiding you<br />and not contacting you?",
-  "topic15": "• How do they feel about you<br />and the third person?",
-
+  "topic01": "🍀 What will your future spouse be like?",
+  "topic02": "🍀 The exam score you are thinking about & how to improve it + advice 👋",
+  "topic03": "🍀 The deepest feelings they never tell you.",
+  "topic04": "🍀 A message from them after your last meeting?",
+  "topic05": "🍀 What will be the ending of your story with them? 🌸",
+  "topic06": "🍀 What does your future self want to tell you? 🌸😊",
+  "topic07": "🍀 What do strangers think when they look at you? 💜",
+  "topic08": "🍀 What are their true feelings for you? 💘",
+  "topic09": "🍀 What changes will happen in the next year? ✨ (With message)",
+  "topic10": "🍀 What do they truly want from you?",
+  "topic11": "🍀 What do you bring into other people’s lives? 💐",
+  "topic12": "🍀 If you and they officially become lovers or get back together, what will happen?",
+  "topic13": "🍀 Does your ex still miss you? 🌻 Their message for you.",
+  "topic14": "🍀 Will what you are planning succeed?",
+  "topic15": "🍀 Why are they avoiding and not contacting you? 🙂",
+  "topic16": "🍀 How do they feel about you and the third person?",
   "studyTopicTitle": "Topic about<br />academic issues.",
   "study01": "• Study situation in the next 6 months<br />(strengths & weaknesses)<br />what should be noted?",
   "study02": "• What is hindering your academic growth?",
   "study03": "• Choosing the right<br />subject/exam/field of study/city",
   "studyNote": "(NiNa will explain how each path will develop<br />if you follow a specific field & provide advice)",
-  "studyCaution": "*What needs to be improved for better results? NiNa<br /> does not make short-term predictions for individual cases."
+  "studyCaution": "*What needs to be improved for better results? NiNa<br /> does not make short-term predictions for individual cases.",
+  "hotTopics": [
+    "👉 Suitable or prosperous career paths for you in the future.",
+    "👉 Description of your future husband or wife.",
+    "👉 Description of your next lover.",
+    "👉 A message your Higher Self wants to remind you right now.",
+    "👉 What will your life be like one year from now?",
+    "👉 Your fortune for the next 3 months.",
+    "👉 How far you can go if you choose a certain path...",
+    "👉 What they truly want to say in their heart.",
+    "👉 What you need to focus on in the coming year."
+  ],
+  "loveQuestions": [
+    "👉 What is their personality like?",
+    "👉 What feelings do they have for you?",
+    "👉 Are they currently in a relationship or seeing someone new?",
+    "👉 What do they want from this relationship?",
+    "👉 What is the future of this relationship in the next 6 months? Advice included.",
+    "👉 Is it possible for you two to get back together?",
+    "👉 What is the probability that they are your future spouse?",
+    "👉 What is their ideal type of lover?",
+    "👉 What do they like and dislike about you?",
+    "👉 Do they have someone else?",
+    "👉 Is there anyone secretly crushing on you?",
+    "👉 Will you and your crush end up together?"
+  ],
+  "selfDiscovery": [
+    "👉 How am I developing compared to my old self?",
+    "👉 What is my energy/vibe like?",
+    "👉 Where do the causes of my fears come from?",
+    "👉 What are my strengths and weaknesses in personality?",
+    "👉 How do people around me perceive or judge me?"
+  ],
+  "HowToSuggest": "How to Ask?",
+  "suggestTitleSelfDiscovery": "Self-Discovery",
+  "suggestTitleTopicHot": "Hot Topics",
+  "suggestTitleLove": "Love Questions"
 }

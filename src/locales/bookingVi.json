@@ -27,70 +27,99 @@
     "oneIssue": {
       "title": "Một Vấn Đề Tarot",
       "options": [
-        "Thời lượng: 20–30 phút – 300.000 VND (4 câu hỏi có hướng dẫn)",
-        "Kèm đọc trực giác: 400.000 VND"
+        "20–30 phút – 300.000 VND (4 câu kèm lời khuyên)",
+        "Cảm âm: 400.000 VND"
       ]
     },
     "singleQuestion": [
-      "Một Câu Hỏi Tarot:",
+      "Một câu lẻ:",
       " 70,000 VND"
     ],
     "spiritualReading": [
-      "Đọc Cõi Tâm Linh:",
+      "Soi âm:",
       " 500,000 VND"
     ],
     "pastLife": [
-      "Xem Tiền Kiếp:",
+      "Tiền Kiếp:",
       " 500,000 VND"
     ],
     "fortuneTea": [
-      "Xem Vận 3 Tháng Tới + Đọc Trà:",
-      " 450,000 VND"
+      "Vận hạn 3 Tháng + bài trà:",
+      " 500,000 VND"
     ],
     "monthlyTea": [
-      "Xem Tarot + Đọc Trà Tổng Quan Tháng:",
+      "Tarot + Bài Trà Tổng Quan 1 Tháng:",
       " 300,000 VND"
     ],
     "futureSpouse": [
-      "Xem Về Người Chồng/Vợ Tương Lai:",
+      "✨Vợ/ Chồng Tương Lai:( đã full tạm chưa nhận thêm)",
       " 500,000 VND"
     ],
     "unspokenFeelings": [
-      "Tình Cảm Sâu Kín Của Họ Dành Cho Bạn:",
+      "✨ Lời sâu kín trong lòng họ không nói với bạn:",
       " 300,000 VND"
     ],
     "careerDestiny": [
-      "Nghề Nghiệp Phù Hợp Với Định Mệnh Của Bạn:",
+      "✨Bạn hợp/ có duyên/ có lộc ở ngành nghề gì:",
       " 350,000 VND"
     ],
     "monthlyHighlight": [
-      "Điểm Nhấn Tháng Tới Của Bạn:",
+      "✨Điểm Sáng Tháng Tới Của Bạn:",
       " 300,000 VND"
-    ],
-    "healing30": [
-      "Buổi Trò Chuyện Chữa Lành (30 phút):",
-      " 500,000 VND"
-    ],
-    "healing60": [
-      "Trò Chuyện Chữa Lành + Tarot (60 phút):",
-      " 1,000,000 VND"
     ]
   },
   "topics": [
-    "Người bạn đời tương lai của bạn sẽ như thế nào?",
-    "Những suy nghĩ sâu thẳm họ không bao giờ nói với bạn.",
-    "Thông điệp từ họ sau lần gặp cuối cùng.",
-    "Câu chuyện của bạn và họ sẽ kết thúc ra sao?",
-    "Bản thể tương lai của bạn muốn nhắn nhủ điều gì?",
-    "Người lạ nghĩ gì khi nhìn thấy bạn?",
-    "Cảm xúc thật của họ dành cho bạn?",
-    "Những thay đổi nào sẽ đến trong năm tới? (kèm thông điệp)",
-    "Họ thật sự muốn gì từ bạn?",
-    "Bạn mang lại điều gì cho cuộc sống người khác?",
-    "Nếu bạn và họ quay lại hoặc chính thức bên nhau, điều gì sẽ xảy ra?",
-    "Người yêu cũ có còn nhớ bạn? Họ có thông điệp gì gửi đến bạn?",
-    "Điều bạn đang dự tính liệu có thành công?",
-    "Tại sao họ đang né tránh và không liên lạc với bạn?",
-    "Họ cảm thấy thế nào về bạn và người thứ ba?"
-  ]
+    "🍀 Vợ/Chồng tương lai của bạn thế nào?",
+    "🍀 Điểm số ở kì thi bạn đang nghĩ đến & cách cải thiện + lời khuyên👋",
+    "🍀 Lời sâu kín trong lòng người ấy không nói với bạn.",
+    "🍀 Lời nhắn người ấy sau lần cuối gặp nhau?",
+    "🍀 Cái kết của câu chuyện bạn và họ?🌸",
+    "🍀 Bạn của tương lai muốn nói gì với bạn🌸😊",
+    "🍀 Người lạ nghĩ gì khi nhìn bạn?💜",
+    "🍀 Tình cảm thật sự của họ là gì?💘",
+    "🍀 1 năm tới có thay đổi gì? ✨ Kèm thông điệp",
+    "🍀 Thật sự họ mong muốn gì ở bạn?",
+    "🍀 Bạn mang gì vào cuộc sống người khác?💐",
+    "🍀 Nếu bạn và họ chính thức YÊU NHAU hoặc QUAY TRỞ LẠI thì sẽ thế nào?",
+    "🍀 Người cũ nhớ bạn không? Thông điệp của họ🌻",
+    "🍀 Điều bạn dự định làm có thành công hay không?",
+    "🍀 Tại sao họ về và không liên lạc với bạn🙂",
+    "🍀 Bạn với người thứ 3, họ cảm thấy thế nào?"
+  ],
+  "hotTopics": [
+    "👉 Ngành nghề phù hợp/có lộc với bạn sau này.",
+    "👉 Miêu tả vợ/chồng tương lai.",
+    "👉 Miêu tả người yêu kế tiếp.",
+    "👉 Điều mà Higher Self muốn nhắc bạn ngay lúc này.",
+    "👉 Bạn của 1 năm nữa sẽ thế nào.",
+    "👉 Vận hạn 3 tháng tới.",
+    "👉 Khả năng tiến xa của bạn nếu bạn chọn hướng đi ...",
+    "👉 Điều trong lòng họ muốn nói.",
+    "👉 Điều bạn cần tập trung 1 năm tới."
+  ],
+  "loveQuestions": [
+    "👉 Tính cách người ấy như thế nào?",
+    "👉 Tình cảm họ dành cho bạn là gì?",
+    "👉 Họ có đang trong mqh với ai hay có người mới chưa?",
+    "👉 Điều họ mong muốn ở mqh này?",
+    "👉 Tương lai mqh 6 tháng tới? Lời khuyên.",
+    "👉 Có thể quay lại với nhau không?",
+    "👉 Xác suất họ có phải vợ/chồng tương lai của bạn?",
+    "👉 Mẫu người yêu lý tưởng của họ?",
+    "👉 Họ thích và chưa thích bạn ở điểm gì?",
+    "👉 Họ có người khác không?",
+    "👉 Có ai đang crush thầm bạn không?",
+    "👉 Bạn và crush có đến được với nhau không?"
+  ],
+  "selfDiscovery": [
+    "👉 Tôi đang phát triển trở thành phiên bản như thế nào so với con người cũ?",
+    "👉 Năng lượng/vibe của tôi như thế nào?",
+    "👉 Nguyên nhân xuất hiện những nỗi sợ hãi trong tôi là từ đâu?",
+    "👉 Điểm mạnh và điểm yếu trong tính cách.",
+    "👉 Mọi người xung quanh nhìn nhận/đánh giá tôi ra sao?"
+  ],
+  "HowToSuggest": "Cách đặt câu hỏi",
+  "suggestTitleSelfDiscovery": "Tìm hiểu về bản thân",
+  "suggestTitleTopicHot": "Chủ dề nổi bật",
+  "suggestTitleLove": "Câu hỏi tình cảm"
 }

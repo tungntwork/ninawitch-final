@@ -27,37 +27,99 @@
     "oneIssue": {
       "title": "One Tarot Issue",
       "options": [
-        "Duration: 20 to 30 minutes - 300,000 VND (4 questions with guidance)",
+        "20–30 minutes – 300,000 VND (4 questions with guidance)",
         "With intuitive reading: 400,000 VND"
       ]
     },
-    "singleQuestion": ["Single Tarot Question:","70,000 VND"],
-    "spiritualReading": ["Spiritual Realm Reading:","500,000 VND"],
-    "pastLife": ["Past Life Reading:"," 500,000 VND"],
-    "fortuneTea": ["Upcoming 3-Month Fortune + Tea Leaf Reading:"," 450,000 VND"],
-    "monthlyTea": ["Tarot Reading + Monthly General Tea Leaf Reading:"," 300,000 VND"],
-    "futureSpouse": ["Future Husband or Wife Reading: 500,000 VND"],
-    "unspokenFeelings": ["Their Deepest Unspoken Feelings for You:"," 300,000 VND"],
-    "careerDestiny": ["Which Career or Profession Aligns with Your Destiny and Fortune:"," 350,000 VND"],
-    "monthlyHighlight": ["Your Highlight of the Upcoming Month:"," 300,000 VND"],
-    "healing30": ["Healing Conversation (30 Minutes):"," 500,000 VND"],
-    "healing60": ["Healing Conversation & Tarot Reading (60 Minutes):"," 1,000,000 VND"]
+    "singleQuestion": [
+      "Single Tarot Question:",
+      "70,000 VND"
+    ],
+    "spiritualReading": [
+      "Spiritual Realm Reading:",
+      "500,000 VND"
+    ],
+    "pastLife": [
+      "Past Life Reading:",
+      "500,000 VND"
+    ],
+    "fortuneTea": [
+      "3-Month Fortune + Tea Leaf Reading:",
+      "500,000 VND"
+    ],
+    "monthlyTea": [
+      "Tarot + General Monthly Tea Leaf Reading:",
+      "300,000 VND"
+    ],
+    "futureSpouse": [
+      "✨ Future Husband/Wife Reading: (currently full, not accepting more)",
+      "500,000 VND"
+    ],
+    "unspokenFeelings": [
+      "✨ Their Deepest Unspoken Feelings:",
+      "300,000 VND"
+    ],
+    "careerDestiny": [
+      "✨ Which Career/Profession Aligns with Your Destiny:",
+      "350,000 VND"
+    ],
+    "monthlyHighlight": [
+      "✨ Your Highlight in the Upcoming Month:",
+      "300,000 VND"
+    ]
   },
   "topics": [
-    "What will your future spouse be like?",
-    "The deepest thoughts they never tell you.",
-    "A message from them after your last meeting.",
-    "How will your story with them end?",
-    "What does your future self want to tell you?",
-    "What do strangers think when they see you?",
-    "What are their true feelings for you?",
-    "What changes will happen in the next year? + Message included.",
-    "What do they truly want from you?",
-    "What do you bring into other people's lives?",
-    "If you and they officially start a relationship or reunite, what will happen?",
-    "Does your ex still miss you? What is their message for you?",
-    "Will what you are planning succeed?",
-    "Why are they avoiding you and not contacting you?",
-    "How do they feel about you and the third person?"
-  ]
+    "🍀 What will your future spouse be like?",
+    "🍀 Exam score you are concerned about & advice for improvement 👋",
+    "🍀 The deepest feelings they never tell you.",
+    "🍀 A message from them after your last meeting.",
+    "🍀 How will your story with them end? 🌸",
+    "🍀 What does your future self want to tell you? 🌸😊",
+    "🍀 What do strangers think when they see you? 💜",
+    "🍀 What are their true feelings for you? 💘",
+    "🍀 What changes will happen in the next year? ✨ With message",
+    "🍀 What do they truly want from you?",
+    "🍀 What do you bring into other people's lives? 💐",
+    "🍀 If you and they officially start a relationship or reunite, what will happen?",
+    "🍀 Does your ex still miss you? Their message 🌻",
+    "🍀 Will what you are planning succeed?",
+    "🍀 Why are they avoiding you and not contacting you? 🙂",
+    "🍀 How do they feel about you and the third person?"
+  ],
+  "hotTopics": [
+    "👉 Which career/profession will bring you fortune in the future?",
+    "👉 Description of your future husband/wife.",
+    "👉 Description of your next lover.",
+    "👉 What your Higher Self wants to remind you right now.",
+    "👉 What will your life be like in 1 year?",
+    "👉 Your fortune in the next 3 months.",
+    "👉 How far you can go if you choose a certain path...",
+    "👉 What is in their heart that they want to say.",
+    "👉 What you need to focus on in the next year."
+  ],
+  "loveQuestions": [
+    "👉 What is their personality like?",
+    "👉 What feelings do they have for you?",
+    "👉 Are they currently in a relationship with someone or have they met someone new?",
+    "👉 What do they want from this relationship?",
+    "👉 What will your relationship be like in the next 6 months? Advice included.",
+    "👉 Can you two get back together?",
+    "👉 What are the chances they are your future husband/wife?",
+    "👉 What is their ideal type of lover?",
+    "👉 What do they like and dislike about you?",
+    "👉 Do they have someone else?",
+    "👉 Is someone secretly crushing on you?",
+    "👉 Can you and your crush end up together?"
+  ],
+  "selfDiscovery": [
+    "👉 How am I developing compared to my old self?",
+    "👉 What is my current energy/vibe like?",
+    "👉 Where do the fears inside me come from?",
+    "👉 My strengths and weaknesses in personality.",
+    "👉 How do people around me perceive/judge me?"
+  ],
+  "HowToSuggest": "How To Ask?",
+  "suggestTitleSelfDiscovery": "Self Discovery",
+  "suggestTitleTopicHot": "Topics Hot",
+  "suggestTitleLove": "Love Questions"
 }

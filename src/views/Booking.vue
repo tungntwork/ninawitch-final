@@ -10,15 +10,18 @@
       <!-- smoke 1 -->
       <img src="../assets/img/Desktop/Booking/smoke1.webp" alt=""
         class="w-[90vw] absolute top-0 left-0  translate-x-[-30vw] translate-y-[-25vw]">
-      <p class="text-white font-lemajor text-[3.83vw] absolute top-[10vw] right-[6.5vw] z-20 text-end text-glow" v-html="t('booking.heading.title')"></p>
+      <p class="text-white font-lemajor text-[3.83vw] absolute top-[10vw] right-[6.5vw] z-20 text-end text-glow"
+        v-html="t('booking.heading.title')"></p>
       <img src="../assets/img/Desktop/Booking/line booking2.webp" alt=""
         class="w-full absolute bottom-0 translate-y-[16vw]">
       <!-- smoke 2 -->
       <img src="../assets/img/Desktop/Booking/Frame 1128.webp" alt=""
         class="w-[100vw] absolute top-0 right-0 translate-x-[40vw] translate-y-[-5vw]">
       <div class="absolute top-0 translate-y-[21vw] right-[6.5vw]">
-        <p class="font-josefin-normal text-end text-[1.25vw] font-thin text-white">{{ t('booking.heading.fullyBookedNotice') }}</p>
-        <p class="font-josefin-normal text-end text-[1.25vw] font-thin text-white">{{ t('booking.heading.availableNotice') }}</p>
+        <p class="font-josefin-normal text-end text-[1.25vw] font-thin text-white">{{
+          t('booking.heading.fullyBookedNotice') }}</p>
+        <p class="font-josefin-normal text-end text-[1.25vw] font-thin text-white">{{
+          t('booking.heading.availableNotice') }}</p>
       </div>
 
       <!-- line -->
@@ -31,12 +34,17 @@
       <!-- Nina content middle -->
       <div class="w-full h-auto absolute top-[36vw] flex flex-col items-center">
         <p class="font-josefin-normal text-[1.02vw] font-normal text-white">{{ t('booking.follow.text') }}</p>
-        <p class="font-josefin-normal text-[1.45vw] font-normal text-white mt-[1.7vw]">{{ t('booking.follow.title') }}</p>
+        <p class="font-josefin-normal text-[1.45vw] font-normal text-white mt-[1.7vw]">{{ t('booking.follow.title') }}
+        </p>
         <div class="w-[16.2vw] h-[5vw] flex flex-row justify-between mt-[0.2vw]">
-          <img src="../assets/img/Desktop/Booking/ic_baseline-facebook.webp" alt="" class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
-          <img src="../assets/img/Desktop/Booking/ic_baseline-tiktok.webp" alt="" class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
-          <img src="../assets/img/Desktop/Booking/bi_youtube.webp" alt="" class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
-          <img src="../assets/img/Desktop/Booking/bi_instagram.webp" alt="" class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+          <img src="../assets/img/Desktop/Booking/ic_baseline-facebook.webp" alt=""
+            class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+          <img src="../assets/img/Desktop/Booking/ic_baseline-tiktok.webp" alt=""
+            class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+          <img src="../assets/img/Desktop/Booking/bi_youtube.webp" alt=""
+            class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+          <img src="../assets/img/Desktop/Booking/bi_instagram.webp" alt=""
+            class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
         </div>
       </div>
 
@@ -48,7 +56,8 @@
       <div class="absolute w-[0.5vw] h-[0.5vw] right-[38vw] top-[25.3vw] rounded-full bg-[#BB8AFF]"></div>
 
       <!-- Button -->
-      <div class="mt-[1.2vw] flex items-center z-50 absolute top-[26vw] right-[15vw]" @click="openWebLink('https://www.facebook.com/bupbegeisha000')">
+      <div class="mt-[1.2vw] flex items-center z-50 absolute top-[26vw] right-[15vw]"
+        @click="openWebLink('https://www.facebook.com/bupbegeisha000')">
         <div
           class="button-translation-parent overflow-hidden w-[12vw] h-[2.3vw] rounded-[0.6vw] bg-transparent text-white border-[0.5px] border-white flex items-center justify-center text-[1.05vw] transition-all duration-500 font-josefin-normal  hover:cursor-pointer relative">
           <div
@@ -66,7 +75,8 @@
     </div>
     <div class="w-full h-auto flex flex-col items-center pt-[15vw]">
       <div class="w-[89.58vw] h-auto flex">
-        <div class="flex-1 h-auto text-[2.5vw] text-white font-lemajor text-center">{{ t('booking.pricingTitle') }}</div>
+        <div class="flex-1 h-auto text-[2.5vw] text-white font-lemajor text-center">{{ t('booking.pricingTitle') }}
+        </div>
         <div class="flex-1 h-auto text-[2.5vw] text-white font-lemajor text-center">{{ t('booking.topicTitle') }}</div>
       </div>
       <div class="w-[89.58vw] h-[0.1vw] bg-[#7D7D7D] mt-[1vw]"></div>
@@ -92,14 +102,16 @@
           <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
             <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
               class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
-            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.singleQuestion[0]') }}</div>
+            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.singleQuestion[0]') }}
+            </div>
             <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 70,000 VND</div>
           </div>
           <!-- Row -->
           <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
             <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
               class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
-            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.spiritualReading[0]') }}</div>
+            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.spiritualReading[0]') }}
+            </div>
             <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]">500,000 VND</div>
           </div>
           <!-- Row -->
@@ -135,7 +147,8 @@
           <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
             <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
               class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
-            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.unspokenFeelings[0]') }}</div>
+            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.unspokenFeelings[0]') }}
+            </div>
             <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 300,000 VND</div>
           </div>
           <!-- Row -->
@@ -149,24 +162,10 @@
           <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
             <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
               class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
-            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.monthlyHighlight[0]') }}</div>
+            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.monthlyHighlight[0]') }}
+            </div>
             <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 300,000 VND</div>
           </div>
-          <!-- Row -->
-          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
-            <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
-              class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
-            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.healing30[0]') }}</div>
-            <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 500,000 VND</div>
-          </div>
-          <!-- Row -->
-          <!-- <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
-            <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
-              class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
-            <div class="text-white font-josefin-normal text-[1.05vw]">Healing Conversation & Tarot Reading (60 Minutes):
-            </div>
-            <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 1,000,000 VND</div>
-          </div> -->
         </div>
         <!-- Light middle -->
         <div class="w-[0.1vw] bg-gradient-to-b from-transparent to-transparent via-white"></div>
@@ -231,6 +230,10 @@
           <div
             class="before:content-['•'] before:mr-2 text-white font-josefin-normal text-[1.05vw] font-normal ml-[3vw] mt-[0.5vw]">
             {{ t('booking.topics[14]') }}</div>
+          <!-- Row -->
+          <div
+            class="before:content-['•'] before:mr-2 text-white font-josefin-normal text-[1.05vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.topics[15]') }}</div>
 
         </div>
       </div>
@@ -247,14 +250,134 @@
         <div
           class="before:content-['•'] before:mr-2 text-white font-josefin-normal text-[1.05vw] font-light ml-[3vw] mt-[0.5vw] translate-x-[-2vw]">
           {{ t('booking.academic.line3') }}</div>
-        <div class=" text-white font-josefin-normal text-[1.05vw] font-light ml-[3vw] mt-[0.5vw] translate-x-[-2vw]">{{ t('booking.academic.line4') }}</div>
+        <div class=" text-white font-josefin-normal text-[1.05vw] font-light ml-[3vw] mt-[0.5vw] translate-x-[-2vw]">{{
+          t('booking.academic.line4') }}</div>
       </div>
       <!-- Line sieu mo -->
-      <div class=" text-white font-josefin-normal text-[1.05vw] font-thin ml-[3vw] mt-[1.5vw] translate-x-[-1.5vw]">{{ t('booking.academic.line5') }}</div>
+      <div class=" text-white font-josefin-normal text-[1.05vw] font-thin ml-[3vw] mt-[1.5vw] translate-x-[-1.5vw]">{{
+        t('booking.academic.line5') }}</div>
       <!-- Line end -->
       <div class="w-[89.58vw] h-[0.1vw] bg-[#7D7D7D] mt-[1vw] relative flex items-center z-30">
         <span class="absolute left-0 w-[0.4vw] h-[0.4vw] bg-[#7D7D7D] rounded-full"></span>
         <span class="absolute right-0 w-[0.4vw] h-[0.4vw] bg-[#7D7D7D] rounded-full"></span>
+      </div>
+
+      <!-- Suggest -->
+      <div class=" text-[2.1vw] mt-[2vw] text-white font-lemajor ">{{ t('booking.HowToSuggest') }}</div>
+      <!-- Content Suggest -->
+      <div class="w-[89.58vw] h-auto flex mt-[2vw]">
+        <!-- 1 -->
+        <div class="w-[28.5vw]">
+          <div class=" text-[1.5625vw] text-white font-lemajor w-[28.5vw] text-center my-[2vw] ">{{
+            t('booking.suggestTitleSelfDiscovery') }}
+          </div>
+          <!-- A row -->
+          <div class="ml-[3vw] flex flex-row">
+
+            <div class="flex flex-col">
+              <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[0]') }}</div>
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[1]') }}
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[2]') }}
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[3]') }}</div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[4]') }}</div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[5]') }}
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[6]') }}</div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[7]') }}
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw]">{{ t('booking.hotTopics[8]') }}</div>
+          </div>
+        </div>
+        <!-- Light middle -->
+        <div class="w-[0.1vw] bg-gradient-to-b from-transparent to-transparent via-white"></div>
+        <div class="w-[28.5vw]">
+          <div class=" text-[1.5625vw] text-white font-lemajor w-[28.5vw] text-center my-[2vw] ">{{
+            t('booking.suggestTitleTopicHot') }}
+          </div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[0]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[1]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[2]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[3]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[4]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[5]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[6]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[7]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[8]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[10]') }}</div>
+          <!-- Row -->
+          <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.loveQuestions[11]') }}</div>
+        </div>
+        <!-- Light middle -->
+        <div class="w-[0.1vw] bg-gradient-to-b from-transparent to-transparent via-white"></div>
+        <div class="w-[28.5vw]">
+          <div class=" text-[1.5625vw] text-white font-lemajor w-[28.5vw] text-center my-[2vw] ">{{
+            t('booking.suggestTitleLove') }}
+          </div>
+          <!-- Row -->
+          <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.selfDiscovery[0]') }}</div>
+          <!-- Row -->
+          <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.selfDiscovery[1]') }}</div>
+          <!-- Row -->
+          <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.selfDiscovery[2]') }}</div>
+          <!-- Row -->
+          <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.selfDiscovery[3]') }}</div>
+          <!-- Row -->
+          <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
+            {{ t('booking.selfDiscovery[4]') }}</div>
+          booking.selfDiscovery[1]
+        </div>
       </div>
     </div>
   </div>
@@ -265,7 +388,7 @@ import { useI18n } from 'vue-i18n';
 
 export default {
   name: 'BookingPage',
-  setup(){
+  setup() {
     const { t } = useI18n();
     return { t };
   },
@@ -286,7 +409,7 @@ export default {
   } */
 
 .text-glow {
-    text-shadow: 0 0 0.1vw rgba(255, 255, 255, 0.8), 0 0 0.5vw rgba(255, 255, 255, 0.6), 0 0 3vw rgba(255, 255, 255, 0.4);
+  text-shadow: 0 0 0.1vw rgba(255, 255, 255, 0.8), 0 0 0.5vw rgba(255, 255, 255, 0.6), 0 0 3vw rgba(255, 255, 255, 0.4);
 }
 
 .font-lemajor {
@@ -302,39 +425,40 @@ export default {
 }
 
 .button-translation-parent {
-    transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .button-translation-parent:hover {
-    box-shadow: 0 0 1vw rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 1vw rgba(255, 255, 255, 0.8);
 }
 
 .button-translation-parent:hover .button-translation-child-1 {
-    transform: translateX(0);
-    transition: all 0.5s ease-in-out;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
 }
 
 .button-translation-parent:hover .button-translation-child-2 {
-    transform: translateX(0);
-    transition: all 0.8s ease-in-out;
+  transform: translateX(0);
+  transition: all 0.8s ease-in-out;
 }
 
 .button-translation-parent:hover .button-translation-child-3 {
-    transform: translateX(0);
-    transition: all 1.1s ease-in-out;
+  transform: translateX(0);
+  transition: all 1.1s ease-in-out;
 }
 
 .button-translation-child-1 {
-    transform: translateX(-15vw);
-    transition: all 1s ease-in-out;
-}
-.button-translation-child-2 {
-    transform: translateX(-17vw);
-    transition: all 1.6s ease-in-out;
-}
-.button-translation-child-3 {
-    transform: translateX(-19vw);
-    transition: all 2.2s ease-in-out;
+  transform: translateX(-15vw);
+  transition: all 1s ease-in-out;
 }
 
+.button-translation-child-2 {
+  transform: translateX(-17vw);
+  transition: all 1.6s ease-in-out;
+}
+
+.button-translation-child-3 {
+  transform: translateX(-19vw);
+  transition: all 2.2s ease-in-out;
+}
 </style>
