@@ -27,6 +27,17 @@
   "careerAlignPrice": "350,000 VND",
   "AuraReading": "Aura Reading (Tarot + Intuitive Sensing + Clairvoyance + Water Reading):",
   "AuraReadingPrice": "1,000,000 VND",
+  "AuraReadingDetail": "Hào quang của bạn nắm giữ những bí mật về năng lượng, sức mạnh và những gì đang ảnh hưởng đến cuộc sống của bạn.<br/>Trong bài đọc này, tôi sẽ quét hào quang của bạn và tiết lộ:<br/><br/>Màu sắc và trạng thái hào quang của bạn (có mạnh không? Có bị chặn không? Có phải nhất không?) 🥚🖼️<br/><br/>Năng lượng nào đang ảnh hưởng đến bạn (bạn có đang mang theo cảm xúc, sự tiêu cực hoặc vết thương trong quá khứ của người khác không?) 📦<br/><br/> Cần phải làm gì để xóa bỏ nó và tăng cường sức mạnh của bạn 🎁 Bạn sẽ nhận được voice phân tích chi tiết về những phát hiện của tôi, giúp bạn hiểu rõ hơn về năng lượng của mình và tình hình hiện tại.<br/>",
+  "AuraReadingAndCleans": [
+    "Aura Reading & Cleansing ✨🌙👼💎",
+    "Contact for details",
+    "ONLY 2–3 SLOTS PER MONTH FOR THIS TOPIC 🏴‍☠️<br/><br/>Your aura is the energy you carry, the power surrounding you—<br/>and when it becomes polluted, blocked, or dim,<br/>it affects everything: your luck, strength, and manifestation ability.<br/>This session will uncover the truth about your aura<br/>and show you how to cleanse what has been weighing you down.<br/>"
+  ],
+  "FullAuraCleanseRitual": [
+    "Full Aura Cleanse Ritual 🧹💚🔮",
+    "Contact for details",
+    "A deep, intensive purification process to remove stagnation, negative attachments, and past energies that are holding you back.<br/>This ritual includes:<br/><br/>A fire cleansing to dissolve negativity.<br/>A smoke cleansing to release heavy, lingering energies.<br/><br/>A water blessing to seal protection<br/>and restore the full strength of your aura.<br/><br/>_NiNa_<br/>"
+  ],
   "topicsTitle": "Topic Hot",
   "topic01": "🍀 What will your future spouse be like?",
   "topic02": "🍀 The exam score you are thinking about & how to improve it + advice 👋",
@@ -85,5 +96,7 @@
   "HowToSuggest": "How to Ask?",
   "suggestTitleSelfDiscovery": "Self-Discovery",
   "suggestTitleTopicHot": "Hot Topics",
-  "suggestTitleLove": "Love Questions"
+  "suggestTitleLove": "Love Questions",
+  "close": "Close",
+  "viewDetail": "View details"
 }

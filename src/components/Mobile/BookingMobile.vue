@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="w-full h-auto relative flex flex-col items-center">
+    <div class="w-full h-[360vw] relative flex flex-col items-center">
         <div class="absolute w-[250vw] h-[100vw] rounded-[50%] bg-[#62709A30] blur-[58vw] translate-y-[-5vw]"></div>
         <p class="pt-[12.6vw] text-white text-[9.3vw] font-lemajor text-glow text-center"
             v-html="t('bookingMobile.pricingTitle')">
@@ -61,7 +61,7 @@
 
         <img src="../../assets/img/Mobile/Booking/line back booking 2.webp" alt="" class="w-full h-auto ">
 
-        <div class="w-full h-[20vw] absolute mt-[45vw] flex flex-col items-center">
+        <div class="w-full absolute mt-[45vw] flex flex-col items-center">
             <div class="flex flex-col items-center">
                 <div class="flex flex-row justify-between w-[55vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
@@ -77,7 +77,7 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
                 <div class="flex flex-row justify-between w-[55vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center">{{
@@ -89,7 +89,7 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
                 <div class="flex flex-row justify-between w-[55vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center">{{
@@ -101,11 +101,11 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center">{{ t('bookingMobile.pastLife')
-                    }}</p>
+                        }}</p>
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                 </div>
                 <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center">
@@ -113,8 +113,8 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
                         v-html="t('bookingMobile.threeMonthTea')"></p>
@@ -125,8 +125,8 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
                         v-html="t('bookingMobile.monthlyTea')"></p>
@@ -138,7 +138,7 @@
             </div>
             <!-- Price -->
             <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center">{{
                         t('bookingMobile.futureSpouse') }}
@@ -150,8 +150,8 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center">
                         {{ t('bookingMobile.deepFeelings') }}
@@ -163,8 +163,8 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
                         v-html="t('bookingMobile.careerAlign')"></p>
@@ -175,8 +175,8 @@
                 </p>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw]">
-                <div class="flex flex-row justify-between w-full space-x-[3vw] items-center">
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
                         v-html="t('bookingMobile.AuraReading')"></p>
@@ -185,9 +185,53 @@
                 <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center">
                     1,000,000 VND
                 </p>
+
+                <div class="w-full h-auto flex justify-end">
+                    <button @click="openDetail('AuraReading')"
+                        class="px-[5vw] h-[8vw] rounded-full border-white underline text-white text-[3.6vw] font-josefin-normal z-20 active:scale-95 transition-transform ">
+                        {{ t('bookingMobile.viewDetail') || 'Xem chi tiết' }}
+                    </button>
+                </div>
+            </div>
+            <!-- Price -->
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
+                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
+                    <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
+                        v-html="t('bookingMobile.AuraReadingAndCleans[0]')"></p>
+                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
+                </div>
+                <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center"
+                    v-html="t('bookingMobile.AuraReadingAndCleans[1]')">
+                </p>
+
+                <div class="w-full h-auto flex justify-end">
+                    <button @click="openDetail('AuraReadingAndClean')"
+                        class="px-[5vw] h-[8vw] rounded-full border-white underline text-white text-[3.6vw] font-josefin-normal z-20 active:scale-95 transition-transform ">
+                        {{ t('bookingMobile.viewDetail') || 'Xem chi tiết' }}
+                    </button>
+                </div>
+            </div>
+            <!-- Price -->
+            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+                <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
+                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
+                    <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
+                        v-html="t('bookingMobile.FullAuraCleanseRitual[0]')"></p>
+                    <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
+                </div>
+                <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center"
+                    v-html="t('bookingMobile.FullAuraCleanseRitual[1]')">
+                </p>
+
+                <div class="w-full h-auto flex justify-end">
+                    <button @click="openDetail('FullAuraReading')"
+                        class="px-[5vw] h-[8vw] rounded-full border-white underline text-white text-[3.6vw] font-josefin-normal z-20 active:scale-95 transition-transform ">
+                        {{ t('bookingMobile.viewDetail') || 'Xem chi tiết' }}
+                    </button>
+                </div>
             </div>
         </div>
-
         <div class="absolute bottom-0 w-full h-[0.5vw] from-transparent to-transparent via-white bg-gradient-to-r">
         </div>
 
@@ -456,11 +500,57 @@
         <div class="w-full h-[0.5vw] bg-gradient-to-r from-transparent to-transparent via-white absolute bottom-0">
         </div>
     </div>
+    <!-- Overlay + Modal -->
+    <transition name="fade">
+        <div v-if="isDetailOpen" class="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/50"
+            @click.self="closeDetail" role="dialog" aria-modal="true">
+            <transition name="slideUp">
+                <div
+                    class="w-full sm:w-[90vw] sm:max-w-[600px] bg-[#0D0D0D] text-white rounded-t-[4vw] sm:rounded-[3vw] p-[6vw] sm:p-[4vw] shadow-xl">
+                    <!-- Header -->
+                    <div class="flex items-start justify-between">
+                        <h3 class="text-[5vw] sm:text-[22px] font-lemajor">
+                            {{ modalTitle }}
+                        </h3>
+                        <button
+                            class="ml-[3vw] w-[9vw] h-[9vw] sm:w-[36px] sm:h-[36px] grid place-items-center rounded-full active:scale-95 transition"
+                            @click="closeDetail" aria-label="Close">
+                            ✕
+                        </button>
+                    </div>
+
+                    <!-- Content -->
+                    <div
+                        class="mt-[4vw] text-[3.8vw] sm:text-[15px] font-josefin-normal font-light leading-[6vw] sm:leading-7">
+                        <!-- Ưu tiên lấy nội dung từ i18n -->
+                        <div v-if="detailKey === 'AuraReading'" v-html="t('bookingMobile.AuraReadingDetail')"></div>
+
+                        <div v-if="detailKey === 'AuraReadingAndClean'"
+                            v-html="t('bookingMobile.AuraReadingAndCleans[2]')">
+                        </div>
+
+                        <div v-if="detailKey === 'FullAuraReading'"
+                            v-html="t('bookingMobile.FullAuraCleanseRitual[2]')">
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="mt-[6vw] sm:mt-[20px] flex justify-end">
+                        <button @click="closeDetail"
+                            class="px-[5vw] h-[10vw] sm:h-[40px] rounded-[2vw] border-white border-[0.3vw] text-white text-[3.6vw] sm:text-[14px] font-josefin-normal active:scale-95 transition-transform">
+                            {{ t('bookingMobile.close') || 'Đóng' }}
+                        </button>
+                    </div>
+                </div>
+            </transition>
+        </div>
+    </transition>
     <FooterMobile />
 </template>
 
 <script setup>
 import FooterMobile from './FooterMobile.vue';
+import { ref, computed, watch } from 'vue';
 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
 const openFacebook = () => {
@@ -469,6 +559,35 @@ const openFacebook = () => {
 
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
+
+// ===== Modal state =====
+const isDetailOpen = ref(false);
+const detailKey = ref(null);
+
+const openDetail = (key) => {
+    detailKey.value = key;
+    isDetailOpen.value = true;
+};
+
+const closeDetail = () => {
+    isDetailOpen.value = false;
+    setTimeout(() => { detailKey.value = null }, 200);
+};
+
+const modalTitle = computed(() => {
+    if (detailKey.value === 'AuraReading') {
+        return t('bookingMobile.AuraReading') || 'Đọc Hào Quang';
+    } else if (detailKey.value === 'AuraReadingAndClean') {
+        return t('bookingMobile.AuraReadingAndCleans[0]');
+    } else if (detailKey.value === 'FullAuraReading') {
+        return t('bookingMobile.FullAuraCleanseRitual[0]');
+    }
+    return t('bookingMobile.detail') || 'Chi tiết';
+});
+
+watch(isDetailOpen, (open) => {
+    document.body.style.overflow = open ? 'hidden' : '';
+});
 </script>
 
 <style scoped>
@@ -486,5 +605,28 @@ const { t } = useI18n()
 
 .text-glow {
     text-shadow: 0px 0px 4vw rgba(255, 255, 255, 0.50);
+}
+
+/* Fade cho overlay */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.22s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+/* Slide up cho panel */
+.slideUp-enter-active,
+.slideUp-leave-active {
+    transition: transform 0.28s cubic-bezier(.22, .61, .36, 1), opacity 0.28s ease;
+}
+
+.slideUp-enter-from,
+.slideUp-leave-to {
+    transform: translateY(6vw);
+    opacity: 0;
 }
 </style>

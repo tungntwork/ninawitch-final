@@ -80,6 +80,8 @@
         <div class="flex-1 h-auto text-[2.5vw] text-white font-lemajor text-center">{{ t('booking.topicTitle') }}</div>
       </div>
       <div class="w-[89.58vw] h-[0.1vw] bg-[#7D7D7D] mt-[1vw]"></div>
+
+      <!-- Options and table -->
       <div class="w-[89.58vw] h-auto flex mt-[2vw]">
         <div class="w-[44.74vw]">
           <!-- A row -->
@@ -166,16 +168,87 @@
             </div>
             <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 300,000 VND</div>
           </div>
-          <!-- Row -->
-          <div class="ml-[3vw] flex flex-row mt-[0.5vw]">
+          <!-- Row: Aura Reading (có nút xem chi tiết) -->
+          <div class="ml-[3vw] flex flex-row items-center mt-[0.5vw]">
             <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
               class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
-            <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.AuraReading[0]') }}</div>
-            <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]"> 1,000,000 VND</div>
+            <div class="text-white font-josefin-normal text-[1.05vw]">
+              {{ t('booking.services.AuraReading[0]') }}
+            </div>
+            <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]">
+              1,000,000 VND
+            </div>
           </div>
+          <button @click="toggleAuraDetail" :aria-expanded="showAuraDetail" :aria-controls="'aura-details'"
+            class="ml-[5vw] text-[1.05vw] text-[#ccc] underline decoration-[#ffffff88] hover:decoration-white hover:opacity-100 opacity-80 transition">
+            {{ showAuraDetail ? t('booking.HideInfo') : t('booking.MoreInfo') }}
+          </button>
+
+          <!-- ✨ Dropdown chi tiết Aura Reading -->
+          <Transition @enter="enter" @after-enter="afterEnter" @leave="leave" @after-leave="afterLeave">
+            <div v-show="showAuraDetail" id="aura-details" class="ml-[3vw] pl-[3.92vw] pr-[3vw] mr-[1vw] py-[0.8vw] mt-[0.5vw]
+              text-white/90 font-josefin-normal text-[0.95vw] font-light leading-[1.6]
+              rounded-[0.6vw] bg-white/5 backdrop-blur-[2px] border border-white/10"
+              v-html="t('booking.services.AuraReading[2]')">
+            </div>
+          </Transition>
+
+          <!-- Row: Aura Reading and Clean -->
+          <div class="ml-[3vw] flex flex-row items-center mt-[0.5vw]">
+            <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
+              class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw]">
+              {{ t('booking.services.AuraReadingAndCleans[0]') }}
+            </div>
+            <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]">
+              {{ t('booking.services.AuraReadingAndCleans[1]') }}
+            </div>
+          </div>
+
+          <button @click="toggleAuraCleanDetail" :aria-expanded="showAuraCleanDetail"
+            :aria-controls="'aura-clean-details'"
+            class="ml-[5vw] text-[1.05vw] text-[#ccc] underline decoration-[#ffffff88] hover:decoration-white hover:opacity-100 opacity-80 transition">
+            {{ showAuraCleanDetail ? t('booking.HideInfo') : t('booking.MoreInfo') }}
+          </button>
+
+          <!-- ✨ Dropdown chi tiết Aura Reading and Clean -->
+          <Transition @enter="enter" @after-enter="afterEnter" @leave="leave" @after-leave="afterLeave">
+            <div v-show="showAuraCleanDetail" id="aura-clean-details" class="ml-[3vw] pl-[3.92vw] pr-[3vw] mr-[1vw] py-[0.8vw] mt-[0.5vw]
+    text-white/90 font-josefin-normal text-[0.95vw] font-light leading-[1.6]
+    rounded-[0.6vw] bg-white/5 backdrop-blur-[2px] border border-white/10"
+              v-html="t('booking.services.AuraReadingAndCleans[2]')">
+            </div>
+          </Transition>
+
+          <!-- Row: Full Aura Cleanse Ritual -->
+          <div class="ml-[3vw] flex flex-row items-center mt-[0.5vw]">
+            <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
+              class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
+            <div class="text-white font-josefin-normal text-[1.05vw]">
+              {{ t('booking.services.FullAuraCleanseRitual[0]') }}
+            </div>
+            <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]">
+              {{ t('booking.services.FullAuraCleanseRitual[1]') }}
+            </div>
+          </div>
+
+          <button @click="toggleFullAuraDetail" :aria-expanded="showFullAuraDetail" :aria-controls="'full-aura-details'"
+            class="ml-[5vw] text-[1.05vw] text-[#ccc] underline decoration-[#ffffff88] hover:decoration-white hover:opacity-100 opacity-80 transition">
+            {{ showFullAuraDetail ? t('booking.HideInfo') : t('booking.MoreInfo') }}
+          </button>
+
+          <!-- ✨ Dropdown chi tiết Full Aura Cleanse Ritual -->
+          <Transition @enter="enter" @after-enter="afterEnter" @leave="leave" @after-leave="afterLeave">
+            <div v-show="showFullAuraDetail" id="full-aura-details" class="ml-[3vw] pl-[3.92vw] pr-[3vw] mr-[1vw] py-[0.8vw] mt-[0.5vw]
+    text-white/90 font-josefin-normal text-[0.95vw] font-light leading-[1.6]
+    rounded-[0.6vw] bg-white/5 backdrop-blur-[2px] border border-white/10"
+              v-html="t('booking.services.FullAuraCleanseRitual[2]')">
+            </div>
+          </Transition>
         </div>
         <!-- Light middle -->
         <div class="w-[0.1vw] bg-gradient-to-b from-transparent to-transparent via-white"></div>
+        <!-- Hot topics -->
         <div class="w-[44.74vw]">
           <!-- Row -->
           <div
@@ -244,6 +317,8 @@
 
         </div>
       </div>
+
+
       <!-- Summary information -->
       <div class="w-[50vw] h-auto mt-[2vw] text-center">
         <div class=" text-[1.5625vw] text-white font-lemajor ">{{ t('booking.academicTitle') }}</div>
@@ -399,12 +474,55 @@ export default {
     const { t } = useI18n();
     return { t };
   },
+  data() {
+    return {
+      showAuraDetail: false,
+      showAuraCleanDetail: false,
+      showFullAuraDetail: false
+    };
+  },
   methods: {
     openWebLink(url) {
       setTimeout(() => {
         window.open(url, "_blank");
       }, 300);
-    }
+    },
+
+    toggleAuraDetail() {
+      this.showAuraDetail = !this.showAuraDetail;
+    },
+
+    toggleAuraCleanDetail() {
+      this.showAuraCleanDetail = !this.showAuraCleanDetail;
+    },
+    toggleFullAuraDetail() {
+      this.showFullAuraDetail = !this.showFullAuraDetail;
+    },
+
+    enter(el) {
+      el.style.height = '0px';
+      el.style.overflow = 'hidden';
+      void el.offsetHeight;
+      el.style.transition = 'height 300ms ease';
+      el.style.height = el.scrollHeight + 'px';
+    },
+    afterEnter(el) {
+      el.style.height = null;
+      el.style.overflow = null;
+      el.style.transition = null;
+    },
+    leave(el) {
+      el.style.height = el.scrollHeight + 'px';
+      el.style.overflow = 'hidden';
+      void el.offsetHeight;
+      el.style.transition = 'height 300ms ease';
+      el.style.height = '0px';
+    },
+    afterLeave(el) {
+      el.style.height = null;
+      el.style.overflow = null;
+      el.style.transition = null;
+    },
   }
 }
 </script>

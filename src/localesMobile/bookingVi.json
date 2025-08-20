@@ -25,8 +25,19 @@
   "deepFeelingsPrice": "300,000 VND",
   "careerAlign": "✨Bạn hợp/ có duyên/ có lộc ở ngành nghề gì:",
   "careerAlignPrice": "350,000 VND",
-  "AuraReading": "✨Đọc hào quang (Đọc tarot + cảm âm + thấu thị + đọc nước):",
+  "AuraReading": "✨Đọc hào quang <br/>(Đọc tarot + cảm âm + thấu thị + đọc nước):",
   "AuraReadingPrice": "1,000,000 VND",
+  "AuraReadingDetail": "Hào quang của bạn nắm giữ những bí mật về năng lượng, sức mạnh và những gì đang ảnh hưởng đến cuộc sống của bạn.<br/>Trong bài đọc này, tôi sẽ quét hào quang của bạn và tiết lộ:<br/><br/>Màu sắc và trạng thái hào quang của bạn (có mạnh không? Có bị chặn không? Có phải nhất không?) 🥚🖼️<br/><br/>Năng lượng nào đang ảnh hưởng đến bạn (bạn có đang mang theo cảm xúc, sự tiêu cực hoặc vết thương trong quá khứ của người khác không?) 📦<br/><br/> Cần phải làm gì để xóa bỏ nó và tăng cường sức mạnh của bạn 🎁 Bạn sẽ nhận được voice phân tích chi tiết về những phát hiện của tôi, giúp bạn hiểu rõ hơn về năng lượng của mình và tình hình hiện tại.<br/>",
+  "AuraReadingAndCleans": [
+    "Đọc Aura và làm sạch ✨🌙👼💎",
+    "Liên hệ",
+    "CHỈ NHẬN 2-3 SLOT / THÁNG CHO TOPIC NÀY 🏴‍☠️<br/><br/>Hào quang của bạn là năng lượng bạn mang theo, là sức mạnh bao quanh bạn -<br/>và khi nó bị ô nhiễm, bị chặn hoặc mờ đi,<br/>nó sẽ ảnh hưởng đến mọi thứ: vận may, sức mạnh, khả năng manifest của bạn.<br/>Bài đọc này sẽ khám phá sự thật về hào quang của bạn<br/>và hiểu cách thanh tẩy những gì đang đè nặng bạn.<br/>"
+  ],
+  "FullAuraCleanseRitual": [
+    "Full Aura Cleanse Ritual 🧹💚🔮",
+    "Liên hệ",
+    "Một quá trình thanh lọc sâu sắc, chuyên sâu để loại bỏ sự trì trệ, những ràng buộc tiêu cực và năng lượng quá khứ đang kìm hãm bạn.<br/>Nghi lễ này bao gồm:<br/><br/>Một sự thanh lọc đốt cháy để giải trừ sự tiêu cực.<br/>Thanh lọc khói để loại bỏ năng lượng nặng nề, dai dẳng.<br/><br/>Một lớp phủ nước để khóa chặt sự bảo vệ<br/>và khôi phục toàn bộ sức mạnh của hào quang của bạn.<br/><br/>_NiNa_<br/>"
+  ],
   "topicsTitle": "Chủ Đề Nổi Bật",
   "topic01": "🍀 Vợ/Chồng tương lai của bạn thế nào?",
   "topic02": "🍀 Điểm số ở kì thi bạn đang nghĩ đến & cách cải thiện + lời khuyên👋",
@@ -85,5 +96,7 @@
   "HowToSuggest": "Cách đặt câu hỏi",
   "suggestTitleSelfDiscovery": "Tìm hiểu về bản thân",
   "suggestTitleTopicHot": "Chủ dề nổi bật",
-  "suggestTitleLove": "Câu hỏi tình cảm"
+  "suggestTitleLove": "Câu hỏi tình cảm",
+  "close": "Đóng",
+  "viewDetail": "Xem chi tiết"
 }
