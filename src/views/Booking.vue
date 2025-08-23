@@ -194,7 +194,7 @@
           </Transition>
 
           <!-- Row: Aura Reading and Clean -->
-          <div class="ml-[3vw] flex flex-row items-center mt-[0.5vw]">
+          <!-- <div class="ml-[3vw] flex flex-row items-center mt-[0.5vw]">
             <img src="../assets/img/Desktop/Booking/NinaWitch-Star.webp" alt=""
               class="w-[0.92vw] h-[0.92vw] mr-[1vw] mt-[0.2vw]">
             <div class="text-white font-josefin-normal text-[1.05vw]">
@@ -203,22 +203,22 @@
             <div class="text-white font-josefin-normal text-[1.05vw] font-light ml-[0.5vw]">
               {{ t('booking.services.AuraReadingAndCleans[1]') }}
             </div>
-          </div>
+          </div> -->
 
-          <button @click="toggleAuraCleanDetail" :aria-expanded="showAuraCleanDetail"
+          <!-- <button @click="toggleAuraCleanDetail" :aria-expanded="showAuraCleanDetail"
             :aria-controls="'aura-clean-details'"
             class="ml-[5vw] text-[1.05vw] text-[#ccc] underline decoration-[#ffffff88] hover:decoration-white hover:opacity-100 opacity-80 transition">
             {{ showAuraCleanDetail ? t('booking.HideInfo') : t('booking.MoreInfo') }}
-          </button>
+          </button> -->
 
           <!-- ✨ Dropdown chi tiết Aura Reading and Clean -->
-          <Transition @enter="enter" @after-enter="afterEnter" @leave="leave" @after-leave="afterLeave">
+          <!-- <Transition @enter="enter" @after-enter="afterEnter" @leave="leave" @after-leave="afterLeave">
             <div v-show="showAuraCleanDetail" id="aura-clean-details" class="ml-[3vw] pl-[3.92vw] pr-[3vw] mr-[1vw] py-[0.8vw] mt-[0.5vw]
     text-white/90 font-josefin-normal text-[0.95vw] font-light leading-[1.6]
     rounded-[0.6vw] bg-white/5 backdrop-blur-[2px] border border-white/10"
               v-html="t('booking.services.AuraReadingAndCleans[2]')">
             </div>
-          </Transition>
+          </Transition> -->
 
           <!-- Row: Full Aura Cleanse Ritual -->
           <div class="ml-[3vw] flex flex-row items-center mt-[0.5vw]">
@@ -351,7 +351,7 @@
         <!-- 1 -->
         <div class="w-[28.5vw]">
           <div class=" text-[1.5625vw] text-white font-lemajor w-[28.5vw] text-center my-[2vw] ">{{
-            t('booking.suggestTitleSelfDiscovery') }}
+            t('booking.suggestTitleTopicHot') }}
           </div>
           <!-- A row -->
           <div class="ml-[3vw] flex flex-row">
@@ -401,7 +401,7 @@
         <div class="w-[0.1vw] bg-gradient-to-b from-transparent to-transparent via-white"></div>
         <div class="w-[28.5vw]">
           <div class=" text-[1.5625vw] text-white font-lemajor w-[28.5vw] text-center my-[2vw] ">{{
-            t('booking.suggestTitleTopicHot') }}
+            t('booking.suggestTitleLove') }}
           </div>
           <!-- Row -->
           <div class=" text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
@@ -441,7 +441,7 @@
         <div class="w-[0.1vw] bg-gradient-to-b from-transparent to-transparent via-white"></div>
         <div class="w-[28.5vw]">
           <div class=" text-[1.5625vw] text-white font-lemajor w-[28.5vw] text-center my-[2vw] ">{{
-            t('booking.suggestTitleLove') }}
+            t('booking.suggestTitleSelfDiscovery') }}
           </div>
           <!-- Row -->
           <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
@@ -458,7 +458,6 @@
           <!-- Row -->
           <div class="text-white font-josefin-normal text-[1.05vw] w-[25vw] font-normal ml-[3vw] mt-[0.5vw]">
             {{ t('booking.selfDiscovery[4]') }}</div>
-          booking.selfDiscovery[1]
         </div>
       </div>
     </div>

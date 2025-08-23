@@ -105,7 +105,7 @@
                 <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center">{{ t('bookingMobile.pastLife')
-                        }}</p>
+                    }}</p>
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                 </div>
                 <p class="text-white text-[3.82vw] font-josefin-normal font-light text-center">
@@ -194,7 +194,7 @@
                 </div>
             </div>
             <!-- Price -->
-            <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
+            <!-- <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
                 <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
                     <img src="../../assets/img/Mobile/Booking/NinaWitch-Star.webp" alt="" class="w-[4.5vw] h-[4.5vw]">
                     <p class="text-[3.82vw] text-white font-josefin-normal text-center text-center"
@@ -211,7 +211,7 @@
                         {{ t('bookingMobile.viewDetail') || 'Xem chi tiết' }}
                     </button>
                 </div>
-            </div>
+            </div> -->
             <!-- Price -->
             <div class="flex flex-col items-center pt-[7vw] w-[95vw]">
                 <div class="flex flex-row justify-between w-auto space-x-[3vw] items-center">
@@ -505,12 +505,14 @@
         <div v-if="isDetailOpen" class="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/50"
             @click.self="closeDetail" role="dialog" aria-modal="true">
             <transition name="slideUp">
-                <div
-                    class="w-full sm:w-[90vw] sm:max-w-[600px] bg-[#0D0D0D] text-white rounded-t-[4vw] sm:rounded-[3vw] p-[6vw] sm:p-[4vw] shadow-xl">
+                <!-- <div
+                    class="w-full sm:w-[90vw] sm:max-w-[600px] bg-[#0D0D0D] text-white rounded-t-[4vw] sm:rounded-[3vw] p-[6vw] sm:p-[4vw] shadow-xl"> -->
+                <div class="w-full sm:w-[90vw] sm:max-w-[600px] bg-[#0D0D0D] text-white rounded-t-[4vw] sm:rounded-[3vw] p-[6vw] sm:p-[4vw] shadow-xl
+         max-h-[85vh] overflow-hidden flex flex-col">
                     <!-- Header -->
                     <div class="flex items-start justify-between">
                         <h3 class="text-[5vw] sm:text-[22px] font-lemajor">
-                            {{ modalTitle }}
+                            <!-- {{ modalTitle }} -->
                         </h3>
                         <button
                             class="ml-[3vw] w-[9vw] h-[9vw] sm:w-[36px] sm:h-[36px] grid place-items-center rounded-full active:scale-95 transition"
@@ -520,8 +522,10 @@
                     </div>
 
                     <!-- Content -->
-                    <div
-                        class="mt-[4vw] text-[3.8vw] sm:text-[15px] font-josefin-normal font-light leading-[6vw] sm:leading-7">
+                    <!-- <div
+                        class="mt-[4vw] text-[3.8vw] sm:text-[15px] font-josefin-normal font-light leading-[6vw] sm:leading-7"> -->
+                    <div class="mt-[4vw] text-[3.8vw] sm:text-[15px] font-josefin-normal font-light leading-[6vw] sm:leading-7
+         flex-1 overflow-y-auto pr-[2vw] sm:pr-[8px] scroll-smooth scroll-area">
                         <!-- Ưu tiên lấy nội dung từ i18n -->
                         <div v-if="detailKey === 'AuraReading'" v-html="t('bookingMobile.AuraReadingDetail')"></div>
 
@@ -550,7 +554,7 @@
 
 <script setup>
 import FooterMobile from './FooterMobile.vue';
-import { ref, computed, watch } from 'vue';
+import { ref, watch } from 'vue';
 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
 const openFacebook = () => {
@@ -574,6 +578,7 @@ const closeDetail = () => {
     setTimeout(() => { detailKey.value = null }, 200);
 };
 
+/*
 const modalTitle = computed(() => {
     if (detailKey.value === 'AuraReading') {
         return t('bookingMobile.AuraReading') || 'Đọc Hào Quang';
@@ -584,6 +589,7 @@ const modalTitle = computed(() => {
     }
     return t('bookingMobile.detail') || 'Chi tiết';
 });
+*/
 
 watch(isDetailOpen, (open) => {
     document.body.style.overflow = open ? 'hidden' : '';
@@ -628,5 +634,9 @@ watch(isDetailOpen, (open) => {
 .slideUp-leave-to {
     transform: translateY(6vw);
     opacity: 0;
+}
+
+.scroll-area {
+    -webkit-overflow-scrolling: touch;
 }
 </style>
