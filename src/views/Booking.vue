@@ -92,7 +92,7 @@
               <div class="text-white font-josefin-normal text-[1.05vw]">{{ t('booking.services.oneIssue.title') }}</div>
               <div class="text-white font-josefin-normal text-[1.05vw] font-light">
                 <div
-                  class="before:content-['•'] before:mr-2 text-white font-josefin-normal text-[1.05vw] font-light w-[21vw]">
+                  class="before:content-['•'] before:mr-2 text-white font-josefin-normal text-[1.05vw] font-light w-[35vw]">
                   {{ t('booking.services.oneIssue.options[0]') }}</div>
                 <div
                   class="before:content-['•'] before:mr-2 text-white font-josefin-normal text-[1.05vw] font-light w-[21vw] mt-[0.5vw]">
