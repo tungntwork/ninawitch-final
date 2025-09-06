@@ -1,6 +1,12 @@
 <template>
     <div class="w-full h-auto relative flex justify-center">
-        <img src="../../assets/img/Mobile/Home/backhome1.webp" alt="" class="w-full h-auto" />
+        <!-- <img src="../../assets/img/Mobile/Home/backhome1.webp" alt="" class="w-full h-auto" /> -->
+        <div class="video-background z-0 w-full h-auto object-cover">
+            <video autoplay loop muted playsinline class="video-element w-full h-full object-cover">
+                <source v-if="isIOS" src="../../assets/img/Mobile/Home/backhome1.mp4" type="video/mp4" />
+                <source v-else src="../../assets/img/Mobile/Home/backhome1.mp4" type="video/mp4" />
+            </video>
+        </div>
         <div class="absolute bottom-0 left-0 w-full h-[91vw] bg-gradient-to-t from-[#0D0D0D] to-transparent"></div>
         <p class="text-white text-[8.3vw] font-lemajor absolute bottom-[58vw] left-[2.5vw] text-glow"
             v-html="t('homepageMobile.templeTitle')">
@@ -355,7 +361,7 @@
         </p>
         <div class="absolute w-full flex flex-col items-center top-[93vw] justify-center">
             <p class="w-[90vw] mx-[5vw] text-[6vw] text-white font-josefin-italic">{{ t('homepageMobile.gratitudeQuote')
-            }}</p>
+                }}</p>
             <p class="w-[90vw] mx-[5vw] text-[3.42vw] text-white font-josefin-normal font-light text-center"
                 v-html="t('homepageMobile.gratitudeDesc')">
             </p>
