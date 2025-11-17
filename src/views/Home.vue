@@ -22,6 +22,7 @@
       class="w-full h-auto absolute z-20 translate-y-[-25vw]">
     <HomeRecommend />
     <HomeScriptQuestion />
+    <HomeMatrix/>
     <HomeFeedback />
     <!-- Footer -->
     <!-- <HomeFooter/> -->
@@ -36,6 +37,7 @@ import HomeDesktop from "../components/Desktop/Home/HomeDesktop.vue";
 import HomeRecommend from "@/components/Desktop/Home/HomeRecommend.vue";
 import HomeFeedback from "@/components/Desktop/Home/HomeFeedback.vue";
 import HomeScriptQuestion from "@/components/Desktop/Home/HomeScriptQuestion.vue";
+import HomeMatrix from '@/components/Desktop/Home/HomeMatrix.vue';
 // import HomeFooter from "@/components/Desktop/Home/HomeFooter.vue";
 
 // import sound loop
@@ -50,6 +52,7 @@ export default {
     HomeRecommend,
     HomeFeedback,
     HomeScriptQuestion,
+    HomeMatrix
   },
   data() {
     return {
