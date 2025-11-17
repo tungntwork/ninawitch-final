@@ -2,6 +2,7 @@
   <div class="w-full h-[100vw] bg-[#0D0D0D] relative overflow-hidden">
     <img src="../../../assets/img/Desktop/Home/Matrix/StarGalaxy.webp" alt="" class="absolute top-[15vw] w-full h-auto mix-blend-screen">
     <div class="absolute top-0 w-full h-[32.8125vw] bg-gradient-to-b from-[#0D0D0D] to-transparent"></div>
+    
 
     <!-- MAIN -->
     <div class="w-full h-[63vw] absolute top-[17vw] overflow-hidden">
@@ -39,6 +40,28 @@
     <img src="../../../assets/img/Desktop/Home/Matrix/TopHeaderPage.webp" alt="" class="absolute top-[-6vw] w-full h-auto">
     <img src="../../../assets/img/Desktop/Home/Matrix/BottomPage.webp" alt="" class="absolute bottom-[-17vw] w-full h-auto">
     <div class="absolute w-full h-[1px] bg-gradient-to-r from-transparent to-transparent via-white top-0"></div>
+    <div class="absolute flex flex-col items-center justify-center top-[8vw] w-full h-auto">
+      <p class="font-lemajor text-white text-[3.65vw] glow-effect">Lời thì thầm vũ trụ</p>
+      <div class="font-josefin-normal text-[1.05vw] text-[#fff] font-light mb-[1vw]">Hãy để đôi tai và trực giác của bạn mở lối</div>
+      <div class="flex flex-row space-x-[2vw]">
+        <a href="https://www.facebook.com/bupbegeisha000" target="_blank" rel="noopener noreferrer">
+          <img src="../../../assets/img/Desktop/Booking/ic_baseline-facebook.webp" alt="Facebook"
+              class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+        </a>
+        <a href="https://www.tiktok.com/@ninawitch.magic?lang=vi-VN" target="_blank" rel="noopener noreferrer">
+          <img src="../../../assets/img/Desktop/Booking/ic_baseline-tiktok.webp" alt=""
+            class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+        </a>
+        <a href="https://www.youtube.com/@Ninawitch01" target="_blank" rel="noopener noreferrer">
+          <img src="../../../assets/img/Desktop/Booking/bi_youtube.webp" alt=""
+            class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+        </a>
+        <a href="https://www.instagram.com/akitatarot/?utm_source=qr" target="_blank" rel="noopener noreferrer">
+          <img src="../../../assets/img/Desktop/Booking/bi_instagram.webp" alt=""
+            class="w-[2.2vw] h-[2.2vw] hover:cursor-pointer hover:scale-[1.2] transition-all duration-500 ease-in-out">
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -77,13 +100,27 @@ onMounted(() => {
 })
 </script>
 <style scoped>
-/* keyframes: di chuyển từ -amp -> +amp */
+.font-lemajor {
+    font-family: "TP Le Major", sans-serif;
+}
+
+.font-josefin-normal {
+    font-family: "JosefinNormal", sans-serif;
+}
+
+.inner-shadow {
+    text-shadow: inset 0 0 0.1vw rgba(0, 0, 0, 0.8);
+}
+
+.glow-effect {
+    text-shadow: 0 0 0.05vw rgba(255, 255, 255, 0.7), 0 0 0.07vw rgba(255, 255, 255, 0.5), 0 0 0.5vw rgb(255, 255, 255), 0 0 1vw rgba(255, 255, 255, 0.2);
+}
+
 @keyframes float-vertical {
   from { transform: translateY(calc(var(--amp, 5vw) * -1)) scale(var(--scale, 1)); }
   to   { transform: translateY(calc(var(--amp, 5vw) * 1))  scale(var(--scale, 1)); }
 }
 
-/* áp dụng animation cho các thẻ */
 .card-transition {
   transform-origin: center;
   animation-name: float-vertical;
@@ -92,7 +129,7 @@ onMounted(() => {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-delay: var(--delay, 0s);
-  animation-fill-mode: both; /* <-- thêm */
+  animation-fill-mode: both;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   will-change: transform, opacity;
