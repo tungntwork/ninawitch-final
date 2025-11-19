@@ -12,25 +12,21 @@
         <div class="absolute top-[118vw] flex flex-col items-center w-[75vw]">
             <p class="text-white text-[8vw] font-lemajor">{{ product?.name?.[locale] || '' }}</p>
             <div
-                class="flex text-[3.25vw] text-white font-josefin-normal flex-row w-[75vw] space-x-[1vw] mt-[2vw] items-center justify-evenly">
+                class="flex text-[3.25vw] text-white font-josefin-normal flex-row w-[75vw] space-x-[1vw] mt-[4vw] items-center justify-evenly">
                 <div class="flex flex-row">
                     <a
                         href="https://www.facebook.com/bupbegeisha000"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="border-[#FFF] border-[1px] px-[4vw] pt-[1.5vw] pb-[1vw] rounded-[1.5vw] block"
+                        class="px-[4vw] rounded-[1.5vw] block underline translate-y-[1vw]"
                     >
                         NINA's FB
                     </a>
                 </div>
                 <div class="w-[0.1vw] h-[4vw] mx-[4vw] bg-white"></div>
-                <div class="flex flex-row">
-                    <p class="px-[2vw]">5</p>
-                    <p class="font-light text-[#7D7D7D]" v-html="t('productInfoMobile.ratingLabel')"></p>
+                <div class="px-[4vw] rounded-[1.5vw] block underline translate-y-[1vw]">
+                    <p class="font-normal text-[#FFF]" @click="scrollToComment">Feedback</p>
                 </div>
-                <!-- <div class="w-[0.1vw] h-[4vw] mx-[4vw] bg-white"></div> -->
-                <!-- <p class="px-[2vw]">8</p>
-                <p class="font-light text-[#7D7D7D]" v-html="t('productInfoMobile.soldLabel')"></p> -->
             </div>
             <div class="mt-[10.6vw] w-[47.9vw] h-[8.4vw] pt-[1vw] border-white border-[1px] rounded-[1.8vw] flex justify-center items-center text-white text-[4.09vw] font-josefin-normal"
                 @click="openFacebook">
@@ -118,7 +114,7 @@
                     </SwiperSlide>
                 </Swiper>
                 <div class="mt-[0.5vw]">
-                    <p class="text-white text-[4.15vw] font-josefin-normal"
+                    <p class="text-white text-[4.15vw] font-josefin-normal"  ref="commentTextarea"
                         v-html="t('productInfoMobile.leaveComment')">
                     </p>
                     <textarea
@@ -173,6 +169,16 @@ const showPopup = ref(false);
 
 const recommendedProducts = ref([])
 const feedbackImages = ref([])
+const commentTextarea = ref(null)
+
+const scrollToComment = () => {
+    if (commentTextarea.value) {
+        commentTextarea.value.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        commentTextarea.value.focus()
+    } else {
+        console.warn('commentTextarea not found yet')
+    }
+}
 
 const productRows = computed(() => {
     const rows = []
