@@ -67,10 +67,18 @@
           <div class="absolute bottom-[10vw] left-[15vw] flex flex-col items-center">
             <p class="text-[4.65vw] font-josefin-normal font-light">{{ $t('mobileMenu.menu.footer.connect') }}</p>
             <div class="w-[72.5vw] h-[9.3vw] flex justify-between pt-[2vw]">
-              <img src="../../assets/img/Mobile/Home/Nina-ico-facebook.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
-              <img src="../../assets/img/Mobile/Home/Nina-ico-tiktok.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
-              <img src="../../assets/img/Mobile/Home/Nina-ico-youtube.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
-              <img src="../../assets/img/Mobile/Home/Nina-ico-instagram.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              <a href="https://www.facebook.com/bupbegeisha000" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-facebook.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
+              <a href="https://www.tiktok.com/@ninawitch.magic?lang=vi-VN" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-tiktok.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
+              <a href="https://www.youtube.com/@Ninawitch01" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-youtube.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
+              <a href="https://www.instagram.com/akitatarot/?utm_source=qr" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-instagram.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
             </div>
             <p class="text-[3.25vw] font-thin mt-[8vw] font-josefin-normal">{{ $t('mobileMenu.menu.footer.copyright') }}</p>
           </div>

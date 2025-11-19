@@ -26,10 +26,18 @@
         </div>
         <!-- social -->
         <div class="w-[66vw] h-[9.3vw] flex justify-between mt-[5vw]">
-            <img src="../../assets/img/Desktop/Home/Footer/Nina-ico-facebook.webp" alt="" class="w-[9.3vw] h-[9.3vw]" @click="openFacebook">
-            <img src="../../assets/img/Desktop/Home/Footer/Nina-ico-tiktok.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
-            <img src="../../assets/img/Desktop/Home/Footer/Nina-ico-youtube.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
-            <img src="../../assets/img/Desktop/Home/Footer/Nina-ico-instagram.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+            <a href="https://www.facebook.com/bupbegeisha000" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-facebook.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
+              <a href="https://www.tiktok.com/@ninawitch.magic?lang=vi-VN" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-tiktok.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
+              <a href="https://www.youtube.com/@Ninawitch01" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-youtube.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
+              <a href="https://www.instagram.com/akitatarot/?utm_source=qr" target="_blank" rel="noopener noreferrer">
+                <img src="../../assets/img/Mobile/Home/Nina-ico-instagram.webp" alt="" class="w-[9.3vw] h-[9.3vw]">
+              </a>
         </div>
         <!-- menu -->
         <div class="w-[95vw] ml-[10vw] mt-[16.3vw] flex flex-col items-start justify-start">

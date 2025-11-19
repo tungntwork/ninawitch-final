@@ -14,13 +14,14 @@
             <div
                 class="flex text-[3.25vw] text-white font-josefin-normal flex-row w-[75vw] space-x-[1vw] mt-[2vw] items-center justify-evenly">
                 <div class="flex flex-row">
-                    <p class="pr-[2vw]">4.9</p>
-                    <div class="flex flex-row space-x-[0.9vw] pr-[2vw]">
-                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
-                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
-                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
-                        <img src="../../assets/img/Mobile/Detail/star review.webp" alt="" class="w-[3.85vw] h-[3.85vw]">
-                    </div>
+                    <a
+                        href="https://www.facebook.com/bupbegeisha000"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="border-[#FFF] border-[1px] px-[4vw] pt-[1.5vw] pb-[1vw] rounded-[1.5vw] block"
+                    >
+                        NINA's FB
+                    </a>
                 </div>
                 <div class="w-[0.1vw] h-[4vw] mx-[4vw] bg-white"></div>
                 <div class="flex flex-row">
