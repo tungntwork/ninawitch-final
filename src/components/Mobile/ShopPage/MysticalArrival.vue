@@ -3,11 +3,6 @@
         <img src="../../../assets/img/Mobile/Shop/back shop cổng time.webp" alt="" class=" absolute top-0 w-full h-auto">
         <div class="absolute top-[37.2vw] w-[95vw]">
             <p class="text-white text-[9.5vw] font-lemajor text-glow text-center w-[95vw]" v-html="t('mysticalArrival.title')"></p>
-            <p class="w-[90vw] text-end text-white text-[3.82vw] font-josefin-normal font-light" v-html="t('mysticalArrival.description_1')">
-            </p>
-            <p class="w-[90vw] text-center text-white text-[3.82vw] font-josefin-normal font-light">
-                {{ t('mysticalArrival.description_2') }}
-            </p>
         </div>
         <div class="absolute top-[157vw] w-[90vw] flex flex-col justify-center">
             <!-- Row 1 -->
