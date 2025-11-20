@@ -6,11 +6,9 @@
         <div
             class="absolute top-[41.6vw] w-[68vw] h-[68vw] rounded-[3.5vw] bg-circle flex justify-center items-center overflow-hidden">
             <img :src="product?.productImageUrl" alt="" class="w-[67.6vw] h-[67.6vw] rounded-[3.5vw]">
-            <!-- <div class="absolute w-[22.6vw] top-0 right-0 h-[4.8vw] rounded-bl-[3.5vw] flex justify-center items-center bg-gradient-to-r from-[#D9D9D9] to-[#5D5D5D]
-                    text-[2.56vw] font-lemajor text-black" v-html="t('productInfoMobile.recommendedLabel')"></div> -->
         </div>
         <div class="absolute top-[118vw] flex flex-col items-center w-[75vw]">
-            <p class="text-white text-[8vw] font-lemajor">{{ product?.name?.[locale] || '' }}</p>
+            <p class="text-white text-[8vw] font-lemajor">{{ product?.name?.[activeLocale] || '' }}</p>
             <div
                 class="flex text-[3.25vw] text-white font-josefin-normal flex-row w-[75vw] space-x-[1vw] mt-[4vw] items-center justify-evenly">
                 <div class="flex flex-row">
@@ -30,17 +28,28 @@
             </div>
             <div class="mt-[10.6vw] w-[47.9vw] h-[8.4vw] pt-[1vw] border-white border-[1px] rounded-[1.8vw] flex justify-center items-center text-white text-[4.09vw] font-josefin-normal"
                 @click="openFacebook">
-                {{ product?.salePrice.toLocaleString() }}
+                {{ product?.salePrice?.toLocaleString() }}
             </div>
         </div>
         <div class="absolute top-[172vw] w-full h-[0.5vw] bg-gradient-to-r from-transparent to-transparent via-white">
         </div>
         <!-- Text -->
         <div class="top-[183vw] absolute w-[94vw]">
-            <p class="text-white text-[4.18vw] font-josefin-normal w-[95vw] font-thin leading-[4.18vw]"
-                v-html="(product?.description?.[locale] || '').replaceAll('\n', '<br/>')">
-
+            <!-- Short or full inline description -->
+            <p
+                class="text-white text-[4.18vw] font-josefin-normal w-[95vw] font-thin leading-[4.18vw]"
+                v-html="shortDescriptionHtml">
             </p>
+
+            <!-- Show More button (appear only when description length > 300) -->
+            <div v-if="isLongDescription" class="mt-[3vw] flex justify-center">
+                <button
+                    @click="openDescriptionPopup"
+                    class="px-[4vw] py-[2vw] border-white border-[1px] rounded-[1.5vw] text-white text-[3.5vw] font-josefin-normal bg-transparent"
+                >
+                    {{ t('productInfoMobile.showMore') }}
+                </button>
+            </div>
 
             <div class="pt-[9.3vw] text-white text-[4.18vw] font-josefin-normal"
                 v-html="t('productInfoMobile.disclaimerTitle')">
@@ -57,6 +66,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Items -->
         <div class="absolute top-[320.8vw]">
             <p class="text-white text-[8.225vw] font-lemajor text-center"
@@ -71,14 +81,14 @@
                             <div class="absolute bottom-[3vw] flex flex-row justify-between items-center space-x-[1vw]">
                                 <img src="../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
                                     class="w-[4vw] h-[4vw]" />
-                                <p class="text-white text-[3.85vw] font-lemajor text-center">{{ item.name[locale] }}</p>
+                                <p class="text-white text-[3.85vw] font-lemajor text-center">{{ item.name[activeLocale] }}</p>
                                 <img src="../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
                                     class="w-[4vw] h-[4vw]" />
                             </div>
                         </div>
                         <div class="w-[42vw] flex flex-col justify-start relative">
                             <p class="text-white text-[2.32vw] text-start font-josefin-normal font-light pt-[4.5vw]">
-                                {{ item.subcription[locale].slice(0, 100) + '...' }}
+                                {{ (item.subcription[activeLocale] || '').slice(0, 100) + '...' }}
                             </p>
                             <div
                                 class="flex text-white text-[3.8vw] text-glow text-start absolute top-[13vw] font-josefin-normal font-normal pt-[1.5vw]">
@@ -140,8 +150,27 @@
                 </div>
             </div>
         </div>
+
     </div>
+
     <FooterMobile />
+
+    <!-- Description Popup -->
+    <transition name="modal-scale">
+        <div v-if="showDescriptionPopup" class="fixed inset-0 z-[1200] flex items-center justify-center">
+            <div class="overlay" @click.self="closeDescriptionPopup"></div>
+
+            <div class="popup-container">
+                <div class="popup-header flex justify-between items-center">
+                    <h3 class="text-white text-[4.2vw] font-josefin-normal">{{ product?.name?.[activeLocale] || '' }}</h3>
+                    <button @click="closeDescriptionPopup" class="close-btn text-white text-[3.6vw]">
+                        {{ t('productInfoMobile.close') }}
+                    </button>
+                </div>
+                <div class="popup-body" v-html="fullDescriptionHtml"></div>
+            </div>
+        </div>
+    </transition>
 </template>
 
 <script setup>
@@ -162,14 +191,58 @@ SwiperCore.use([Pagination, Navigation, Zoom, Autoplay])
 const product = ref(null)
 const { t, locale } = useI18n()
 
+// ensure default locale fallback to 'vi' for description/name lookups
+if (!locale.value) {
+    locale.value = 'vi'
+}
+
+// create an activeLocale to use everywhere (fallback to 'vi' if missing)
+const activeLocale = computed(() => locale.value || 'vi')
+
 const route = useRoute()
-// const productId = route.params.id
 const productId = ref(route.params.id)
 const showPopup = ref(false);
 
 const recommendedProducts = ref([])
 const feedbackImages = ref([])
 const commentTextarea = ref(null)
+
+// New reactive for description popup
+const showDescriptionPopup = ref(false)
+
+const openDescriptionPopup = () => {
+    showDescriptionPopup.value = true
+    // disable background scroll
+    document.body.style.overflow = 'hidden'
+}
+
+const closeDescriptionPopup = () => {
+    showDescriptionPopup.value = false
+    // restore scroll
+    document.body.style.overflow = ''
+}
+
+// computed short/full description and length check
+// IMPORTANT: we do NOT escape HTML here to preserve original formatting/content.
+// We only convert newline characters to <br/> like the original implementation.
+const rawDescription = computed(() => {
+    // Prefer current locale; fallback to vi
+    const descObj = product.value?.description || {}
+    return descObj[activeLocale.value] ?? descObj['vi'] ?? ''
+})
+const isLongDescription = computed(() => rawDescription.value.length > 300)
+const shortDescriptionHtml = computed(() => {
+    if (!rawDescription.value) return ''
+    if (isLongDescription.value) {
+        const shortText = rawDescription.value.slice(0, 300)
+        return shortText.replaceAll('\n', '<br/>') + '...'
+    } else {
+        return rawDescription.value.replaceAll('\n', '<br/>')
+    }
+})
+const fullDescriptionHtml = computed(() => {
+    return rawDescription.value.replaceAll('\n', '<br/>')
+})
 
 const scrollToComment = () => {
     if (commentTextarea.value) {
@@ -236,7 +309,6 @@ const openFacebook = () => {
 }
 </script>
 
-
 <style scoped>
 .font-lemajor {
     font-family: "TP Le Major", sans-serif;
@@ -267,5 +339,75 @@ const openFacebook = () => {
     transition: opacity 0.5s ease-in-out;
     pointer-events: none;
     z-index: 0;
+}
+
+/* Popup / overlay styles */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 1210;
+}
+
+/* container centered with nice size for mobile (vw-based) */
+.popup-container {
+    position: relative;
+    z-index: 1220;
+    width: 92vw;
+    max-height: 86vh;
+    background: linear-gradient(180deg, #121212, #0d0d0d);
+    border-radius: 2.2vw;
+    padding: 4vw;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+.popup-header {
+    margin-bottom: 3vw;
+}
+
+/* body scrollable but scrollbar hidden */
+.popup-body {
+    overflow-y: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    max-height: calc(86vh - 12vw);
+    line-height: 1.4;
+    color: white;
+    font-size: 3.8vw;
+}
+/* hide webkit scrollbar */
+.popup-body::-webkit-scrollbar { display: none; }
+
+/* close button */
+.close-btn {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.14);
+    padding: 1vw 3vw;
+    border-radius: 1.4vw;
+}
+
+/* transition animation (scale + fade) */
+.modal-scale-enter-active, .modal-scale-leave-active {
+    transition: all 260ms cubic-bezier(.2,.9,.3,1);
+}
+.modal-scale-enter-from {
+    opacity: 0;
+    transform: scale(0.95) translateY(1.5vw);
+}
+.modal-scale-enter-to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+.modal-scale-leave-from {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+.modal-scale-leave-to {
+    opacity: 0;
+    transform: scale(0.95) translateY(1.5vw);
 }
 </style>

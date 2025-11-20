@@ -31,24 +31,11 @@
                             {{ product?.name?.en || '...' }}
                         </p>
                         <div
-                            class="flex flex-row items-start font-josefin-normal font-light text-white text-[1.05vw] mt-[0.2vw]">
-                            <p class="text">4.9</p>
-                            <div class="flex flex-row ml-[0.25vw]">
-                                <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
-                                    class="w-[1.25vw] h-[1.25vw]">
-                                <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
-                                    class="w-[1.25vw] h-[1.25vw]">
-                                <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
-                                    class="w-[1.25vw] h-[1.25vw]">
-                                <img src="../../../../assets/img/Desktop/Products/Candles/Medusa/Star1.webp" alt=""
-                                    class="w-[1.25vw] h-[1.25vw]">
-                            </div>
+                            class="flex flex-row items-start font-josefin-normal font-light text-white text-[1.05vw] mt-[1vw]">
+                            <p class="text underline hover:cursor-pointer" @click="openWebLink('https://www.facebook.com/bupbegeisha000')">NINA's FB</p>
                             <p class="text-[1.5vw] ml-[1vw] translate-y-[-0.5vw]">|</p>
-                            <p class="ml-[0.5vw]">{{ product?.rated }}</p>
-                            <p class="font-thin ml-[0.5vw]">{{ t('productInfoDesktop.productReview') }}</p>
-                            <!-- <p class="text-[1.5vw] ml-[1vw] translate-y-[-0.5vw]">|</p>
-                            <p class="ml-[0.5vw]">{{ product?.sold }}</p>
-                            <p class="font-thin ml-[0.5vw]">{{ t('productInfoDesktop.sold') }}</p> -->
+                            <!-- Feedback is clickable and will scroll to the textarea -->
+                            <p class="underline ml-[0.5vw] hover:cursor-pointer" @click="scrollToFeedback">Feedback</p>
                         </div>
                         <div class="mt-[1.2vw] flex items-center z-50 mb-[1.2vw]"
                             @click="openWebLink('https://www.facebook.com/bupbegeisha000')">
@@ -71,9 +58,60 @@
                         <!-- Description -->
 
 
-                        <div class="mt-[0.5vw] text-[1.05vw] text-white font-josefin-normal font-light"
+                        <!-- <div class="mt-[0.5vw] text-[1.05vw] text-white font-josefin-normal font-light"
                             v-html="product?.description?.[locale]?.replace(/\n/g, '<br/>')">
+                        </div> -->
+                        <div class="mt-[0.5vw] text-[1.05vw] text-white font-josefin-normal font-light">
+                            <!-- Nếu nội dung không dài thì hiển thị toàn bộ luôn -->
+                            <div v-if="!isLongDesc" v-html="fullHtml"></div>
+
+                            <!-- Nếu dài hơn 800 ký tự, hiển thị rút gọn + nút Show More -->
+                            <div v-else>
+                                <div v-html="truncatedHtml"></div>
+
+                                <div class="mt-[0.6vw]">
+                                <button
+                                    @click="openFullDescPopup"
+                                    class="text-[0.95vw] font-josefin-normal font-medium text-white underline hover:opacity-80"
+                                >
+                                    {{ showMoreLabel }}
+                                </button>
+                                </div>
+                            </div>
                         </div>
+
+                         <!-- Popup hiển thị toàn bộ mô tả -->
+                        <div v-if="showDescPopup" class="fixed inset-0 z-[1200] flex items-center justify-center bg-black bg-opacity-60"
+                         @click.self="closeFullDescPopup">
+                            <div
+                                class="nina-full-desc-modal bg-[#0F0F0F] relative text-white max-w-[80vw] w-[60vw] max-h-[80vh] overflow-auto p-[1.2vw] rounded-[0.6vw] shadow-lg"
+                                tabindex="0" role="dialog" aria-modal="true"
+                            >
+                                <div class="flex justify-between items-start mb-[1vw]">
+                                <h3 class="text-[1.15vw] font-lemajor">
+                                    {{ product?.name?.[locale] || '' }}
+                                </h3>
+                                <button
+                                    @click="closeFullDescPopup"
+                                    class="ml-[1vw] right-[22vw] fixed text-[0.95vw] px-[0.8vw] py-[0.4vw] bg-black rounded-[0.3vw] hover:bg-gray-800"
+                                >
+                                    {{ closeLabel }}
+                                </button>
+                                </div>
+
+                                <div class="text-[1.0vw] leading-relaxed" v-html="fullHtml"></div>
+
+                                <div class="mt-[1.2vw] flex justify-end">
+                                <!-- <button
+                                    @click="closeFullDescPopup"
+                                    class="px-[1vw] py-[0.5vw] bg-[#171717] text-white rounded-[0.3vw] hover:bg-gray-800"
+                                >
+                                    {{ closeLabel }}
+                                </button> -->
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="mt-[2vw] items-start font-josefin-normal text-white text-[0.83vw]">
                             <p class="">{{ t('productInfoDesktop.disclaimerTitle') }}</p>
                             <ul class="font-thin list-disc ml-[1vw] w-[40vw]">
@@ -275,7 +313,8 @@
                     <p class="text-white text-start font-josefin-normal font-medium text-[1.05vw]">{{
                         t('productInfoDesktop.leaveComment') }}</p>
                     <textarea
-                        class="w-full h-[5.7vw] bg-[#202020] rounded-[0.45vw] border-[1px] border-[##FFFFFF] p-[0.6vw] outline-none font-josefin-normal text-[0.83vw] text-white resize-none"></textarea>
+                        ref="feedbackTextarea"
+                        class="feedback-textarea w-full h-[5.7vw] bg-[#202020] rounded-[0.45vw] border-[1px] border-[##FFFFFF] p-[0.6vw] outline-none font-josefin-normal text-[0.83vw] text-white resize-none"></textarea>
                     <div class="mt-[1.2vw] justify-end flex items-center z-50 mb-[1.2vw]">
                         <div @click="showThankYouPopup"
                             class="button-translation-parent overflow-hidden w-[12vw] h-[2.3vw] rounded-[0.6vw] bg-transparent text-white border-[0.5px] border-white flex items-center justify-center text-[1.05vw] transition-all duration-500 font-josefin-normal  hover:cursor-pointer relative">
@@ -373,7 +412,7 @@
 </template>
 
 <script>
-import { ref, watch, onMounted } from 'vue'
+import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import axios from '../../../../utils/axios'
 import { useI18n } from 'vue-i18n'
@@ -404,9 +443,139 @@ export default {
     setup() {
         const product = ref(null)
         const route = useRoute()
-        const { t, locale } = useI18n()
+        const { t, locale } = useI18n()  
         const feedbackImages = ref([])
         const zoomImageUrl = ref(null)
+
+        // --- NEW for description logic ---
+        const isLongDesc = ref(false)
+        const truncatedHtml = ref('')
+        const fullHtml = ref('')
+        const showDescPopup = ref(false)
+
+        const MAX_LEN = 250
+
+        const updateDescriptionHtml = () => {
+            const raw = product.value?.description?.[locale.value] || ''
+            // fullHtml: replace newlines -> <br/>
+            fullHtml.value = raw ? raw.replace(/\n/g, '<br/>') : ''
+            if (raw.length > MAX_LEN) {
+                isLongDesc.value = true
+                const truncatedText = raw.slice(0, MAX_LEN).trim() + '...'
+                truncatedHtml.value = truncatedText.replace(/\n/g, '<br/>')
+            } else {
+                isLongDesc.value = false
+                truncatedHtml.value = fullHtml.value
+            }
+        }
+
+        // ===== Lenis / wheel handling =====
+        const isLenisPaused = ref(false)
+        // keep ref to wheel handler so we can remove it
+        let _wheelHandler = null
+
+        const pauseLenisIfAny = () => {
+            try {
+                const L = window.lenis
+                if (!L) return
+                if (typeof L.stop === 'function') {
+                    L.stop()
+                    isLenisPaused.value = true
+                } else if (typeof L.pause === 'function') {
+                    L.pause()
+                    isLenisPaused.value = true
+                } else if (typeof L.destroy === 'function') {
+                    // destructive fallback — mark paused to avoid resume attempt
+                    L.destroy()
+                    isLenisPaused.value = true
+                }
+            } catch (e) {
+                // silent
+                console.warn('pauseLenisIfAny failed', e)
+            }
+        }
+
+        const resumeLenisIfAny = () => {
+            try {
+                const L = window.lenis
+                if (!L || !isLenisPaused.value) return
+                if (typeof L.start === 'function') {
+                    L.start()
+                } else if (typeof L.resume === 'function') {
+                    L.resume()
+                }
+                isLenisPaused.value = false
+            } catch (e) {
+                console.warn('resumeLenisIfAny failed', e)
+            }
+        }
+
+        const openFullDescPopup = () => {
+            showDescPopup.value = true
+            // lock body scroll
+            document.body.style.overflow = 'hidden'
+            // try to pause lenis (if present)
+            pauseLenisIfAny()
+
+            // fallback: attach wheel handler to modal to stop propagation to lenis if lenis still intercepts
+            setTimeout(() => {
+                const modalEl = document.querySelector('.nina-full-desc-modal')
+                if (modalEl) {
+                    // focus for keyboard scroll
+                    modalEl.focus()
+                    // wheel handler stops propagation so parent smooth-scroll doesn't receive it
+                    _wheelHandler = (e) => {
+                        // We stop propagation so parent smooth-scroll/lenis doesn't receive the event.
+                        e.stopPropagation()
+                    }
+                    modalEl.addEventListener('wheel', _wheelHandler, { passive: false })
+                    modalEl.addEventListener('touchmove', _wheelHandler, { passive: false })
+                }
+            }, 50)
+        }
+        const closeFullDescPopup = () => {
+            showDescPopup.value = false
+            document.body.style.overflow = ''
+            // remove wheel handler
+            try {
+                const modalEl = document.querySelector('.nina-full-desc-modal')
+                if (modalEl && _wheelHandler) {
+                    modalEl.removeEventListener('wheel', _wheelHandler)
+                    modalEl.removeEventListener('touchmove', _wheelHandler)
+                    _wheelHandler = null
+                }
+            } catch (e) {
+                // noop
+            }
+            // resume lenis if it was paused
+            resumeLenisIfAny()
+        }
+
+        // Labels (fallback to t keys if you have them)
+        const showMoreLabel = ref('Show More')
+        const closeLabel = ref('Close')
+
+        // --- initialize / force locale = 'vi' temporarily ---
+        try {
+            if (locale && typeof locale === 'object' && 'value' in locale) {
+                locale.value = 'vi'
+            }
+        } catch (e) {
+            // noop
+        }
+        showMoreLabel.value = (locale && locale.value === 'vi') ? 'Hiển Thị Thêm' : 'Show More'
+        closeLabel.value = (locale && locale.value === 'vi') ? 'Đóng' : 'Close'
+
+        watch(locale, (nv) => {
+            showMoreLabel.value = nv === 'vi' ? 'Hiển Thị Thêm' : 'Show More'
+            closeLabel.value = nv === 'vi' ? 'Đóng' : 'Close'
+            updateDescriptionHtml()
+        })
+
+        // also watch product so description updates once product is fetched/changed
+        watch(product, () => {
+            updateDescriptionHtml()
+        }, { deep: true })
 
         const openImageModal = (url) => {
             zoomImageUrl.value = url
@@ -416,8 +585,12 @@ export default {
             try {
                 const { id } = route.params
                 const response = await axios.get(`${process.env.VUE_APP_API_BASE_URL}/api/products/${id}`)
+                // assuming API returns the product object in response.data
                 product.value = response.data
                 console.log('Fetched product:', response.data)
+
+                // IMPORTANT: update description html right after fetch
+                updateDescriptionHtml()
             } catch (err) {
                 console.error('Error fetching product:', err)
             }
@@ -477,6 +650,61 @@ export default {
             }, 300)
         }
 
+        const beforeUnmountCleanup = () => {
+            document.body.style.overflow = ''
+            // remove any leftover wheel handlers
+            try {
+                const modalEl = document.querySelector('.nina-full-desc-modal')
+                if (modalEl && _wheelHandler) {
+                    modalEl.removeEventListener('wheel', _wheelHandler)
+                    modalEl.removeEventListener('touchmove', _wheelHandler)
+                    _wheelHandler = null
+                }
+            } catch (e) {
+                // noop
+            }
+            // resume lenis if paused
+            resumeLenisIfAny()
+        }
+
+        // --------------------------
+        // new: ref for textarea + scroll function
+        const feedbackTextarea = ref(null)
+
+        const scrollToFeedback = () => {
+            // prefer template ref if available
+            const el = feedbackTextarea.value || document.querySelector('.feedback-textarea')
+            if (!el) return
+            try {
+                // If Lenis exists and has scrollTo, compute page Y coordinate to center element
+                const L = window.lenis
+                if (L && typeof L.scrollTo === 'function') {
+                    const rect = el.getBoundingClientRect()
+                    const targetY = window.scrollY + rect.top - (window.innerHeight / 2) + (rect.height / 2)
+                    // lenis.scrollTo accepts number or element depending on version; try number first
+                    L.scrollTo(targetY, { duration: 600 })
+                } else {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+                }
+                // focus textarea so user can type immediately
+                setTimeout(() => {
+                    try { el.focus(); } catch (e) {
+                        // noop
+                    }
+                }, 300)
+            } catch (err) {
+                // fallback
+                try { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.focus() } catch(e){
+                    // noop
+                }
+            }
+        }
+        // --------------------------
+
+        onBeforeUnmount(() => {
+            beforeUnmountCleanup()
+        })
+
         return {
             product,
             openWebLink,
@@ -492,6 +720,18 @@ export default {
             openImageModal,
             Navigation,
             Autoplay,
+            isLongDesc,
+            truncatedHtml,
+            fullHtml,
+            showDescPopup,
+            openFullDescPopup,
+            closeFullDescPopup,
+            showMoreLabel,
+            closeLabel,
+            beforeUnmountCleanup,
+            // expose new refs & function to template
+            feedbackTextarea,
+            scrollToFeedback
         }
     }
 }
@@ -665,5 +905,51 @@ export default {
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   color: #ccc;
+}
+
+/* === Modal scroll improvements === */
+.nina-full-desc-modal {
+  -webkit-overflow-scrolling: touch; /* smooth momentum scroll trên iOS */
+  overscroll-behavior: contain;      /* ngăn parent (lenis/smooth-scroll) can thiệp */
+  touch-action: auto;                /* cho phép touch scroll */
+  outline: none;                     /* vì modal focus được */
+}
+
+/* === Custom thin, elegant scrollbar for modal === */
+/* WebKit browsers (Chrome, Edge, Safari) */
+.nina-full-desc-modal::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+.nina-full-desc-modal::-webkit-scrollbar-track {
+  background: transparent;
+}
+.nina-full-desc-modal::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12); /* nhẹ, tinh tế */
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.06); /* viền mờ để nổi bật trên nền tối */
+  backdrop-filter: blur(4px);
+}
+.nina-full-desc-modal::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Firefox */
+.nina-full-desc-modal {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.12) transparent;
+}
+
+/* Small visual tweak for track on hover (optional) */
+.nina-full-desc-modal:hover::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.02);
+}
+
+/* === Optional: style for the textarea to visually match design === */
+.feedback-textarea {
+  transition: box-shadow .15s ease;
+}
+.feedback-textarea:focus {
+  box-shadow: 0 0 0.5vw rgba(208, 153, 255, 0.12);
 }
 </style>
