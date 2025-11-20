@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-[295vw] relative flex justify-center">
+    <div class="w-full h-[335vw] relative flex justify-center">
         <div class="video-background z-0">
             <video autoplay loop muted playsinline="" class="video-element">
                 <source v-if="isIOS" src="../../../assets/img/Mobile/Home/back home 3.mp4" type="video/mp4" />
@@ -10,11 +10,14 @@
         <div class="absolute top-0 w-full h-[30vw] bg-gradient-to-b from-[#0D0D0D] to-transparent"></div>
 
         <!-- Text -->
-        <div class="w-full h-auto flex flex-col items-center absolute top-[17.3vw] z-20">
+        <div class="w-full h-auto flex flex-col items-center absolute top-[10.3vw] z-20">
             <p class="text-[8.22vw] text-white font-lemajor w-full text-center">
                 {{ t('highRecommendedMobile.title') }}
             </p>
-            <p class="text-[4.2vw] pt-[6.6vw] text-white font-josefin-normal w-[90vw] text-center font-light">
+            <p class="text-[4.2vw] pt-[0vw] text-white font-josefin-normal w-[90vw] text-center font-light">
+                <span v-html="t('highRecommendedMobile.commit')"></span>
+            </p>
+            <p class="text-[4.2vw] pt-[3.5vw] text-white font-josefin-normal w-[90vw] text-center font-light">
                 <span v-html="t('highRecommendedMobile.description')"></span>
             </p>
             <div @click="openFacebook"
@@ -22,7 +25,7 @@
                 <p class="text-white text-[2.86vw] font-josefin-normal">{{ t('highRecommendedMobile.button') }}</p>
             </div>
 
-            <div class="w-[90vw] absolute top-[80vw]">
+            <div class="w-[90vw] absolute top-[110vw]">
                 <!-- Row items -->
                 <div class="w-[90vw] h-[41.4vw] justify-between flex">
                     <!-- Items 1 -->
@@ -173,6 +176,10 @@
                 </div>
             </div>
         </div>
+
+        <div class="w-full h-[12vw] absolute bottom-[28vw] bg-gradient-to-t from-[#0D0D0D] to-transparent"></div>
+        <div class="w-full h-[12vw] absolute bottom-[28vw] bg-gradient-to-t from-[#0D0D0D] to-transparent"></div>
+        <div class="w-full h-[12vw] absolute bottom-[28vw] bg-gradient-to-t from-[#0D0D0D] to-transparent"></div>
 
         <!-- Footer side -->
         <div class="w-full h-[0.4vw] bg-gradient-to-r from-transparent to-transparent via-white absolute bottom-0">

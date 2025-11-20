@@ -1,15 +1,40 @@
 {
   "title": "Highly recommended for today",
   "description": "Since NiNa's products are highly diverse, please contact NiNa directly via Facebook for free<br/>consultation and to choose the most suitable product for your story or energy.",
+  "commit": "Note: All accepted cases go through a process of checking and verifying whether your story is consistent with NiNa's good intentions. We will not accept cases that affect the blessings of both parties. 🐬<br/>_ NiNawitch _",
   "button": "NiNa Gathering",
   "products": [
-    { "name": "Lucky Wallpaper", "cta": "Shop now" },
-    { "name": "Lilith Candle", "cta": "Shop now" },
-    { "name": "Medusa Candle", "cta": "Shop now" },
-    { "name": "Hetake Candle", "cta": "Shop now" },
-    { "name": "Spell", "cta": "Shop now" },
-    { "name": "Potion", "cta": "Shop now" },
-    { "name": "Phoenix Candle", "cta": "Shop now" },
-    { "name": "NinaWitch Ritual", "cta": "Shop now" }
+    {
+      "name": "Lucky Wallpaper",
+      "cta": "Shop now"
+    },
+    {
+      "name": "Lilith Candle",
+      "cta": "Shop now"
+    },
+    {
+      "name": "Medusa Candle",
+      "cta": "Shop now"
+    },
+    {
+      "name": "Hetake Candle",
+      "cta": "Shop now"
+    },
+    {
+      "name": "Spell",
+      "cta": "Shop now"
+    },
+    {
+      "name": "Potion",
+      "cta": "Shop now"
+    },
+    {
+      "name": "Phoenix Candle",
+      "cta": "Shop now"
+    },
+    {
+      "name": "NinaWitch Ritual",
+      "cta": "Shop now"
+    }
   ]
 }

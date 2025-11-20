@@ -1,15 +1,40 @@
 {
   "title": "Đề xuất đặc biệt cho hôm nay",
-  "description": "Vì các sản phẩm của NiNa rất đa dạng, bạn hãy liên hệ trực tiếp qua Facebook để được tư vấn miễn phí<br/>và chọn sản phẩm phù hợp nhất với câu chuyện hoặc năng lượng của bạn.",
+  "description": "Vì các sản phẩm của NiNa rất đa dạng, bạn hãy liên hệ trực tiếp qua Facebook để được tư vấn miễn phí và chọn sản phẩm phù hợp nhất với câu chuyện hoặc năng lượng của bạn.",
+  "commit": "Lưu ý: Các trường hợp được nhận đều qua quá trình check và kiểm tra câu chuyện của bạn có phù hợp với mục đích tốt lành của NiNa mang đến, sẽ không nhận những ca làm ảnh hưởng đến phúc đức của cả 2 bên). 🐬<br/>_ NiNawitch _",
   "button": "Gặp gỡ NiNa",
   "products": [
-    { "name": "Lucky Wallpaper", "cta": "Mua ngay" },
-    { "name": "Lilith Candle", "cta": "Mua ngay" },
-    { "name": "Medusa Candle", "cta": "Mua ngay" },
-    { "name": "Hetake Candle", "cta": "Mua ngay" },
-    { "name": "Spell", "cta": "Mua ngay" },
-    { "name": "Potion", "cta": "Mua ngay" },
-    { "name": "Phoenix Candle", "cta": "Mua ngay" },
-    { "name": "NinaWitch Ritual", "cta": "Mua ngay" }
+    {
+      "name": "Lucky Wallpaper",
+      "cta": "Mua ngay"
+    },
+    {
+      "name": "Lilith Candle",
+      "cta": "Mua ngay"
+    },
+    {
+      "name": "Medusa Candle",
+      "cta": "Mua ngay"
+    },
+    {
+      "name": "Hetake Candle",
+      "cta": "Mua ngay"
+    },
+    {
+      "name": "Spell",
+      "cta": "Mua ngay"
+    },
+    {
+      "name": "Potion",
+      "cta": "Mua ngay"
+    },
+    {
+      "name": "Phoenix Candle",
+      "cta": "Mua ngay"
+    },
+    {
+      "name": "NinaWitch Ritual",
+      "cta": "Mua ngay"
+    }
   ]
 }
