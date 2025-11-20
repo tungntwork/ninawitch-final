@@ -33,14 +33,21 @@
   },
   "price": {
     "title": "Giá",
-    "steps": ["500.000", "1.000.000", "2.000.000", "3.000.000", "4.000.000", "5.000.000"]
+    "steps": [
+      "500.000",
+      "1.000.000",
+      "2.000.000",
+      "3.000.000",
+      "4.000.000",
+      "5.000.000"
+    ]
   },
   "items": {
     "enchantedOils": {
       "title": "Dầu Phép Thuật",
       "list": [
         {
-          "name": "Dầu nghi lễ",
+          "name": "Dầu nghi thức",
           "desc": "Hỗn hợp tinh dầu và thảo mộc mạnh mẽ, được chế tác thủ công để đại diện cho nguyên tố nước quyền năng.",
           "price": "Liên hệ",
           "link": "/shop/684953d856e40f56a3d112b5"
@@ -53,7 +60,7 @@
         },
         {
           "name": "Dầu Huyết Rồng",
-          "desc": "Loại dầu nhựa mạnh mẽ dùng trong các nghi lễ bảo vệ, tăng sức mạnh và thực hành phép thuật.",
+          "desc": "Loại dầu nhựa mạnh mẽ dùng trong các nghi thức bảo vệ, tăng sức mạnh và thực hành phép thuật.",
           "price": "Liên hệ",
           "link": "/shop/684957ef56e40f56a3d112c1"
         },
