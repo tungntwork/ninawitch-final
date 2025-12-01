@@ -340,7 +340,7 @@
                         <!-- Row 2 -->
                         <div class="w-[90vw] h-[75vw] flex flex-row justify-between mt-[10vw]">
                             <!-- Product 1 -->
-                            <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/6849556356e40f56a3d112bb')">
+                            <!-- <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/6849556356e40f56a3d112bb')">
                                 <div
                                     class="w-[42vw] h-[42vw] relative rounded-[2vw] overflow-hidden flex justify-center">
                                     <img src="../../../assets/img/NINAPRODUCT/dragon_blood_oil.webp" alt=""
@@ -370,7 +370,7 @@
                                         <p class="w-[42vw]">{{ t('embraceMagicMobile.button.detail') }}</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- Product 2 -->
                             <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/684955b856e40f56a3d112bd')">
                                 <div
@@ -543,7 +543,7 @@
                         <!-- Row 3 -->
                         <div class="w-[90vw] h-[75vw] flex flex-row justify-between mt-[10vw]">
                             <!-- Product 1 -->
-                            <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/684959be56e40f56a3d112c9')">
+                            <!-- <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/684959be56e40f56a3d112c9')">
                                 <div
                                     class="w-[42vw] h-[42vw] relative rounded-[2vw] overflow-hidden flex justify-center">
                                     <img src="../../../assets/img/NINAPRODUCT/fortune_clover.webp" alt=""
@@ -572,7 +572,7 @@
                                         <p class="w-[42vw]">{{ t('embraceMagicMobile.button.detail') }}</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- Product 2 -->
                             <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/68495a3856e40f56a3d112cb')">
                                 <div
@@ -605,9 +605,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Row 4 -->
-                        <div class="w-[90vw] h-[75vw] flex flex-row justify-between mt-[10vw]">
                             <!-- Product 1 -->
                             <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/68495a9156e40f56a3d112cd')">
                                 <div
@@ -640,6 +637,40 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <!-- Row 4 -->
+                        <div class="w-[90vw] h-[75vw] flex flex-row justify-between mt-[10vw]">
+                            <!-- Product 1 -->
+                            <!-- <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/68495a9156e40f56a3d112cd')">
+                                <div
+                                    class="w-[42vw] h-[42vw] relative rounded-[2vw] overflow-hidden flex justify-center">
+                                    <img src="../../../assets/img/NINAPRODUCT/crystal_magic_spell.webp" alt=""
+                                        class="w-full h-full">
+                                    <div
+                                        class="absolute bottom-[3vw] flex flex-row justify-between items-center space-x-[1vw]">
+                                        <img src="../../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
+                                            class="w-[4vw] h-[4vw]">
+                                        <p class="text-white text-[3.85vw] font-lemajor text-center">Crystal<br />Magic
+                                            Spell</p>
+                                        <img src="../../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
+                                            class="w-[4vw] h-[4vw]">
+                                    </div>
+                                </div>
+                                <div class="w-[42vw] flex flex-col justify-start relative">
+                                    <p
+                                        class="text-white text-[2.75vw] text-start font-josefin-normal font-light pt-[4.5vw]">
+                                        {{ truncateWords(t('embraceMagicMobile.products[10].desc')) }}
+                                    </p>
+                                    <div
+                                        class="flex text-white text-[3.8vw] text-glow text-start absolute top-[13vw] font-josefin-normal font-normal pt-[1.5vw]">
+                                        {{ t('embraceMagicMobile.products[0].price') }}
+                                    </div>
+                                    <div
+                                        class="w-[42vw] absolute top-[18vw] h-auto flex items-end text-white text-end font-josefin-normal font-normal pt-[3.7vw]">
+                                        <p class="w-[42vw]">{{ t('embraceMagicMobile.button.detail') }}</p>
+                                    </div>
+                                </div>
+                            </div> -->
                             <!-- Product 2 -->
                             <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/68495afe56e40f56a3d112cf')">
                                 <div

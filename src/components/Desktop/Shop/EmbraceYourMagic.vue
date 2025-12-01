@@ -23,7 +23,7 @@
                     {{ t('embraceMagic.items.enchantedOils.title') }}
                 </p>
                 <div class="w-[10vw] h-[0.1vw] bg-gradient-to-r from-[#FFF] to-transparent"></div>
-                <div class="w-full h-auto flex flex-row justify-between mt-[1vw]">
+                <div class="w-full h-auto flex flex-row justify-start space-x-[4.6vw] mt-[1vw]">
                     <!-- items 1 -->
                     <div class="h-[25vw] w-[15vw] items-1 overflow-hidden relative">
                         <div class="h-[15vw] w-[15vw] thumb-layer-bottom-1 absolute">
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                     <!-- items 3 -->
-                    <div class="h-[25vw] w-[15vw] items-1 overflow-hidden relative">
+                    <!-- <div class="h-[25vw] w-[15vw] items-1 overflow-hidden relative">
                         <div class="h-[15vw] w-[15vw] thumb-layer-bottom-1 absolute">
                             <div
                                 class="relative w-[14.9vw] h-[14.9vw] translate-x-[0.05vw] translate-y-[0.05vw]  rounded-[0.8vw] flex justify-center overflow-hidden">
@@ -146,7 +146,6 @@
                                     <img src="../../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
                                         class="w-[1.2vw] h-auto">
                                 </div>
-                                <!-- Layer on top -->
                                 <div
                                     class="w-[8vw] h-[8vw] bg-[#C05140] absolute rounded-[50%] top-[6vw] left-0 translate-x-[-10vw] blur-[5vw] layer-on-top">
                                 </div>
@@ -163,7 +162,6 @@
                             </p>
                         </div>
 
-                        <!-- {{ t('embraceMagic.buttons.addToCart') }} -->
                         <div
                             class="w-full flex justify-between flex-row items-center items-details translate-x-[9vw] absolute top-[22vw]">
                             <div @click="$router.push('/shop/6849556356e40f56a3d112bb')"
@@ -179,7 +177,7 @@
                                 <p class="translate-y-[0.1vw]">{{ t('embraceMagic.buttons.addToCart') }}</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- items 4 -->
                     <div class="h-[25vw] w-[15vw] items-1 overflow-hidden relative">
                         <div class="h-[15vw] w-[15vw] thumb-layer-bottom-1 absolute">
@@ -456,9 +454,9 @@
                     </div>
                 </div>
                 <!-- Row 2 -->
-                <div class="w-full h-auto flex flex-row justify-between mt-[1vw]">
+                <div class="w-full h-auto flex flex-row justify-start space-x-[4.6vw] mt-[1vw]">
                     <!-- items 1 -->
-                    <div class="h-[25vw] w-[15vw] items-1 overflow-hidden relative">
+                    <!-- <div class="h-[25vw] w-[15vw] items-1 overflow-hidden relative">
                         <div class="h-[15vw] w-[15vw] thumb-layer-bottom-1 absolute">
                             <div
                                 class="relative w-[14.9vw] h-[14.9vw] translate-x-[0.05vw] translate-y-[0.05vw]  rounded-[0.8vw] flex justify-center overflow-hidden">
@@ -475,7 +473,6 @@
                                     <img src="../../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
                                         class="w-[1.2vw] h-auto">
                                 </div>
-                                <!-- Layer on top -->
                                 <div
                                     class="w-[8vw] h-[8vw] bg-[#C05140] absolute rounded-[50%] top-[6vw] left-0 translate-x-[-10vw] blur-[5vw] layer-on-top">
                                 </div>
@@ -493,7 +490,6 @@
                             <span class="font-josefin-normal text-[1vw] font-normal mt-[0.2vw] text-white">vnd</span>
                         </div>
 
-                        <!-- {{ t('embraceMagic.buttons.addToCart') }} -->
                         <div
                             class="w-full flex justify-between flex-row items-center items-details translate-x-[9vw] absolute top-[22vw]">
                             <div @click="$router.push('/shop/684959be56e40f56a3d112c9')"
@@ -509,7 +505,7 @@
                                 <p class="translate-y-[0.1vw]">{{ t('embraceMagic.buttons.addToCart') }}</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- items 2 -->
                     <div class="h-[25vw] w-[15vw] items-1 overflow-hidden relative">
                         <div class="h-[15vw] w-[15vw] thumb-layer-bottom-1 absolute">
