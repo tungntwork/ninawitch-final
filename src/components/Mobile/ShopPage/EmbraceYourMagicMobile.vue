@@ -402,6 +402,37 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- PRODUCT 2.1 -->
+                            <div class="w-[42vw] h-[10vw]" @click="$router.push('/shop/6848d70456e40f56a3d11282')">
+                                <div
+                                    class="w-[42vw] h-[42vw] relative rounded-[2vw] overflow-hidden flex justify-center">
+                                    <img src="../../../assets/img/NINAPRODUCT/aphroditeCandle.webp" alt=""
+                                        class="w-full h-full">
+                                    <div
+                                        class="absolute bottom-[3vw] flex flex-row justify-between items-center space-x-[1vw]">
+                                        <img src="../../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
+                                            class="w-[4vw] h-[4vw]">
+                                        <p class="text-white text-[3.85vw] font-lemajor">Nến Aphrodite</p>
+                                        <img src="../../../assets/img/Desktop/Home/Recommend/star_name.webp" alt=""
+                                            class="w-[4vw] h-[4vw]">
+                                    </div>
+                                </div>
+                                <div class="w-[42vw] flex flex-col justify-start relative">
+                                    <p
+                                        class="text-white text-[2.75vw] text-start font-josefin-normal font-light pt-[4.5vw]">
+                                        {{ truncateWords(t('embraceMagicMobile.products[3].desc')) }}
+                                    </p>
+                                    <div
+                                        class="flex text-white text-[3.8vw] text-glow text-start absolute top-[13vw] font-josefin-normal font-normal pt-[1.5vw]">
+                                        {{ t('embraceMagicMobile.products[0].price') }}
+                                        <!-- <p class="text-[3vw] pl-[0.5vw] translate-y-[-0.5vw]">vnd</p> -->
+                                    </div>
+                                    <div
+                                        class="w-[42vw] absolute top-[18vw] h-auto flex items-end text-white text-end font-josefin-normal font-normal pt-[3.7vw]">
+                                        <p class="w-[42vw]">{{ t('embraceMagicMobile.button.detail') }}</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- Comp 2 -->
