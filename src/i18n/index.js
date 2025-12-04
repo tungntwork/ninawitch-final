@@ -77,6 +77,8 @@ import productInfoMobileEn from '../locales/productInfoMobileEn.json';
 import productInfoMobileVi from '../locales/productInfoMobileVi.json';
 import ninaRitualMobileEn from '../localesMobile/ninaRitualMobileEn.json';
 import ninaRitualMobileVi from '../localesMobile/ninaRitualMobileVi.json';
+import homeMatrixVi from '../locales/homeMatrixVi.json';
+import homeMatrixEn from '../locales/homeMatrixEn.json';
 
 export const messages = {
   en: {
@@ -120,6 +122,7 @@ export const messages = {
     embraceMagicMobile: embraceMagicMobileEn,
     productInfoDesktop: productInfoDesktopEn,
     ninaRitualMobile: ninaRitualMobileEn,
+    homeMatrix: homeMatrixEn.homeMatrix
   },
   vi: {
     appDesktop: vi,
@@ -161,6 +164,7 @@ export const messages = {
     shopMagicGiftMobile: shopMagicGiftMobileVi,
     embraceMagicMobile: embraceMagicMobileVi,
     productInfoDesktop: productInfoDesktopVi,
-    ninaRitualMobile: ninaRitualMobileVi
+    ninaRitualMobile: ninaRitualMobileVi,
+    homeMatrix: homeMatrixVi.homeMatrix
   }
 };

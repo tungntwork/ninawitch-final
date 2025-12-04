@@ -1,0 +1,20 @@
+{
+    "homeMatrix": {
+        "title": "Lời thì thầm vũ trụ",
+        "subtitle": "Hãy để đôi tai và trực giác của bạn mở lối",
+        "imageAlt": "Khung ma trận {id}",
+        "topHeaderAlt": "Tiêu đề trang - nền",
+        "bottomPageAlt": "Đáy trang - nền",
+        "social": {
+            "facebook": "Facebook",
+            "tiktok": "Tiktok",
+            "youtube": "Youtube",
+            "instagram": "Instagram",
+            "ariaLabel": "Liên kết mạng xã hội"
+        },
+        "shop": {
+            "row1": "Lắng nghe tiếng thì thầm của vũ trụ.",
+            "row2": "Mở trực giác — khám phá những thông điệp dành cho bạn."
+        }
+    }
+}

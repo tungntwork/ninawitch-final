@@ -1,0 +1,20 @@
+{
+    "homeMatrix": {
+        "title": "Whispers of the Universe",
+        "subtitle": "Let your ears and intuition lead the way",
+        "imageAlt": "Matrix frame {id}",
+        "topHeaderAlt": "Top header background",
+        "bottomPageAlt": "Bottom page background",
+        "social": {
+            "facebook": "Facebook",
+            "tiktok": "TikTok",
+            "youtube": "YouTube",
+            "instagram": "Instagram",
+            "ariaLabel": "Social links"
+        },
+        "shop": {
+            "row1": "Listen to the whispers of the universe.",
+            "row2": "Open your intuition — discover the messages meant for you."
+        }
+    }
+}
