@@ -44,11 +44,12 @@
         <div class="grid grid-cols-2 gap-4 mb-4">
           <div>
             <label class="block mb-1">Giá</label>
-            <input v-model="form.price" type="number" class="input" />
+            <!-- .number để Vue convert số, tránh string formatted -->
+            <input v-model.number="form.price" type="number" class="input" />
           </div>
           <div>
             <label class="block mb-1">Giá khuyến mãi</label>
-            <input v-model="form.salePrice" type="number" class="input" />
+            <input v-model.number="form.salePrice" type="number" class="input" />
           </div>
         </div>
 
@@ -101,8 +102,8 @@ const form = ref({
   name: { vi: '', en: '' },
   subcription: { vi: '', en: '' },
   description: { vi: '', en: '' },
-  price: '',
-  salePrice: '',
+  price: null,
+  salePrice: null,
   category: '',
   need: '',
   image: null
@@ -133,29 +134,51 @@ function handleFileChange(e) {
   form.value.image = e.target.files[0]
 }
 
-function submit() {
-  const fd = new FormData()
-  fd.append('name', JSON.stringify(form.value.name))
-  fd.append('subcription', JSON.stringify(form.value.subcription))
-  fd.append('description', JSON.stringify(form.value.description))
-  fd.append('price', form.value.price)
-  fd.append('salePrice', form.value.salePrice)
-  fd.append('category', form.value.category)
-  fd.append('need', form.value.need)
+// helper to ensure numeric values are plain numbers/strings of digits
+const normalizeForFormData = (v) => {
+  if (v === null || v === undefined) return '';
+  return String(v);
+}
 
-  if (form.value.image) {
-    fd.append('image', form.value.image)
+async function submit() {
+  try {
+    const fd = new FormData()
+    // keep nested objects as JSON strings (backend will parse)
+    fd.append('name', JSON.stringify(form.value.name))
+    fd.append('subcription', JSON.stringify(form.value.subcription))
+    fd.append('description', JSON.stringify(form.value.description))
+
+    // append normalized numbers (string form is ok)
+    fd.append('price', normalizeForFormData(form.value.price))
+    fd.append('salePrice', normalizeForFormData(form.value.salePrice))
+    fd.append('category', form.value.category)
+    fd.append('need', form.value.need)
+
+    if (form.value.image) {
+      fd.append('image', form.value.image)
+    }
+
+    // Debug: list entries (remove in production)
+    for (const pair of fd.entries()) {
+      console.log(pair[0], pair[1]);
+    }
+
+    // Ensure proper headers for multipart/form-data (override any axios global)
+    // const res = await axios.post('/api/products', fd, {
+    //   headers: { 'Content-Type': 'multipart/form-data' }
+    // });
+    await axios.post('/api/products', fd, {
+      headers: { 'Content-Type': 'multipart/form-data' }
+    });
+
+    alert('Thêm sản phẩm thành công!')
+    emit('close')
+  } catch (err) {
+    console.error('Error creating product:', err);
+    // show more specific message when available
+    const msg = err?.response?.data?.message || err.message || 'Lỗi khi thêm sản phẩm!';
+    alert(msg);
   }
-
-  axios.post('/api/products', fd)
-    .then(() => {
-      alert('Thêm sản phẩm thành công!')
-      emit('close')
-    })
-    .catch((err) => {
-      alert('Lỗi khi thêm sản phẩm!')
-      console.error(err)
-    })
 }
 
 onMounted(() => {
