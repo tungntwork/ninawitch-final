@@ -41,7 +41,7 @@
                     class="text-white flex flex-col items-center text-[4.2vw] font-josefin-normal leading-[6vw] mt-[14vw]">
                     <p class="text-white text-[13.72vw] font-lemajor text-center">NinaWitch</p>
                     <div class="flex flex-col items-start pt-[8vw]">
-                        <p class="text-white text-[3.82vw]">{{ t('homePageMobile.manifestoTitle') }}</p>
+                        <p class="text-white text-[3.82vw]">{{ t('homepageMobile.manifestoTitle') }}</p>
                         <p class="text-white text-[3.82vw] font-light">
                             {{ t('homepageMobile.manifestoP1') }}
                         </p>
