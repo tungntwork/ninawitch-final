@@ -84,7 +84,14 @@
         <!-- Actions -->
         <div class="flex justify-end gap-3">
           <button class="px-3 py-1 bg-gray-500 rounded" @click="emit('close')">Huỷ</button>
-          <button class="px-3 py-1 bg-blue-500 rounded" @click="submit">Thêm</button>
+          <button
+            class="px-3 py-1 bg-blue-500 rounded disabled:opacity-50"
+            :disabled="isSubmitting"
+            @click="submit"
+          >
+            <span v-if="!isSubmitting">Thêm</span>
+            <span v-else>Đang gửi...</span>
+          </button>
         </div>
       </div>
     </div>
@@ -135,49 +142,51 @@ function handleFileChange(e) {
 }
 
 // helper to ensure numeric values are plain numbers/strings of digits
+const isSubmitting = ref(false);
+
 const normalizeForFormData = (v) => {
   if (v === null || v === undefined) return '';
   return String(v);
 }
 
 async function submit() {
+  if (isSubmitting.value) return;
+  isSubmitting.value = true;
+
   try {
-    const fd = new FormData()
-    // keep nested objects as JSON strings (backend will parse)
-    fd.append('name', JSON.stringify(form.value.name))
-    fd.append('subcription', JSON.stringify(form.value.subcription))
-    fd.append('description', JSON.stringify(form.value.description))
+    const fd = new FormData();
+    fd.append('name', JSON.stringify(form.value.name));
+    fd.append('subcription', JSON.stringify(form.value.subcription));
+    fd.append('description', JSON.stringify(form.value.description));
+    fd.append('price', normalizeForFormData(form.value.price));
+    fd.append('salePrice', normalizeForFormData(form.value.salePrice));
+    fd.append('category', form.value.category);
+    fd.append('need', form.value.need);
+    if (form.value.image) fd.append('image', form.value.image);
 
-    // append normalized numbers (string form is ok)
-    fd.append('price', normalizeForFormData(form.value.price))
-    fd.append('salePrice', normalizeForFormData(form.value.salePrice))
-    fd.append('category', form.value.category)
-    fd.append('need', form.value.need)
+    // Debug: list entries (xóa khi production)
+    for (const pair of fd.entries()) console.log(pair[0], pair[1]);
 
-    if (form.value.image) {
-      fd.append('image', form.value.image)
-    }
-
-    // Debug: list entries (remove in production)
-    for (const pair of fd.entries()) {
-      console.log(pair[0], pair[1]);
-    }
-
-    // Ensure proper headers for multipart/form-data (override any axios global)
-    // const res = await axios.post('/api/products', fd, {
-    //   headers: { 'Content-Type': 'multipart/form-data' }
-    // });
+    // Don't assign to unused variable or log if you want
     await axios.post('/api/products', fd, {
       headers: { 'Content-Type': 'multipart/form-data' }
     });
 
-    alert('Thêm sản phẩm thành công!')
-    emit('close')
+    alert('Thêm sản phẩm thành công!');
+    emit('close');
   } catch (err) {
     console.error('Error creating product:', err);
-    // show more specific message when available
-    const msg = err?.response?.data?.message || err.message || 'Lỗi khi thêm sản phẩm!';
-    alert(msg);
+    if (err?.response) {
+      console.error('Server response:', err.response.status, err.response.data);
+      alert('Server error: ' + (err.response.data?.message || JSON.stringify(err.response.data)));
+    } else if (err?.request) {
+      console.error('No response received:', err.request);
+      alert('No response from server. Check network/CORS/server logs.');
+    } else {
+      alert('Error: ' + (err.message || 'Unknown error'));
+    }
+  } finally {
+    isSubmitting.value = false;
   }
 }
 
